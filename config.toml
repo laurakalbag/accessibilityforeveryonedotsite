@@ -1,3 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://accessibilityforeveryone.site"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Accessibility For Everyone"
+theme = "static-kalbag"
