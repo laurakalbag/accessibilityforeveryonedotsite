@@ -1,7 +1,7 @@
 ---
 title: "Resources from workshop at Webstock 2018"
 date: 2018-02-08T22:25:28+01:00
-draft: true
+draft: false
 ---
 
 ## Disabilities and impairments
