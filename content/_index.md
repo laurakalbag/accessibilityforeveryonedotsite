@@ -1,7 +1,7 @@
 ---
 title: "Accessibility For Everyone"
 date: 2018-02-08T22:43:27+01:00
-draft: true
+draft: false
 ---
 
 # The Book
