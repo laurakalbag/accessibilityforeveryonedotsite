@@ -1,14 +1,17 @@
-# Buy Accessibility for Everyone
-
 Hello friends. You might’ve heard that Accessibility For Everyone, along with all the A Book Apart books, are no longer available to buy from A Book Apart. The good news is that all of us authors have got our book rights, are moving to self-publishing, and most of these books are now available to buy, borrow, and rent in many different locations.
 
 To start, I’ve lowered the price of the book. Over the next couple of months I intend to make the book even easier to access, so stay tuned!
 
+- [Paperback](#buy-the-paperback-book)
+- [Ebook](#buy-the-ebook)
+- [Audiobook](#audiobook)
+- [Library and membership services](#library-and-membership-services)
+
 ## Buy the paperback book
 
-For the real printed hold-it-in-your-hands experience. Many of these stores will sell outside of these countries. If you are struggling to find a store that will ship a book to your country, please [let me know](mailto:hello@laurakalbag.com).
+For the real printed hold-it-in-your-hands experience. Many of these stores will sell outside of these countries. If you are struggling to find a store that will ship a book to your country, please [let me know by email](mailto:hello@laurakalbag.com).
 
-### United States & Canada
+### United States and Canada
 * [Amazon](https://www.amazon.com/Accessibility-Everyone-Laura-Kalbag-ebook/dp/B0CW32PM5P/)
 * [Barnes & Noble](https://www.barnesandnoble.com/w/accessibility-for-everyone-laura-kalbag/1129764593)
 * [Independent bookstores via Bookshop.org](https://bookshop.org/p/books/accessibility-for-everyone-laura-kalbag/20097156)
@@ -24,31 +27,9 @@ For the real printed hold-it-in-your-hands experience. Many of these stores will
 * [Foyles](https://www.foyles.co.uk/book/accessibility-for-everyone/laura-kalbag/9781952616327)
 * [Waterstones](https://www.waterstones.com/book/accessibility-for-everyone/laura-kalbag/9781952616327)
 
-### Australia & New Zealand
+### Australia and New Zealand
 * [Amazon AU](https://www.amazon.com.au/Accessibility-Everyone-Laura-Kalbag-ebook/dp/B0CW32PM5P/)
 * [Fishpond](https://www.fishpond.com.au/Books/Accessibility-for-Everyone-Kalbag-Laura/9781937557614)
-
-### Library and membership services
-
-You should also be able to get copies of the print book from these stores and library services (no online links available):
-
-* ALS
-* Aphrohead
-* Books Express
-* Booktopia
-* Coutts Information Services Ltd
-* Designarta Books
-* Eden Interactive Ltd
-* Gardners
-* James Bennett
-* Trust Media Distribution (formerly STL)
-* Mallory International
-* Paperback Shop Ltd
-* Peter Pal
-* Superbookdeals
-* The Book Community Ltd
-* The Nile
-* Wrap Distribution
 
 ## Buy the ebook
 
@@ -65,43 +46,55 @@ You should also be able to get copies of the print book from these stores and li
 * [Wheelers](https://www.wheelersbooks.com.au/product/Accessibility-for-Everyone-Laura-Kalbag/9781952616327)
 * [Wook](https://www.wook.pt/ebook/accessibility-for-everyone-laura-kalbag/29754016)
 
+## Audiobook
 
-### 
+This will be available very soon. If you need access to the audiobook right now, please send me an email.
+
+## Library and membership services
 
 You should also be able to get copies of the ebook from the following stores, apps, library services (no online links available):
 
 * Ainosco
+* ALS
+* Aphrohead
 * Bibliotheca
 * BibliU
 * Bolinda
+* Books Express
 * Booktopia
 * Chegg
+* Coutts Information Services Ltd
 * De Marque
+* Designarta Books
 * EBSCO
-* Gardners
+* Eden Interactive Ltd
 * fable
 * Follett/B&T
+* Gardners
 * hoopla
 * Hummingbird
 * iGroup
 * ITSI
+* James Bennett
 * Kortex
 * Legible
 * Libreka
 * Libri Gmbh
 * Libro.fm
 * Mackin
+* Mallory International
 * Odilo
+* Paperback Shop Ltd
 * Perlego
 * Perusall
+* Peter Pal
 * ProQuest
 * Storytel
+* Superbookdeals
 * Takealot
+* The Book Community Ltd
+* The Nile
+* Trust Media Distribution (formerly STL)
 * VitalSource
+* Wrap Distribution
 * YouScribe
-
-## Audiobook
-
-This will be available very soon. If you need access to the audiobook right now, please send me an email.
-
-## Book roll

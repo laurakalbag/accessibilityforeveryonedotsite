@@ -1,0 +1,46 @@
+/* sticky footer */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 90ch;
+  padding: var(--space-xl) var(--space-xs);
+}
+
+.content > div {
+  margin: 0 auto;
+  max-width: 66ch;
+}
+
+@media (min-width: 100ch) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-s);
+    padding: 0;
+  }
+
+  ul li {
+    margin-left: var(--space-m);
+  }
+}
+
+@media (min-width: 400ch) {
+  ul {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: var(--space-m);
+  }
+}

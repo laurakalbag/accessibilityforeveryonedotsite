@@ -1,0 +1,101 @@
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-1);
+  font-weight: normal;
+  letter-spacing: -0.1;
+  line-height: 1.35;
+}
+
+a:hover,
+a:active,
+a:focus {
+  transition: var(--transition);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-headings);
+  font-weight: bold;
+  margin: var(--space-xl) 0 var(--space-s);
+}
+
+h1 {
+  font-size: var(--font-4);
+}
+
+h2 {
+  font-size: var(--font-3);
+}
+
+h3 {
+  font-size: var(--font-2);
+}
+
+h4 {
+  font-size: var(--font-1);
+}
+
+h5 {
+  font-size: var(--font-0);
+}
+
+h6 {
+  font-size: var(--font-0);
+}
+
+p,
+dt,
+dd,
+fieldset {
+  margin: 0 0 var(--space-s);
+}
+
+small {
+  font-size: var(--font-0);
+}
+
+a,
+.linkish {
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.1em;
+}
+
+.linkish:hover {
+  cursor: pointer;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+li,
+p {
+  margin-bottom: var(--space-xs);
+}
+
+figcaption {
+  font-size: var(--font-0);
+}
+
+blockquote {
+  font-size: var(--font-0);
+  margin: var(--space-xs) 0;
+  padding: var(--space-xs);
+}
+
+blockquote li,
+blockquote p {
+  margin-bottom: var(--space-2xs);
+}

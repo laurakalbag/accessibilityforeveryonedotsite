@@ -1,0 +1,16 @@
+body {
+  background: var(--colour-background);
+  color: var(--colour-foreground);
+}
+
+a {
+  color: var(--colour-link);
+}
+
+li:has(a)::marker {
+  color: var(--colour-link);
+}
+
+blockquote {
+  background: var(--colour-background-secondary);
+}
