@@ -2,8 +2,8 @@ let year = new Date().getFullYear();
 
 export default () => kitten.html`
   <footer>
-    <p><small>Copyright © Laura Kalbag, ${year}.</small></p>
     <p>Powered by <a href='https://kitten.small-web.org'>Kitten</a></p>
+    <p><small>Copyright © Laura Kalbag, ${year}.</small></p>
   </footer>
 
   <style>
@@ -14,6 +14,12 @@ export default () => kitten.html`
     }
     footer p {
         margin: 0;
+    }
+
+    footer a[href*='kitten.small-web.org'] {
+      background: url('/images/kitten.svg') left center no-repeat;
+      background-size: var(--font-2) var(--font-2);
+      padding-left: calc(var(--font-2) + var(--space-2xs));
     }
   </style>
 `;
