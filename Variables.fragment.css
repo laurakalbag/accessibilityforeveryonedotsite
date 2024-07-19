@@ -1,26 +1,39 @@
 /* Fonts */
 
 @font-face {
-  font-family: "Sherika";
-  src: url("/fonts/sherika-variable.woff2") format("woff2");
-  font-variation-settings: "wght" 100 900; /* available range */
+  font-family: "Plex Semi Bold";
+  src: url("/fonts/plex-semi-bold.ttf") format("truetype");
   font-style: normal;
+  font-weight: bold;
 }
 
 @font-face {
-  font-family: "Wix";
-  src: url("/fonts/wix-variable.ttf") format("truetype");
-  font-variation-settings: "wght" 400 800; /* available range */
+  font-family: "Plex Bold";
+  src: url("/fonts/plex-bold.ttf") format("truetype");
   font-style: normal;
+  font-weight: bold;
 }
 
 @font-face {
-  font-family: "Wix";
-  src: url("/fonts/wix-italic-variable.ttf") format("truetype");
-  font-variation-settings: "wght" 400 800; /* available range */
+  font-family: "Plex Sans";
+  src: url("/fonts/plex-sans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Plex Sans";
+  src: url("/fonts/plex-sans-semi-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Plex Sans";
+  src: url("/fonts/plex-sans-italic.ttf") format("truetype");
   font-style: italic;
+  font-weight: normal;
 }
-
 
 /* Colours */
 
@@ -53,8 +66,9 @@
 }
 
 :root {
-  --font-body: "Wix", Helvetica, Arial, sans-serif;
-  --font-headings: "Sherika", Georgia, serif;
+  --font-body: "Plex Sans", Helvetica, Arial, sans-serif;
+  --font-title: "Plex Bold", Helvetica, Arial, sans-serif;
+  --font-headings: "Plex Semi Bold", Helvetica, Arial, sans-serif;
   --transition: all 0.2s ease;
 
   --font--2: clamp(0.6944rem, 0.6573rem + 0.1979vi, 0.88rem);

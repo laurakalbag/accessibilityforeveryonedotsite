@@ -12,14 +12,17 @@ a:focus {
   transition: var(--transition);
 }
 
-h1,
+h1 {
+  font-family: var(--font-title);
+  letter-spacing: 0.05rem;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: var(--font-headings);
-  font-weight: bold;
   margin: var(--space-xl) 0 var(--space-s);
 }
 

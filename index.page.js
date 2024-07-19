@@ -6,7 +6,7 @@ export default () => kitten.html`
   <${Site}>
     <div class="content">
         <${Content} />
-        <${BookRoll} />
+        <!-- <${BookRoll} /> -->
     </div>
   </>
 `;
