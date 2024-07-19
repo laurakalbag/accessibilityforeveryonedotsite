@@ -5,7 +5,7 @@
 
 ![Laura Kalbag, Accessibility For Everyone. Foreword by Heydon Pickering. Number 23 from A Book Apart, brief books for people who make websites.](./images/cover.png)
 
-Hello friends. You might’ve heard that [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone) and all A Book Apart books are no longer available to buy from A Book Apart. 
+Hello friends. You might’ve heard that [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone) and all A Book Apart books are no longer available to buy from A Book Apart. But you can buy the book here!
 
 The good news is that all of us authors have got our book rights and are moving to self-publishing, and most of these books are now available to buy, borrow, and rent in many different locations.
 
