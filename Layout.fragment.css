@@ -16,8 +16,7 @@ main {
 
 .content {
   margin: 0 auto;
-  max-width: 90ch;
-  padding: var(--space-xl) var(--space-xs);
+  padding: 0 var(--space-xs) var(--space-2xl) var(--space-xs);
 }
 
 .content > div {
@@ -43,4 +42,29 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: var(--space-m);
   }
+}
+
+ul:first-of-type {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-2xl);
+  padding: 0;
+}
+
+ul:first-of-type > li {
+  margin: 0;
+}
+
+ul:first-of-type > li > a {
+  font-weight: bold;
+}
+
+figure:has(img[src*=cover]) {
+  display: block;
+  float: right;
+  margin: 0 0 var(--space-m) var(--space-m);
+  max-width: 30%;
 }

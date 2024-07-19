@@ -1,15 +1,18 @@
-Hello friends. You might’ve heard that Accessibility For Everyone, along with all the A Book Apart books, are no longer available to buy from A Book Apart. The good news is that all of us authors have got our book rights, are moving to self-publishing, and most of these books are now available to buy, borrow, and rent in many different locations.
-
-To start, I’ve lowered the price of the book. Over the next couple of months I intend to make the book even easier to access, so stay tuned!
-
 - [Paperback](#buy-the-paperback-book)
 - [Ebook](#buy-the-ebook)
 - [Audiobook](#audiobook)
-- [Library and membership services](#library-and-membership-services)
+- [Libraries and other distributers](#libraries-and-other-distributers)
 
+![Laura Kalbag, Accessibility For Everyone. Foreword by Heydon Pickering. Number 23 from A Book Apart, brief books for people who make websites.](./images/cover.png)
+
+Hello friends. You might’ve heard that [Accessibility For Everyone](https://abookapart.com/products/accessibility-for-everyone) and all A Book Apart books are no longer available to buy from A Book Apart. 
+
+The good news is that all of us authors have got our book rights and are moving to self-publishing, and most of these books are now available to buy, borrow, and rent in many different locations.
+
+To start, I’ve lowered the price of the book. Over the next couple of months, I intend to make it even easier to access, so stay tuned!
 ## Buy the paperback book
 
-For the real printed hold-it-in-your-hands experience. Many of these stores will sell outside of these countries. If you are struggling to find a store that will ship a book to your country, please [let me know by email](mailto:hello@laurakalbag.com).
+Buy the paperback book for the real printed hold-it-in-your-hands experience. Many of these stores will sell outside of these countries. If you are struggling to find a store that will ship a book to your country, please [let me know by email](mailto:hello@laurakalbag.com).
 
 ### United States and Canada
 * [Amazon](https://www.amazon.com/Accessibility-Everyone-Laura-Kalbag-ebook/dp/B0CW32PM5P/)
@@ -48,11 +51,11 @@ For the real printed hold-it-in-your-hands experience. Many of these stores will
 
 ## Audiobook
 
-This will be available very soon. If you need access to the audiobook right now, please send me an email.
+This will be available very soon. If you need access to the audiobook right now, please [email me](mailto:hello@laurakalbag.com).
 
-## Library and membership services
+## Libraries and other distributers
 
-You should also be able to get copies of the ebook from the following stores, apps, library services (no online links available):
+You should also be able to get copies of the ebook from the following stores, apps, and library services (no online links available):
 
 * Ainosco
 * ALS

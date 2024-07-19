@@ -7,10 +7,10 @@ import Header from "./Header.fragment.js";
 import Footer from "./Footer.fragment.js";
 
 export default ({ SLOT }) => kitten.html`
-    <page title='Buy Accessibility For Everyone' lang='en' viewport='width=device-width, initial-scale=1'/>
+    <page title='Buy Accessibility For Everyone by Laura Kalbag' lang='en' viewport='width=device-width, initial-scale=1'/>
 
     <content for="HEAD">
-        <meta name="robots" content="noindex,nofollow">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📗</text></svg>">
     </content>
 
     <${Variables} />
