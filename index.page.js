@@ -1,12 +1,18 @@
-import Site from "./Site.layout.js";
-import Content from "./Content.fragment.md"
-import BookRoll from "./BookRoll.fragment.html";
+import kitten from '@small-web/kitten'
+import Cover from './Cover.layout.js'
 
-export default () => kitten.html`
-  <${Site}>
-    <div class="content">
-        <${Content} />
-        <!-- <${BookRoll} /> -->
+export default function () {
+return kitten.html`
+  <${Cover}>
+    <div class="outer-wrap">
+      <div class="inner-wrap title-section">
+        <address class="author">Laura Kalbag</address>
+        <h1>Accessibility for Everyone</h1>
+      </div>
+    </div>
+    <div class="ctas">
+      <a href="/considering-accessibility/" class="btn-cta">Read for free</a>
     </div>
   </>
-`;
+`
+}
