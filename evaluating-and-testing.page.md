@@ -102,7 +102,7 @@ It’s perfectly acceptable for your code to fail validation, as long as it fail
 
 The most well-known validator is probably W3C’s markup validation tool ([*https://a4e.link/**06-04/*](https://a4e.link/06-04/)), also known as the HTML validator. Among other warnings, it will inform you if you’ve missed a closing tag, quote mark, or required attribute, and if you’ve used an element where it isn’t allowed, or an element or attribute that doesn’t actually exist (Fig 6.2).
 
-![Figure](/image/fig-6.02-Showing_results_for_https_ind.ie_-_Nu_Html_Checker.png)
+![Figure](/images/fig-6.02-Showing_results_for_https_ind.ie_-_Nu_Html_Checker.png)
 
 Fig 6.2: Using a `meta` element with a `value` isn’t valid HTML, but it is the format Twitter understands for its summary cards.
 
@@ -146,7 +146,7 @@ Much like at the user research stage, it’s best to conduct usability testing w
 
 Try your best not to test with people who are working on the project: they will likely fail to notice the problems that might hold up other users, may not be part of the target audience at all, and are likely to have conflicting goals with other users. How the intended audience really interact with a product is often different from the assumptions of a team who may know the web much better and are much more familiar with the product itself.
 
-![Figure](/image/fig-6.04-Keyboard-settings.png)
+![Figure](/images/fig-6.04-Keyboard-settings.png)
 
 Fig 6.4: Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog ([https://a4e.link/06-07/](https://a4e.link/06-07/)).
 
@@ -200,7 +200,7 @@ Consider adding a short form to your site for ongoing testing. A simple, obvious
 
 Twitter has a simple feedback mechanism in their @TwitterA11y Twitter account for accessibility feedback. The @TwitterA11y account is also used to broadcast new features and potential problems (Fig 6.5).
 
-![Figure](/image/16.png)
+![Figure](/images/16.png)
 
 Fig 6.5: Have you enabled image descriptions on your Twitter settings yet? No? Go do it right now, you’ll be learning to write great alt text in no time…
 

@@ -3,7 +3,7 @@ title: About the Author
 index: 13
 layout: ./Chapter.layout.js
 ---
-![Photo of Laura Kalbag](/image/Laura_Kalbag_bio.png)
+![Photo of Laura Kalbag](/images/Laura_Kalbag_bio.png)
 
 __Laura Kalbag__ is a British designer living in Ireland. She’s co-founder of Small Technology Foundation, a tiny two-person-and-one-husky not-for-profit organisation advocating for and building small technology designed to increase human welfare, not corporate profits.
 

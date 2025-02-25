@@ -30,13 +30,13 @@ An accessible content structure also gives search engines something to grab onto
 
 ### Findability
 
-![Figure](/image/fig-5.01-Husky_-_Wikipedia.png)
+![Figure](/images/fig-5.01-Husky_-_Wikipedia.png)
 
 Fig 5.1: The unstyled HTML for the Wikipedia page about huskies looks unexciting, but the content is all there.
 
 Search engines rely on crawlers that index websites for content, then use algorithms to determine the relevance of that content to search keywords. Good accessibility increases findability because it benefits search engine optimization. Search engine crawlers behave much like screen readers: they can’t easily or intelligently understand images, audio, or video, so they benefit from text alternatives and well-written content.
 
-![Figure](/image/11.png)
+![Figure](/images/11.png)
 
 Fig 5.2: The HTML outline (left) for the Wikipedia page on huskies is reflected in its Contents page navigation (right)
 
@@ -50,17 +50,17 @@ If you look at Google’s design and content guidelines, they’re exactly the s
 
 A clear site structure and hierarchy allows search engines to better understand what the most valuable content is on your site, and what would make up a valuable preview in search results. If you look at some typical Google (Fig 5.3) and DuckDuckGo (Fig 5.4) search results, you can see how each search engine uses the page `title` element for the main title of the result. They then use the first `h1` and `h2` elements to give you a rough idea of the content on that page.
 
-![Figure](/image/fig-5.03-duke_of_yorks_cinema_brighton_-_Google_Search_-_cropped.png)
+![Figure](/images/fig-5.03-duke_of_yorks_cinema_brighton_-_Google_Search_-_cropped.png)
 
 Fig 5.3: Google uses the `<title>` for the result heading, then `<meta description``>` and the page’s first `<h1>` as the result description.
 
-![Figure](/image/fig-5.04-duke_of_yorks_cinema_brighton_at_DuckDuckGo_-_cropped.png)
+![Figure](/images/fig-5.04-duke_of_yorks_cinema_brighton_at_DuckDuckGo_-_cropped.png)
 
 Fig 5.4: DuckDuckGo uses the page’s `<``title>` for the result heading, then the first `<h1>` and a `<p>` from near the end of the page as the result description.
 
 When a page’s HTML isn’t structured clearly, it can have a negative effect on the search results preview (Fig 5.5). It’s much harder to identify the type of content you’d find on that page, so it’s less likely to come up in relevant search engine results.
 
-![Figure](/image/fig-5.05-bad-search-result.png)
+![Figure](/images/fig-5.05-bad-search-result.png)
 
 Fig 5.5: This search result looks like an automatically generated page. It doesn’t have a meaningful title, and somehow bits of HTML show up in the description.
 
@@ -68,7 +68,7 @@ Fig 5.5: This search result looks like an automatically generated page. It doesn
 
 In order to create a meaningful content outline, we need to use headings to create a structure (Fig 5.6). There is an argument that in HTML5 we can use more than one h1 element on a page, but browsers have better support when we use a singular h1 to title or describe the main function of a page.
 
-*![Figure](/image/12.png)*
+*![Figure](/images/12.png)*
 
 Fig 5.6: Without headings to structure the content, a Wikipedia page would look intimidating, and would be hard to skim (left). It’s good that the real Wikipedia uses headings to make long pages of content easier to read and reference (right).
 
@@ -88,7 +88,7 @@ Sometimes developers add JavaScript to a `span` or `div` element to make it inte
 
 Incredibly rich interaction can be created through buttons and inputs, no JavaScript needed. Let’s take a look at some of the most important form elements and the default interactive behavior the browser provides for each.
 
-![Figure](/image/fig-5.7-checkboxes-and-radiobuttons.png)
+![Figure](/images/fig-5.7-checkboxes-and-radiobuttons.png)
 
 Fig 5.7: A text field label (such as “name” above) conventionally appears before or alongside the input box. Labels for radio buttons and checkboxes (such as “Salt” or “At the movie theater”) always appear close alongside the input so the relationship between label and input is clear.
 
@@ -102,7 +102,7 @@ All of these input types come with default accessibility features that allow a s
 
 Without labels, input fields are useless. Labels describe the expected input. Similar to navigation labels, input labels should be clear and concise, explaining to the user exactly what’s expected. They should come before the input field in the HTML, so it’s clear which label is associated with which form field. Labels for radio buttons and checkboxes are also accessible when they come after the input in the HTML. The visual placement of the labels is also important for the user to understand the expected input (Fig 5.8).
 
-![Figure](/image/fig-5.08-miss-selfridge-form.png)
+![Figure](/images/fig-5.08-miss-selfridge-form.png)
 
 Fig 5.8: It’s a tiny little star, how did it end up meaning “required”?
 
@@ -110,7 +110,7 @@ If the input field is required before a form can be submitted, the label should 
 
 The clearest way to show that a form field needs to be filled in is to clearly show the word “required” inside the label, alongside the name of the form field (Fig 5.9). This ensures there’s no confusion for sighted or screen reader users, for people who are seasoned fillers of forms, or for first-time web users.
 
-![Figure](/image/fig-5.09-miss-selfridge-form-amended.png)
+![Figure](/images/fig-5.09-miss-selfridge-form-amended.png)
 
 Fig 5.9: Adding “(required)” tells you exactly what you need to know. Also, titles are never a real requirement...
 
@@ -120,7 +120,7 @@ Pairing labels and input fields makes a form accessible to screen readers. A scr
 
 Pairing has other usability benefits, too. Most browsers will give focus to, or select, a form input when the user interacts with the label for that field (Fig 5.10). This is very useful when form inputs such as radio buttons have a small interactive area—it reduces the likelihood of the user selecting the wrong input. Increasing the interactive area aids people who have motor difficulties or are using a touchscreen, where using a cursor accurately can be challenging.
 
-![Figure](/image/fig-5.10-label.png)
+![Figure](/images/fig-5.10-label.png)
 
 Fig 5.10: As the `label` is paired with the radio button, and its style is set to `inline-block`, clicking or tapping anywhere in the dotted area will select the corresponding radio button.
 
@@ -128,13 +128,13 @@ Fig 5.10: As the `label` is paired with the radio button, and its style is set t
 
 Like links, buttons can have different states: inactive, active, hover, focus, and disabled (Fig 5.11). They can also have default types of interaction: a submit button tells the browser to submit the contents of a form, while a reset button tells the browser to clear the contents of a form.
 
-![Figure](/image/fig-5.11-buttons.png)
+![Figure](/images/fig-5.11-buttons.png)
 
 Fig 5.11: Browsers provide default styles for buttons to make it clear that they’re interactive. Using the `disabled` attribute makes a button appear visually disabled in a grayed-out style (right), as well as letting assistive technology know it is functionally disabled.
 
 When we’re overriding these default styles with our own styles, we need to make sure we don’t lose the interactive styles that visually describe the button states (Fig 5.12). Disabled buttons are generally not recommended as they rely on the user’s understanding of the “disabled” visual style. Find out more about the usability issues with disabled buttons in the Resources section.
 
-![Figure](/image/fig-5.12-custom-buttons.png)
+![Figure](/images/fig-5.12-custom-buttons.png)
 
 Fig 5.12: Even though the buttons have custom styles and colors, their different states are easy to distinguish.
 
@@ -148,7 +148,7 @@ Although keyboard shortcuts can be useful for people relying on keyboard navigat
 
 With rich applications becoming more popular, some web apps are using text shortcuts to mimic the experience of a native app. For example, you can find a list of text shortcuts on Twitter by selecting Shift-? on *twitter.com* (Fig 5.13).
 
-![Figure](/image/fig-5.13-Twitter-shortcuts.png)
+![Figure](/images/fig-5.13-Twitter-shortcuts.png)
 
 Fig 5.13: Twitter’s “Keyboard shortcuts” use single-key shortcuts, which could make Sam’s experience much better.
 
@@ -160,7 +160,7 @@ As useful as these shortcuts are, keyboard shortcuts provided by JavaScript don�
 
 Access keys went through a popular phase in the late 90s and early 00s, when developers created their own keyboard shortcuts for links on their sites using the `accesskey` HTML attribute. Often the navigation would show an underlined letter in the link text to inform the user of the access key shortcut, in a similar way to old Windows menus (Fig 5.14).
 
-![Figure](/image/fig-5.14-windows_menu.png)
+![Figure](/images/fig-5.14-windows_menu.png)
 
 Fig 5.14: The Firefox toolbar in Windows 2000, showing F, E, V, G, B, T and H as shortcuts. Photograph courtesy Chris Waigl, ([https://a4e.link/05-04/](https://a4e.link/05-04/)).
 
@@ -170,7 +170,7 @@ However, the modifier key for shortcuts varied across operating systems, and the
 
 Many sites use skip links to assist people using keyboard navigation. *Skip links* are a common accessibility feature allowing people to skip past lengthy navigation and go straight to the page content (Fig 5.15). They’ve also become a common form of navigation used on one-page sites that have a lot of content to scroll through.
 
-![Figure](/image/fig-5.15-skip-link.png)
+![Figure](/images/fig-5.15-skip-link.png)
 
 Fig 5.15: I use a skip link on my blog’s list page, so readers can get to the search, categories and tags section without having to scroll past all the blog posts I’ve ever written.
 
@@ -190,7 +190,7 @@ Links, buttons, and inputs are given default interaction events and `tabindex` b
 
 For people using keyboard navigation, focus styles (frequently displayed by browsers as a combination of dotted borders and blue glows) are indispensable. You might recognize these styles if you’ve removed them in the past when they didn’t fit in with your site’s aesthetic (Fig 5.16). (Don’t worry, I won’t tell anyone. Just go put them back now.)
 
-![Figure](/image/13.png)
+![Figure](/images/13.png)
 
 Fig 5.16: Focus styles in Safari (left) and Firefox (right). Don’t remove them. Or even better, replace the browser’s default focus and hover styles with your own styles that both fit with your site’s aesthetic and are even more visible.
 
@@ -198,7 +198,7 @@ Like focus styles, *hover styles* give us visual feedback as we navigate a page.
 
 Because hover styles are most commonly used on interactive elements, they shouldn’t be used on non-interactive elements. But at the same time, when designing hover styles, don’t rely on them for showing interaction. Not only are hover styles invisible to people with visual impairments, but they’re also hidden from most touchscreen users—touchscreen devices rarely support the hover action (Fig 5.18).
 
-![Figure](/image/fig-5.18-hover-on-ios.png)
+![Figure](/images/fig-5.18-hover-on-ios.png)
 
 Fig 5.18: The hovering style on iOS can only be triggered by very lightly pressing a link.
 
@@ -226,7 +226,7 @@ If a keyboard navigation user uses the Tab key to navigate, the `tabindex` order
 
 `tabindex=`"`-1`" can also be valuable for more complex interfaces that try to behave like a desktop application interface. For example, a menu widget may want to receive tab focus (and so uses `tabindex=`"`0`"), but the list inside that menu may need to be controlled using Left and Right keys to expand and collapse the menu items. We can use `tabindex=`"`-1`" to give the menu visual focus, but leave the keyboard focus control to JavaScript (Fig 5.19).
 
-![Figure](/image/fig-5.19-ala-menu.png)
+![Figure](/images/fig-5.19-ala-menu.png)
 
 Fig 5.19: The A List Apart collapsible navigation menu is an example of a complex menu widget that you can navigate using only the keyboard.
 
@@ -283,7 +283,7 @@ When you look at the HTML and CSS, though, you see that the main title is in fac
 
 If you look at the same page without CSS, you can see how confusing the structure appears to screen readers and search engines (Fig 5.23).
 
-![Figure](/image/fig-5.23.html.png)
+![Figure](/images/fig-5.23.html.png)
 
 Fig 5.23: Without the visual style, the hierarchy of the title and subtitle are the wrong way round because that’s the structure defined by the HTML.
 
@@ -325,11 +325,11 @@ Separating structure and style has the added bonus of making HTML and CSS easier
 
 Fortunately, WYSIWYG editors have improved; many allow you to choose the structural element from a dropdown list (Fig 5.24) leading to more accurate and meaningful HTML output (Fig 5.25).
 
-![Figure](/image/fig-5.24-Add_New_Post_‹_Laura_Kalbag_—_WordPress_2.png)
+![Figure](/images/fig-5.24-Add_New_Post_‹_Laura_Kalbag_—_WordPress_2.png)
 
 Fig 5.24: The TinyMCE WYSIWYG editor in WordPress enables you to add CSS styles to the text formatting dropdown in the Visual editor view, giving writers a better idea of how their structured text will appear when published.
 
-![Figure](/image/fig-5.25-Add_New_Post_‹_Laura_Kalbag_—_WordPress.png)
+![Figure](/images/fig-5.25-Add_New_Post_‹_Laura_Kalbag_—_WordPress.png)
 
 Fig 5.25: In the Text editor view, you can see that the HTML produced is meaningful and not muddied with inline CSS.
 
@@ -359,13 +359,13 @@ A related approach is *graceful degradation*, which might be considered the flip
 
 Graceful degradation is often preferred for interaction-based sites and web apps where the primary experience of the site is built on complex behaviors rather than content. Progressive enhancement could be used to layer more complex interactions on top of simpler interactions—that is, for sites that couldn’t possibly fulfill their primary purpose without any interaction at all.
 
-![Figure](/image/14.png)
+![Figure](/images/14.png)
 
 Fig 5.28: When you use the video element, the browser will use its native video player. Safari’s video player is very minimalist (left). Using a custom video player meant I could add extra controls and style them to match the rest of the Ind.ie site (right).
 
 Graceful degradation is often used in conjunction with a list of supported browsers where the site must provide the best experience. Experiences in other browsers are considered adequate if the interactive elements provide the expected response and the text is readable. A basic example of graceful degradation is when an image falls back to show only the alt text (Fig 5.29). The experience may not be comparable, but it’s adequate.
 
-![Figure](/image/fig-5.29-alt-text.png)
+![Figure](/images/fig-5.29-alt-text.png)
 
 Fig 5.29: The image might not be loading, but you know what you’re missing because the alt text is shown.
 
@@ -373,7 +373,7 @@ Sites that don’t provide a basic experience for all users often display an err
 
 Progressive enhancement has gained favor over graceful degradation in recent years because the variety of devices and browsers has made it difficult, and unrealistic, to support only a small group of browsers. The capabilities of devices and browsers can differ wildly from one to the next, so layering feature support and enhancements on top of a baseline experience is the easiest way to make the best site for the widest audience.
 
-![Figure](/image/fig-5.30-Tradition_1871_-_Chrome_Detection.png)
+![Figure](/images/fig-5.30-Tradition_1871_-_Chrome_Detection.png)
 
 Fig 5.30: Don’t just assume that your browser is the best and everyone else wants to use it. Most visitors don’t care if Clever works best in Google Chrome, and some may not know how to download another browser or have the admin privileges to do so.
 
