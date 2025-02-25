@@ -95,7 +95,8 @@ export default function ({ SLOT }) {
         <div class='inner-wrap'>
           <div class='pub-info'>
           <h3 class='meta-hed'>About Accessibility For Everyone</h3>
-          <p>You make the web more inclusive for everyone, everywhere, when you design with accessibility in mind. Let Laura Kalbag guide you through the accessibility landscape: understand disability and impairment challenges; get a handle on important laws and guidelines; and learn how to plan for, evaluate, and test accessible design. Leverage tools and techniques like clear copywriting, well-structured IA, meaningful HTML, and thoughtful design, to create a solid set of best practices. Whether you’re new to the field or a seasoned pro, get sure footing on the path to designing with accessibility.</p>
+          <p>You make the web more inclusive for everyone, everywhere, when you design with accessibility in mind. Let Laura Kalbag guide you through the accessibility landscape: understand disability and impairment challenges; get a handle on important laws and guidelines; and learn how to plan for, evaluate, and test accessible design.</p>
+          <p>Leverage tools and techniques like clear copywriting, well-structured IA, meaningful HTML, and thoughtful design, to create a solid set of best practices. Whether you’re new to the field or a seasoned pro, get sure footing on the path to designing with accessibility.</p>
           </div>
           <p class='copyright'><small>
             Copyright © 2017-present <a href='https://laurakalbag.com'>Laura Kalbag</a>, <a href='https://small-tech.org'>Small Technology Foundation</a>
