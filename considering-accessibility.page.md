@@ -169,7 +169,7 @@ Making our sites accessible starts with the understanding that people access the
 
 ## We’re in This Together
 
-When we start learning how to make our sites accessible, we can struggle because, well, accessibility itself isn’t always accessible. Take *a11y*, for example. You might know what a11y means if you’ve heard of *i18n—*they’re both alphanumeric acronyms. A11y stands for “accessibility” and *i18n* for “internationalization”. The letters between the first and last have been replaced by a number representing the number of missing letters. Even I need to reread that sentence to understand it, and I’m the one who wrote it! It’s definitely not universally accessible.
+When we start learning how to make our sites accessible, we can struggle because, well, accessibility itself isn’t always accessible. Take *a11y*, for example. You might know what a11y means if you’ve heard of *i18n* —they’re both alphanumeric acronyms. A11y stands for “accessibility” and *i18n* for “internationalization”. The letters between the first and last have been replaced by a number representing the number of missing letters. Even I need to reread that sentence to understand it, and I’m the one who wrote it! It’s definitely not universally accessible.
 
 Along with the mystifying jargon, accessibility is often presented as something that should be left to “experts.” We do need experts for their specialized knowledge and guidance, but there aren’t enough accessibility experts in the world to leave the task of building an accessible web in their hands alone.
 
