@@ -104,7 +104,7 @@ For people with visual impairments, a refreshable braille display can be used wi
 
 Keyboard navigation describes a situation when a person uses only a keyboard to access a computer or site. Screen readers are often (but not always!) paired with keyboard navigation. Sometimes specialist keyboards, such as custom keyboards or on-screen keyboards, are used to assist with keyboard use and keyboard-only navigation.
 
-<figure><img alt="Figure" src="/images/fig-1.08-braille-display.png"/><figcaption>Fig 1.8: Braille displays are very expensive, which limits how many people can afford to use them. (Photo courtesy of Karola Riegler <a href="https://a4e.link/01-03/">https://a4e.link/01-03/</a>).</figcaption></figure>
+<figure><img alt="A person using a braille display running their finger over patterns of raised dots along the display." src="/images/fig-1.08-braille-display.png"/><figcaption>Fig 1.8: Braille displays are very expensive, which limits how many people can afford to use them. (Photo courtesy of Karola Riegler <a href="https://a4e.link/01-03/">https://a4e.link/01-03/</a>).</figcaption></figure>
 
 Most keyboard-based web browsing uses the Up and Down cursor keys for scrolling, the Tab key for moving between interactive elements, and the Space bar or Enter key for interaction. Screen readers will often map keys to different, more contextually relevant, commands.
 
@@ -134,7 +134,7 @@ Eye trackers are similar to electronic or sensor switches, but rely on a camera 
 
 Dwell Control was also recently added to macOS to enable the use of eye-tracking or head-tracking to control the mouse. The Dwell Control Home Panel helps users click, drag, and scroll to interact with the screen (Fig 1.9).
 
-<figure><img alt="Figure" src="/images/fig-1.09-dwell-control.png"/><figcaption>Fig 1.9: The user chooses an interaction from the Dwell Control Home Panel, and then hovers (or dwells) over the item they want to interact with. There is a countdown to ensure the correct item is selected.</figcaption></figure>
+<figure><img alt="A web page displaying a button. The Dwell Control panel is displayed over the web page with options for different input interactions including clicking, drag and drop, and menus." src="/images/fig-1.09-dwell-control.png"/><figcaption>Fig 1.9: The user chooses an interaction from the Dwell Control Home Panel, and then hovers (or dwells) over the item they want to interact with. There is a countdown to ensure the correct item is selected.</figcaption></figure>
 
 ### Speech recognition
 

@@ -58,7 +58,7 @@ Normal color vision uses all three light cones in our eyes, and is known as *tri
 
 Color blindness has a significant impact on the readability and comprehension of a page. Text colors need to be readable against background colors, and because different people perceive color differently, it’s unreliable to use color to signify meaning.
 
-<figure><img alt="Figure" src="/images/fig-2.01-comparing-colour-blindness.png"/><figcaption>Fig 2.1: A kingfisher in its original photo, then duplicated (left to right) with simulated deuteranopia, protanopia, tritanopia and monochromacy. Photograph courtesy of Foundry (<a href="https://a4e.link/02-01/">https://a4e.link/02-01/</a>).</figcaption></figure>
+<figure><img alt="Five of the same kingfisher photo with different colour filters." src="/images/fig-2.01-comparing-colour-blindness.png"/><figcaption>Fig 2.1: A kingfisher in its original photo (red orange breast with blue head and wings), then duplicated (left to right) with simulated deuteranopia (green breast with purple blue head and wings), protanopia (darker green with purple blue head and wings), tritanopia (pink breast with turquoise head and wings) and monochromacy (grey breast with grey head and wings). Photograph courtesy of Foundry (<a href="https://a4e.link/02-01/">https://a4e.link/02-01/</a>).</figcaption></figure>
 
 #### Eyesight loss
 
@@ -68,7 +68,7 @@ People with partial eyesight loss need clear labels, readable text sizes, and a 
 * *Glaucoma* is the result of damage to the optic nerve, and has the opposite effect of macular degeneration: the edges of your field of vision are obscured (Fig 2.2).
 * *Diabetic retinopathy* occurs when diabetes damages the blood vessels in light-sensitive eye tissue. It causes dark spots in your field of vision, obscuring or distorting what you see (Fig 2.2).
     
-<figure><img alt="Figure" src="/images/fig-2.02-eyesight-degeneration-simulations.png"/><figcaption>Fig 2.2: That kingfisher again, this time simulating (left to right) macular degeneration, glaucoma, and diabetic retinopathy.</figcaption></figure>
+<figure><img alt="The kingfisher photo four times again from left to right, with different dark patches obscuring the photo." src="/images/fig-2.02-eyesight-degeneration-simulations.png"/><figcaption>Fig 2.2: That kingfisher again, this time simulating (left to right) macular degeneration (obscuring the center of the image), glaucoma (obsuring the outer edges of the image), and diabetic retinopathy (patches across the whole image).</figcaption></figure>
 
 ### Auditory impairments
 
@@ -112,7 +112,7 @@ Learning disabilities are common in people of all ages. People with learning dis
 
 The British Dyslexia Association allows visitors to choose their preferred color palette from a menu at the top of the screen. The menu also relies on symbols over text, making the site easier for people with dyslexia to use. I found the site somewhat hard to use, as I’m not dyslexic and I’m more accustomed to text-based menus. This is a great example of an organization prioritizing the needs of its target audience over other audiences (Fig 2.3).
 
-<figure><img alt="Figure" src="/images/fig-2.03-British_Dyslexia_Association.png"/><figcaption>Fig 2.3: The top of the British Dyslexia Association’s site displays an array of accessibility options, including text to speech (<a href="https://a4e.link/02-02/">https://a4e.link/02-02/</a>).</figcaption></figure>
+<figure><img alt="The British Dyslexia Association homepage with colorful buttons along the top of the page. Including back, play, and forward buttons and text resizing buttons." src="/images/fig-2.03-British_Dyslexia_Association.png"/><figcaption>Fig 2.3: The top of the British Dyslexia Association’s site displays an array of accessibility options, including text to speech (<a href="https://a4e.link/02-02/">https://a4e.link/02-02/</a>).</figcaption></figure>
 
 Even though he isn’t blind, Sam—like many others with dyslexia—relies on screen readers when using a computer. He finds JAWS’s voices too robotic, and prefers NaturalReader by NaturalSoft Ltd. ([https://a4e.link/02-03/](https://a4e.link/02-03/)) to hear the text in natural speech form. Sam usually chooses to copy and paste the text he wants read aloud into the software, rather than it reading whole pages. He doesn’t want the screen reader to read him the meta information (such as headings and alternative text for images), which distracts him from the primary text.
 
@@ -218,7 +218,7 @@ When choosing webfonts, you also need to make sure that your fonts contain all t
 
 Text in Western languages is read horizontally from left to right. But text in languages such as Arabic, Hebrew, Persian, and Urdu is read horizontally from right to left (Fig 2.5). Reading from right to left usually leads to right-aligned text, and a mirror-imaging of the left-to-right page layout.
 
-<figure><img alt="Figure" src="/images/3.png"/><figcaption>Fig 2.5: BBC News in English (left) uses a left-to-right layout. BBC News in Arabic (right) uses a right-to-left layout.</figcaption></figure>
+<figure><img alt="On the BBC news English page both the layout and text runs left-to-right in English. On the BBC news Arabic page both the layout and text runs right-to-left in Arabic." src="/images/3.png"/><figcaption>Fig 2.5: BBC News in English (left) uses a left-to-right layout. BBC News in Arabic (right) uses a right-to-left layout.</figcaption></figure>
 
 If you want your site to have international appeal, making it work in different alphabets and for right-to-left readers will go a long way toward improving the usability of your site. You can set the direction of the text using the `dir` attribute in HTML:
 
@@ -248,7 +248,7 @@ But environments aren’t just about the weather and light, they can also be abo
 
 Using the web can also be a personal experience requiring privacy. Sites can be made more usable in these situations (and benefit everybody) by making their information clear and easy to locate, and even tailoring the experience to specific stress cases (Fig 2.6). Sara Wachter-Boettcher and Eric Meyer explain how to identify these stress cases and incorporate compassion into your design process in their book, *Design for Real Life* ([https://a4e.link/02-09/](https://a4e.link/02-09/)).
 
-<figure><img alt="Figure" src="/images/fig-2.06-_Domestic_Violence_UK.png"/><figcaption>Fig 2.6: Domestic Violence UK has a sticky “Hide Site” button at the top of every page which quickly redirects the page to Google, in case victims of abuse are being watched or monitored by abusive partners.</figcaption></figure>
+<figure><img alt="The Domestic Violence UK homepage showing a dark hide site button in the top left corner margin of the page." src="/images/fig-2.06-_Domestic_Violence_UK.png"/><figcaption>Fig 2.6: Domestic Violence UK has a sticky “Hide Site” button at the top of every page which quickly redirects the page to Google, in case victims of abuse are being watched or monitored by abusive partners.</figcaption></figure>
 
 Sharing devices can also reveal potential problems. Someone who’s been looking for information on a medical condition doesn’t want personalized ads for therapies and medications following their partner or family member around the web. Respect the privacy of your visitors by default, and ensure you aren’t leaking their information to third parties who may not be so respectful.
 

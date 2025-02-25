@@ -12,7 +12,7 @@ All our work is free and open and we exist in part thanks to patronage by people
 
 ## Acknowledgements
 
-- The book content was converted to Markdown using [Dancing Queen, the ABA Book Parser](https://github.com/eaton/dq) by [Eaton](https://eaton.fyi/).
+- The book content was converted to Markdown using [Dancing Queen, the ABA Book Parser](https://github.com/eaton/dq) by [Jeff Eaton](https://eaton.fyi/).
 
 - The core site/book template and styles are from [a-book-departs](https://github.com/Wilto/a-book-departs) by [Mat Marquis](https://hire.wil.to/).
 

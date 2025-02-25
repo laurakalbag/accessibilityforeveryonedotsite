@@ -31,14 +31,14 @@ An accessible content structure also gives search engines something to grab onto
 ### Findability
 
 <figure>
-	<img alt="Figure" src="/images/fig-5.01-Husky_-_Wikipedia.png"/>
+	<img alt="The unstyled HTML for the Wikipedia page about hustkies is a series of text, images, and links displayed linearly from top to bottom of the page." src="/images/fig-5.01-Husky_-_Wikipedia.png"/>
 	<figcaption>Fig 5.1: The unstyled HTML for the Wikipedia page about huskies looks unexciting, but the content is all there.</figcaption>
 </figure>
 
 Search engines rely on crawlers that index websites for content, then use algorithms to determine the relevance of that content to search keywords. Good accessibility increases findability because it benefits search engine optimization. Search engine crawlers behave much like screen readers: they can’t easily or intelligently understand images, audio, or video, so they benefit from text alternatives and well-written content.
 
 <figure>
-	<img alt="Figure" src="/images/11.png"/>
+	<img alt="The HTML outline starts with the title Husky, and nested inside it is Contents, Etymology, and Lineage. The same headings are reflected in the Contents list." src="/images/11.png"/>
 	<figcaption>Fig 5.2: The HTML outline (left) for the Wikipedia page on huskies is reflected in its Contents page navigation (right)</figcaption>
 </figure>
 
@@ -53,19 +53,19 @@ If you look at Google’s design and content guidelines, they’re exactly the s
 A clear site structure and hierarchy allows search engines to better understand what the most valuable content is on your site, and what would make up a valuable preview in search results. If you look at some typical Google (Fig 5.3) and DuckDuckGo (Fig 5.4) search results, you can see how each search engine uses the page `title` element for the main title of the result. They then use the first `h1` and `h2` elements to give you a rough idea of the content on that page.
 
 <figure>
-	<img alt="Figure" src="/images/fig-5.03-duke_of_yorks_cinema_brighton_-_Google_Search_-_cropped.png"/>
+	<img alt="Google’s listing for Duke of Yorks cinema." src="/images/fig-5.03-duke_of_yorks_cinema_brighton_-_Google_Search_-_cropped.png"/>
 	<figcaption>Fig 5.3: Google uses the <code>&lt;title&gt;</code> for the result heading, then <code>&lt;meta description&gt;</code> and the page’s first <code>&lt;h1&gt;</code> as the result description.</figcaption>
 </figure>
 
 <figure>
-	<img alt="Figure" src="/images/fig-5.04-duke_of_yorks_cinema_brighton_at_DuckDuckGo_-_cropped.png"/>
-	<figcaption>Fig 5.4: DuckDuckGo uses the page’s <code>&lt;title&gt;</code> for the result heading, then the first <code>&lt;h1gt;</code> and a <code>&lt;p&gt;</code> from near the end of the page as the result description.</figcaption>
+	<img alt="DuckDuckGo’s listing for Duke of Yorks cinema." src="/images/fig-5.04-duke_of_yorks_cinema_brighton_at_DuckDuckGo_-_cropped.png"/>
+	<figcaption>Fig 5.4: DuckDuckGo uses the page’s <code>&lt;title&gt;</code> for the result heading, then the first <code>&lt;h1&gt;</code> and a <code>&lt;p&gt;</code> from near the end of the page as the result description.</figcaption>
 </figure>
 
 When a page’s HTML isn’t structured clearly, it can have a negative effect on the search results preview (Fig 5.5). It’s much harder to identify the type of content you’d find on that page, so it’s less likely to come up in relevant search engine results.
 
 <figure>
-	<img alt="Figure" src="/images/fig-5.05-bad-search-result.png"/>
+	<img alt="Another DuckDuckGo search result listing for Duke of Yorks cinema where the title is the URL and random HTML is interspersed amongst the text description." src="/images/fig-5.05-bad-search-result.png"/>
 	<figcaption>Fig 5.5: This search result looks like an automatically generated page. It doesn’t have a meaningful title, and somehow bits of HTML show up in the description.</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ When a page’s HTML isn’t structured clearly, it can have a negative effect o
 In order to create a meaningful content outline, we need to use headings to create a structure (Fig 5.6). There is an argument that in HTML5 we can use more than one h1 element on a page, but browsers have better support when we use a singular h1 to title or describe the main function of a page.
 
 <figure>
-	<img alt="Figure" src="/images/12.png" />
+	<img alt="The Wikipedia page for Dog breed. With large headings for History and Genetic evidence of breeds, and a subheading of Ancient dog breeds, the text is easier to scan. Without the headings, there are many paragraphs without any landmarks." src="/images/12.png" />
 	<figcaption>Fig 5.6: Without headings to structure the content, a Wikipedia page would look intimidating, and would be hard to skim (left). It’s good that the real Wikipedia uses headings to make long pages of content easier to read and reference (right).</figcaption>
 </figure>
 
