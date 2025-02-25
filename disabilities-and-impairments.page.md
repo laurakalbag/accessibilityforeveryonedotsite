@@ -121,7 +121,7 @@ The British Dyslexia Association allows visitors to choose their preferred color
 
 Fig 2.3: The top of the British Dyslexia Association’s site displays an array of accessibility options, including text to speech ([https://a4e.link/02-02/h](https://a4e.link/02-02/)).
 
-Even though he isn’t blind, Sam—like many others with dyslexia—relies on screen readers when using a computer. He finds JAWS’s voices too robotic, and prefers NaturalReader by NaturalSoft Ltd. ([*https://a4e.link/02-03/*](https://a4e.link/02-03/)) to hear the text in natural speech form. Sam usually chooses to copy and paste the text he wants read aloud into the software, rather than it reading whole pages. He doesn’t want the screen reader to read him the meta information (such as headings and alternative text for images), which distracts him from the primary text.
+Even though he isn’t blind, Sam—like many others with dyslexia—relies on screen readers when using a computer. He finds JAWS’s voices too robotic, and prefers NaturalReader by NaturalSoft Ltd. ([https://a4e.link/02-03/](https://a4e.link/02-03/)) to hear the text in natural speech form. Sam usually chooses to copy and paste the text he wants read aloud into the software, rather than it reading whole pages. He doesn’t want the screen reader to read him the meta information (such as headings and alternative text for images), which distracts him from the primary text.
 
 #### Literacy
 
@@ -139,7 +139,7 @@ We can help people with vestibular disorders by giving them control over the ani
 
 Similar considerations can also help prevent seizures. Between 5–10% of people in the developed world will have at least one seizure in their life. About three in 100 people with epilepsy have photosensitive epilepsy, where seizures are triggered by flashing or flickering lights, as well as by high-contrast, striped, or checked patterns.
 
-Obviously, we don’t want to trigger seizures in people, and very specific guidelines ([*https://a4e.link/02-05/*](https://a4e.link/02-05/)) exist to help us avoid accidental triggers. Web pages shouldn’t contain anything that flashes more than three times in one second. Unless you’re creating the world’s most annoying banner ad, this is unlikely to be the purposeful result of a design. But animations and hover effects should be checked to ensure that flashing isn’t a byproduct when an effect doesn’t render as intended.
+Obviously, we don’t want to trigger seizures in people, and very specific guidelines ([https://a4e.link/02-05/](https://a4e.link/02-05/)) exist to help us avoid accidental triggers. Web pages shouldn’t contain anything that flashes more than three times in one second. Unless you’re creating the world’s most annoying banner ad, this is unlikely to be the purposeful result of a design. But animations and hover effects should be checked to ensure that flashing isn’t a byproduct when an effect doesn’t render as intended.
 
 ## Environmental Factors
 
@@ -173,9 +173,9 @@ New sizes and shapes mean we need to design for even more viewport sizes and vie
 
 #### Context and control
 
-At least 87% of the devices able to access the web are “mobile” now ([*http**s://a4e.link/02-06/*](https://a4e.link/02-06/)), and that’s not including game console browsers (increasingly popular with younger audiences), web-enabled TVs, smartwatches, or virtual reality headsets.
+At least 87% of the devices able to access the web are “mobile” now ([https://a4e.link/02-06/](https://a4e.link/02-06/)), and that’s not including game console browsers (increasingly popular with younger audiences), web-enabled TVs, smartwatches, or virtual reality headsets.
 
-And mobile doesn’t mean “on the go,” as many of us imagined when mobile devices started becoming popular. Studies have shown that we shouldn’t jump to conclusions about user situations based on their devices. A US-based study from AOL and advertising agency BBDO found that 64% of users browse the web on their mobile devices while at home, sitting on their sofas, using their Wi-Fi and broadband ([*https://a4e.link/**02-07/*](https://a4e.link/02-07/)). And research from the Interactive Advertising Bureau (IAB) and its Mobile Marketing Center of Excellence ([*https://a4e.link/**02-08/*](https://a4e.link/02-08/)) showed that 63% of videos watched on mobile phones were at home and not, in fact, “on the go.”
+And mobile doesn’t mean “on the go,” as many of us imagined when mobile devices started becoming popular. Studies have shown that we shouldn’t jump to conclusions about user situations based on their devices. A US-based study from AOL and advertising agency BBDO found that 64% of users browse the web on their mobile devices while at home, sitting on their sofas, using their Wi-Fi and broadband ([https://a4e.link/02-07/](https://a4e.link/02-07/)). And research from the Interactive Advertising Bureau (IAB) and its Mobile Marketing Center of Excellence ([https://a4e.link/02-08/](https://a4e.link/02-08/)) showed that 63% of videos watched on mobile phones were at home and not, in fact, “on the go.”
 
 The only reliable statistic we can get back from a person’s browser is the width of the viewport. We can’t even trust the user agent (the browser telling us its name), as some browsers pretend to be others to get better support from browser-specific styles.
 
@@ -255,7 +255,7 @@ As designers and developers, it can be easy to get caught up in the interaction 
 
 But environments aren’t just about the weather and light, they can also be about who’s in the room with you. If you’re working in a public space and don’t have headphones, you may not want to play audio content or videos with sound. If you’re trying to get work done in a noisy or disruptive space, you may not be able to hear audio or video, even with headphones. The considerations for these contexts are similar to those for hearing loss—you’d probably prefer subtitles, captions, or another text alternative for the content.
 
-Using the web can also be a personal experience requiring privacy. Sites can be made more usable in these situations (and benefit everybody) by making their information clear and easy to locate, and even tailoring the experience to specific stress cases (Fig 2.6). Sara Wachter-Boettcher and Eric Meyer explain how to identify these stress cases and incorporate compassion into your design process in their book, *Design for Real Life* ([*https://a4e.link**/02-09/*](https://a4e.link/02-09/)).
+Using the web can also be a personal experience requiring privacy. Sites can be made more usable in these situations (and benefit everybody) by making their information clear and easy to locate, and even tailoring the experience to specific stress cases (Fig 2.6). Sara Wachter-Boettcher and Eric Meyer explain how to identify these stress cases and incorporate compassion into your design process in their book, *Design for Real Life* ([https://a4e.link/02-09/](https://a4e.link/02-09/)).
 
 ![Figure](/images/fig-2.06-_Domestic_Violence_UK.png)
 

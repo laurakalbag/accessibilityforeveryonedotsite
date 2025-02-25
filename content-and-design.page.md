@@ -3,7 +3,7 @@ title: Content and Design
 index: 5
 layout: ./Chapter.layout.js
 ---
-Design decisions made in the name of accessibility generally benefit everyone, because *all technology is assistive*. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren ([*https://a4e.link/04-01/*](https://a4e.link/04-01/)), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”
+Design decisions made in the name of accessibility generally benefit everyone, because *all technology is assistive*. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren ([https://a4e.link/04-01/](https://a4e.link/04-01/)), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”
 
 Hendren asks, “What technology are you using that’s *not assistive*?” Our keyboards and mice assist us in communicating with a computer. Our headphones enable us to hear audio in our own spaces without disrupting those around us. Our phones give us the knowledge of the entire web in our pockets. Technology enables us all, and can give us a better experience of the world around us.
 
@@ -52,7 +52,7 @@ Subnavigation bars, sidebars, and footers also provide visitors with a better id
 
 When the navigation reflects the information architecture of your site, it gives people a better understanding of where they need to go and offers a preview of other information they might find relevant or interesting. Navigation bars work best when they offer a brief snapshot; they become unwieldy if the list of links they contain is too long.
 
-Once we’ve established what you want to include in your navigation elements, we can consider the text for each link. With usability in mind, and to paraphrase Steve Krug’s *Don**’t Make Me Think!*, we’ve learned it’s best to make navigation descriptive and concise. It’s hard for a new visitor to understand what to expect from a site archiving interviews about the games industry when the navigation lists “Clips, Minds, Playlists, Conversations” (Fig 4.6). When we use terminology that’s easy to understand, more visitors will be able to find what they want (Fig 4.7).
+Once we’ve established what you want to include in your navigation elements, we can consider the text for each link. With usability in mind, and to paraphrase Steve Krug’s *Don’t Make Me Think!*, we’ve learned it’s best to make navigation descriptive and concise. It’s hard for a new visitor to understand what to expect from a site archiving interviews about the games industry when the navigation lists “Clips, Minds, Playlists, Conversations” (Fig 4.6). When we use terminology that’s easy to understand, more visitors will be able to find what they want (Fig 4.7).
 
 ![Figure](/images/fig-4.06-nav.png)
 
@@ -84,7 +84,7 @@ These common styles make links easy to recognize on a page. Over the years, fewe
 
 Fig 4.12: The humble link in all its default style glory.
 
-Two years ago, Google decided to drop the underlined style in their links ([*https://a4e.link/04-03/*](https://a4e.link/04-03/)). The lack of underlines makes the page layout appear much cleaner and the text slightly easier to read (Fig 4.13).
+Two years ago, Google decided to drop the underlined style in their links ([https://a4e.link/04-03/](https://a4e.link/04-03/)). The lack of underlines makes the page layout appear much cleaner and the text slightly easier to read (Fig 4.13).
 
 ![Figure](/images/6.png)
 
@@ -150,9 +150,9 @@ Once you have a visual hierarchy in place, with headings, paragraphs, lists, and
 
 * Font size: If small text can be hard to read, overly big text can pose problems, too, forcing you to sit back to be able to read at a comfortable distance. Ample font sizes help as many people as possible read your text. The generally recommended font size is the equivalent of 16 pixels or larger, but this of course depends on the font.
 * Font weight: Thin type became more popular when high-resolution screens became more prevalent. But thin type can be hard to read as it has a lower contrast against the background than heavier type does. It’s also rendered very differently on standard and high-resolution displays—it loses clarity at standard resolution—so it’s important to take care when using it, particularly at small sizes.
-* Line length: Text crowded on to a short line length can be difficult to read because the text is broken up into such small groups. When a line is longer than about 66 characters (*http://**webtypography.net/2.1.2*), you can find yourself having to turn your head from side to side to read the text, or getting sore eyes. Finding a balanced line length will make a big difference to people with difficulty reading.
+* Line length: Text crowded on to a short line length can be difficult to read because the text is broken up into such small groups. When a line is longer than about 66 characters (*http://webtypography.net/2.1.2*), you can find yourself having to turn your head from side to side to read the text, or getting sore eyes. Finding a balanced line length will make a big difference to people with difficulty reading.
 
-Jason Santa Maria’s *On Web Typography* ([*https://a4e.link/**04-04/*](https://a4e.link/04-04/)) and Richard Rutter’s recent *Web Typography* ([*https:/**/a4e.link/04-05/*](https://a4e.link/04-05/)) both contain a wealth of information on choosing fonts and arranging type. As with general usability, thoughtful typography will benefit everyone.
+Jason Santa Maria’s *On Web Typography* ([https://a4e.link/04-04/](https://a4e.link/04-04/)) and Richard Rutter’s recent *Web Typography* ([https://a4e.link/04-05/](https://a4e.link/04-05/)) both contain a wealth of information on choosing fonts and arranging type. As with general usability, thoughtful typography will benefit everyone.
 
 ### Specialist typefaces
 
@@ -300,7 +300,7 @@ Cox emphasizes that accessibility requirements should always trump search engine
 
 Using images to present text was very popular before the days of webfonts, and unfortunately still persists occasionally to this day. However, text in JPGs, GIFs, and PNGs can’t be resized and, if zoomed, becomes pixelated and harder to read. It also can’t be read by screen readers, search engines, or autotranslators, and any revisions to the text become much more labor-intensive. In short, it’s a terrible idea.
 
-It’s only worth putting text in an image if it’s part of a logo. That’s the only realistic use case nowadays. With the wide support of Scalable Vector Graphics (SVG), we can also include scalable and stylable text in SVGs, which is a simple way to make graphics more accessible. See Chris Coyier’s *Practical SVG* on how best to use SVG text ([*https://a4e.lin**k/**04-07/*](https://a4e.link/04-07/)).
+It’s only worth putting text in an image if it’s part of a logo. That’s the only realistic use case nowadays. With the wide support of Scalable Vector Graphics (SVG), we can also include scalable and stylable text in SVGs, which is a simple way to make graphics more accessible. See Chris Coyier’s *Practical SVG* on how best to use SVG text ([https://a4e.link/04-07/](https://a4e.link/04-07/)).
 
 ### Graphs and infographics
 
@@ -326,7 +326,7 @@ Links to PDFs have inconsistent behaviors. Some web browsers will display the PD
 
 And PDFs themselves aren’t accessible. As they’re a proprietary format created by Adobe, not everyone can open and read PDFs without downloading additional software. They also take a lot more time and effort to make them readable by search engines and screen readers—at least HTML can be read by default.
 
-Instead of using PDFs to provide content, recreate the content using HTML. It will be easier to find, easier to read, and a lot more accessible. If you need your content to be suitable for printing, consider print stylesheets that instruct the browser how best to style each HTML page when printed. Smashing Magazine ([*https://a4e.link/04-09/*](https://a4e.link/04-09/)) and CSS-Tricks ([*https://a4e.link/04-10/*](https://a4e.link/04-09/)) both have good articles on creating print stylesheets.
+Instead of using PDFs to provide content, recreate the content using HTML. It will be easier to find, easier to read, and a lot more accessible. If you need your content to be suitable for printing, consider print stylesheets that instruct the browser how best to style each HTML page when printed. Smashing Magazine ([https://a4e.link/04-09/](https://a4e.link/04-09/)) and CSS-Tricks ([https://a4e.link/04-10/](https://a4e.link/04-09/)) both have good articles on creating print stylesheets.
 
 Tools that produce HTML from PDFs are also an option if your organization has loads of PDFs that need to be put online in a more accessible format. A quick web search will reveal plenty of PDF-to-HTML conversion tools. You don’t need a tool that perfectly reproduces the PDF, as long as the conversion outputs usable HTML that can be slotted into your existing page templates.
 

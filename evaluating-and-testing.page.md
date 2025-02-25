@@ -38,7 +38,7 @@ Code reviews can be valuable early on in the process to help identify potential 
 
 Although automated testing alone isn’t enough, automated tests *can* ensure that your code conforms to a project’s standards criteria. When you’re planning for automated testing, be aware that not all WCAG criteria can be programmatically verified, since many criteria focus on user experience.
 
-Conduct automated tests near the end of production—when the code is production-ready, but there is still enough time to fix problems before the site goes live. Léonie Watson recommends including a tool like Tenon API ([*https://a4e.link/06-01/*](https://a4e.link/06-01/)) in your build process because it can catch issues long before your codebase reaches production readiness.
+Conduct automated tests near the end of production—when the code is production-ready, but there is still enough time to fix problems before the site goes live. Léonie Watson recommends including a tool like Tenon API ([https://a4e.link/06-01/](https://a4e.link/06-01/)) in your build process because it can catch issues long before your codebase reaches production readiness.
 
 Twitter uses automated accessibility tests as a part of its build process as well. If a developer’s code breaks the accessibility of the product, the automated test will fail and the developer is unable to deploy their work. Todd Kloots, previously a senior front-end engineer of platform at Twitter, told me he used these tests as developer education: if a developer doesn’t understand why their code is failing one of the accessibility tests, Kloots had the opportunity to spread accessibility knowledge a little further.
 
@@ -74,13 +74,13 @@ If testers aren’t aware of the mismatch between hardware and software, they’
 
 ### Using a testing matrix
 
-In a wonderful article on *A List* *Apart*, Anne Gibson recommended following a testing matrix with a list of outputs along the top and inputs along the side ([*https://a4e.link/06-02/*](https://a4e.link/06-02/)). The corresponding boxes should then be filled out as you test with each combination of input and output. The matrix is a great way to ensure your testing is thorough and takes many different setups into consideration (Fig 6.1).
+In a wonderful article on *A List* *Apart*, Anne Gibson recommended following a testing matrix with a list of outputs along the top and inputs along the side ([https://a4e.link/06-02/](https://a4e.link/06-02/)). The corresponding boxes should then be filled out as you test with each combination of input and output. The matrix is a great way to ensure your testing is thorough and takes many different setups into consideration (Fig 6.1).
 
 ### Going the extra mile
 
 If you come across issues during testing that are down to assistive technology or browser quirks, consider providing a fix for the problem rather than blaming the technology for the brokenness.
 
-For example, imagine that the `placeholder` attribute is being used in form input fields to give a hint on how to fill in the field. But when the user selects that input, the placeholder text vanishes to make way for the entered text. If the user can’t remember the placeholder hint, they have to deselect the input so the placeholder shows again inside the input. This default behavior is less than ideal, and we might be tempted to dismiss the problem as “just how the browser works.” However, there are several solutions to take that placeholder text and move it outside the input when the input is selected, giving the user a chance to fill out the form field with the hint text alongside. Brad Frost has written up a great Float Label Pattern to do exactly that ([*https://a4e.lin**k/06-03**/*](https://a4e.link/06-03/)).
+For example, imagine that the `placeholder` attribute is being used in form input fields to give a hint on how to fill in the field. But when the user selects that input, the placeholder text vanishes to make way for the entered text. If the user can’t remember the placeholder hint, they have to deselect the input so the placeholder shows again inside the input. This default behavior is less than ideal, and we might be tempted to dismiss the problem as “just how the browser works.” However, there are several solutions to take that placeholder text and move it outside the input when the input is selected, giving the user a chance to fill out the form field with the hint text alongside. Brad Frost has written up a great Float Label Pattern to do exactly that ([https://a4e.link/06-03/](https://a4e.link/06-03/)).
 
 Going the extra mile to solve problems like vanishing placeholders is part of embracing challenges to find creative solutions. Accessibility isn’t about passing a test or ticking a box; it’s about making great experiences.
 
@@ -100,13 +100,13 @@ It’s perfectly acceptable for your code to fail validation, as long as it fail
 
 #### W3C
 
-The most well-known validator is probably W3C’s markup validation tool ([*https://a4e.link/**06-04/*](https://a4e.link/06-04/)), also known as the HTML validator. Among other warnings, it will inform you if you’ve missed a closing tag, quote mark, or required attribute, and if you’ve used an element where it isn’t allowed, or an element or attribute that doesn’t actually exist (Fig 6.2).
+The most well-known validator is probably W3C’s markup validation tool ([https://a4e.link/06-04/](https://a4e.link/06-04/)), also known as the HTML validator. Among other warnings, it will inform you if you’ve missed a closing tag, quote mark, or required attribute, and if you’ve used an element where it isn’t allowed, or an element or attribute that doesn’t actually exist (Fig 6.2).
 
 ![Figure](/images/fig-6.02-Showing_results_for_https_ind.ie_-_Nu_Html_Checker.png)
 
 Fig 6.2: Using a `meta` element with a `value` isn’t valid HTML, but it is the format Twitter understands for its summary cards.
 
-Sometimes the errors reported by the HTML validator can be difficult to understand—“literal is missing closing delimiter”—but, fortunately, a page on the validation website helps explain the errors in plain English ([*https://a4e.li**nk/06-05/*](https://a4e.link/06-05/)). (“Literal is missing closing delimiter” usually means you’ve forgotten a closing quotation mark.)
+Sometimes the errors reported by the HTML validator can be difficult to understand—“literal is missing closing delimiter”—but, fortunately, a page on the validation website helps explain the errors in plain English ([https://a4e.link/06-05/](https://a4e.link/06-05/)). (“Literal is missing closing delimiter” usually means you’ve forgotten a closing quotation mark.)
 
 #### WebAIM’s WAVE
 
@@ -120,7 +120,7 @@ If you want to test a local URL, or a site that’s password-protected, you can 
 
 Color contrast checkers are a great way to make sure the contrast of your text color is readable against the background for the majority of readers, particularly those with visual impairments and color blindness.
 
-These checkers tend to follow a similar pattern: you enter a foreground and background color and the checker tells you if they’re accessible according to the W3C color-contrast ratio guidelines. Many will show you your colors in action. Some will tell you if your color palette conforms to WCAG AA or AAA levels (we’ll more look at WCAG in the next chapter). And one in particular, Color Oracle ([*https://a4e.link/**06-06/*](https://a4e.link/06-06/)), will overlay the whole screen with a color filter to simulate different types of color blindness.
+These checkers tend to follow a similar pattern: you enter a foreground and background color and the checker tells you if they’re accessible according to the W3C color-contrast ratio guidelines. Many will show you your colors in action. Some will tell you if your color palette conforms to WCAG AA or AAA levels (we’ll more look at WCAG in the next chapter). And one in particular, Color Oracle ([https://a4e.link/06-06/](https://a4e.link/06-06/)), will overlay the whole screen with a color filter to simulate different types of color blindness.
 
 ### Readability checkers
 
@@ -190,7 +190,7 @@ When the participant is working through the task, try to record the following:
 * What is the participant saying and doing? Are they describing one interaction but doing something different? Are they using any particular terms and phrases to describe their interactions?
 * Does the participant find any problems with the site’s accessibility? Discussing any accessibility issues you come across in context is vital to understanding how the issue affects the completion of the task at hand, and how the issue may impact other areas of the site.
 
-These are just a few suggestions that don’t vary much from your garden-variety usability test. *Just Ask—Integrating Accessibility Throughout Design* also provides a practical guide to planning, conducting, and reporting usability tests with a focus on users with disabilities ([*https://a4e.lin**k/**06-08/*](https://a4e.link/06-08/)).
+These are just a few suggestions that don’t vary much from your garden-variety usability test. *Just Ask—Integrating Accessibility Throughout Design* also provides a practical guide to planning, conducting, and reporting usability tests with a focus on users with disabilities ([https://a4e.link/06-08/](https://a4e.link/06-08/)).
 
 ## Ongoing Testing
 

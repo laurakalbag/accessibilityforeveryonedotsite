@@ -9,4 +9,4 @@ I’m also glad you chose this particular book. In less capable hands, writing a
 
 It’s a big deal, but don't worry. Laura’s book teaches you how to navigate accessibility, how to develop strategies for it, and how to embrace it as a fresh challenge. With practice, designing and building inclusive interfaces will become second nature. You won’t work any harder, you’ll just do better work—and better serve a more diverse group of people.
 
-**—Heydon** **Pickering**
+**—Heydon Pickering**

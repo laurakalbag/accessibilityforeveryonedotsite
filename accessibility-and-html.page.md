@@ -15,10 +15,10 @@ HTML is simple and easy to read because its basic job is to provide structure to
 
 View the bare HTML structure of any web page by removing its CSS styles. You can do this using any modern web browser:
 
-* Firefox**:** Go to View > Page Styles > No Style.
+* Firefox: Go to View > Page Styles > No Style.
 * Safari: Enable Developer Tools in Preferences > Advanced > Checkbox for “Show Develop menu in menu bar”. Then from the Develop menu, select Disable Styles.
 * Internet Explorer: Go to Command Bar > Page > Style > No Style.
-* Opera and Chrome (also works for Firefox and Safari): Download Chris Pederick’s Web Developer extension ([*https:/**/a4e.link/05-01/*](https://a4e.link/05-01/)). Then from the Web Developer extension, go to CSS > Disable CSS.
+* Opera and Chrome (also works for Firefox and Safari): Download Chris Pederick’s Web Developer extension ([https://a4e.link/05-01/](https://a4e.link/05-01/)). Then from the Web Developer extension, go to CSS > Disable CSS.
 
 Unstyled HTML looks slightly different in each browser because it uses the browser’s default styles. These default styles vary depending on the combination of the browser and the operating system. When we write CSS, we override the browser’s default styles with our own.
 
@@ -40,7 +40,7 @@ Search engines rely on crawlers that index websites for content, then use algori
 
 Fig 5.2: The HTML outline (left) for the Wikipedia page on huskies is reflected in its Contents page navigation (right)
 
-If you look at Google’s design and content guidelines, they’re exactly the same as the suggestions you’d find in accessibility guidelines ([*https://a4e.lin**k/05-02/*](https://a4e.link/05-02/)):
+If you look at Google’s design and content guidelines, they’re exactly the same as the suggestions you’d find in accessibility guidelines ([https://a4e.link/05-02/](https://a4e.link/05-02/)):
 
 > “Create a useful, information-rich site, and write pages that clearly and accurately describe your content.”
 
@@ -154,7 +154,7 @@ Fig 5.13: Twitter’s “Keyboard shortcuts” use single-key shortcuts, which c
 
 Twitter shortcuts are of great value to some people using screen readers. When new tweets are available in the timeline, focus moves to a notification that informs the user: “New tweets available. Press Period to review them.” The user doesn’t have to navigate to the tweets area, but can instead just use the Period key.
 
-As useful as these shortcuts are, keyboard shortcuts provided by JavaScript don’t currently work with Windows screen readers. However, there is a hack to get around the problem, and support could be improved in the future. Read Léonie Watson’s post “Time to revisit accesskey?” for a more in-depth explanation ([*https://a4e.li**n**k/05-03/*](https://a4e.link/05-03/)).
+As useful as these shortcuts are, keyboard shortcuts provided by JavaScript don’t currently work with Windows screen readers. However, there is a hack to get around the problem, and support could be improved in the future. Read Léonie Watson’s post “Time to revisit accesskey?” for a more in-depth explanation ([https://a4e.link/05-03/](https://a4e.link/05-03/)).
 
 #### Access keys
 
@@ -222,7 +222,7 @@ If a keyboard navigation user uses the Tab key to navigate, the `tabindex` order
 
 `tabindex="0"` and `tabindex="-1`" have distinct functions. `tabindex="0"` tells the keyboard navigation to recognize an element in the standard tab order. This can be used to make a non-interactive element, such as a `p` or a `div`, into an element that can be reached with keyboard tabbing. But as I’ve just described with focus styles, turning non-interactive elements into interactive elements can flummox people using screen readers and keyboard navigation.
 
-`tabindex=`"`-``1`" removes an element from the tab index. That way no one can tab to it but the element can still receive focus from a link or via JavaScript. Remember earlier when we looked at how skip links can be a problem if the keyboard focus doesn’t match the visual focus? Scott Vinkle found that using `tabindex="-1"` on the element targeted by the skip link allows it to receive programmatic focus ([*https://a4e.link/05-05/*](https://a4e.link/05-05/)). When the user hits Tab again, the focus will follow the expected behavior and move to the next focusable element in the tab order.
+`tabindex=`"`-``1`" removes an element from the tab index. That way no one can tab to it but the element can still receive focus from a link or via JavaScript. Remember earlier when we looked at how skip links can be a problem if the keyboard focus doesn’t match the visual focus? Scott Vinkle found that using `tabindex="-1"` on the element targeted by the skip link allows it to receive programmatic focus ([https://a4e.link/05-05/](https://a4e.link/05-05/)). When the user hits Tab again, the focus will follow the expected behavior and move to the next focusable element in the tab order.
 
 `tabindex=`"`-1`" can also be valuable for more complex interfaces that try to behave like a desktop application interface. For example, a menu widget may want to receive tab focus (and so uses `tabindex=`"`0`"), but the list inside that menu may need to be controlled using Left and Right keys to expand and collapse the menu items. We can use `tabindex=`"`-1`" to give the menu visual focus, but leave the keyboard focus control to JavaScript (Fig 5.19).
 
@@ -351,7 +351,7 @@ People may rely on alternative styles if they find a site hard to read or access
 
 A simple example of progressive enhancement is adding `background-blend-mode`s to images on a site. Browsers that don’t support CSS `background-blend-mode` won’t parse the blend effects on the images, but the visitor’s core experience isn’t affected by seeing the original non-blended images instead. Visitors using browsers that *do* support CSS background-blend-mode can have an enhanced experience (Fig 5.27).
 
-A more complex example of progressive enhancement is when a simple interaction has a more complex interaction layered on top. I designed a responsive accessible HTML5 video player for Ind.ie based on Dennis Lembree’s accessible HTML5 video player ([*https://a4e.link/**05-06/*](https://a4e.link/05-06/)). The HTML for the video player just uses the HTML video tag, which plays the source video file with the native video player provided by the user’s operating system (Fig 5.28).
+A more complex example of progressive enhancement is when a simple interaction has a more complex interaction layered on top. I designed a responsive accessible HTML5 video player for Ind.ie based on Dennis Lembree’s accessible HTML5 video player ([https://a4e.link/05-06/](https://a4e.link/05-06/)). The HTML for the video player just uses the HTML video tag, which plays the source video file with the native video player provided by the user’s operating system (Fig 5.28).
 
 If JavaScript is enabled, a custom control panel replaces the controls of the native video player. These enhanced controls make the video player appear consistent across platforms and with the branding of the overall site, but aren’t necessary to operate the video player.
 
@@ -379,7 +379,7 @@ Fig 5.30: Don’t just assume that your browser is the best and everyone else wa
 
 ## WAI-ARIA
 
-*WAI-**ARIA* stands for Web Accessibility Initiative—Accessible Rich Internet Applications, but it’s often just referred to as “ARIA.” As web standards go, ARIA is pretty new —it’s only been a full-fledged web standard since March 2014. ARIA is particularly useful in conjunction with screen readers.
+*WAI-ARIA* stands for Web Accessibility Initiative—Accessible Rich Internet Applications, but it’s often just referred to as “ARIA.” As web standards go, ARIA is pretty new —it’s only been a full-fledged web standard since March 2014. ARIA is particularly useful in conjunction with screen readers.
 
 Complex web apps are trying to behave more like native desktop applications, and they make use of custom components or widgets to do that. These widgets allow for much richer interactions than just reading or clicking—think dragging and dropping content on the page or tracking video and audio progress using a progress bar. These complex components are usually accessible to developers in native desktop environments, but as web browsers and markup languages were originally designed with simpler, more document-based behavior in mind, browsers need extra help to understand how to make these features accessible.
 
@@ -401,13 +401,13 @@ One way to understand when the `role` attribute should be used is when you’ve 
 
 There currently isn’t an HTML element for marking up a dialog box that doesn’t interrupt the user’s activity, though I’m crossing my fingers that `dialog` makes it into the HTML5.2 spec. For now, we can use `role="alert"` to give the `div` alert box behavior.
 
-Other roles include `dialog`, `status`, and `timer`. There are many roles to use with straightforward, human-readable names—you can find a full list on the W3C website ([*http**s://a4e.link/05-07/*](https://a4e.link/05-07/)). As when writing well-structured HTML, remember to double-check the expected meaning of the role before using it with an element.
+Other roles include `dialog`, `status`, and `timer`. There are many roles to use with straightforward, human-readable names—you can find a full list on the W3C website ([https://a4e.link/05-07/](https://a4e.link/05-07/)). As when writing well-structured HTML, remember to double-check the expected meaning of the role before using it with an element.
 
 ### Landmarks
 
-*Document landmarks* are roles that help assistive technologies understand the role of a section and its relationship to other content on that page. Examples of document landmark roles include `navigation` and `article` ([*https://a4e.link**/05-08/*](https://a4e.link/05-08/)).
+*Document landmarks* are roles that help assistive technologies understand the role of a section and its relationship to other content on that page. Examples of document landmark roles include `navigation` and `article` ([https://a4e.link/05-08/](https://a4e.link/05-08/)).
 
-While document landmarks are useful for understanding a page’s structure, the idea is that you don’t need these landmarks if you’re already using HTML5 elements such as `nav` for navigation and `article` for an article. ARIA applied to these elements is just redundant. However, you’ll want to use document landmarks for Internet Explorer, as IE has yet to provide full accessibility support for these HTML5 elements. It’s worth checking Steve Faulkner’s HTML5 Accessibility page ([*https://a4e.link/05-09**/*](https://a4e.link/05-09/)) for information on current browser support.
+While document landmarks are useful for understanding a page’s structure, the idea is that you don’t need these landmarks if you’re already using HTML5 elements such as `nav` for navigation and `article` for an article. ARIA applied to these elements is just redundant. However, you’ll want to use document landmarks for Internet Explorer, as IE has yet to provide full accessibility support for these HTML5 elements. It’s worth checking Steve Faulkner’s HTML5 Accessibility page ([https://a4e.link/05-09/](https://a4e.link/05-09/)) for information on current browser support.
 
 ### States and properties
 
@@ -451,7 +451,7 @@ The `assertive` property can be quite obtrusive, so it should only be used when 
 
 There are no negative side effects to using ARIA correctly, so even though there’s still patchy support in some browsers, you should use it as needed. However, ARIA should never be used to replace well-structured HTML. It should be your last resort.
 
-ARIA only interacts with the accessibility layer of a browser, so it doesn’t provide the same inherent styles and behaviors that meaningful HTML provides. This also means that using ARIA won’t make an unusable website more accessible. As we’ve discussed, an unusable site is already an inaccessible site, so using ARIA with bad copy, poorly structured HTML, and a confusing layout will result in a confusing experience for assistive technologies. If you’re not sure if you need to use ARIA or not, the W3C has an easy guide for using ARIA in HTML ([*https:/**/a4e.lin**k/05-10/*](https://a4e.link/05-10/)).
+ARIA only interacts with the accessibility layer of a browser, so it doesn’t provide the same inherent styles and behaviors that meaningful HTML provides. This also means that using ARIA won’t make an unusable website more accessible. As we’ve discussed, an unusable site is already an inaccessible site, so using ARIA with bad copy, poorly structured HTML, and a confusing layout will result in a confusing experience for assistive technologies. If you’re not sure if you need to use ARIA or not, the W3C has an easy guide for using ARIA in HTML ([https://a4e.link/05-10/](https://a4e.link/05-10/)).
 
 ## Show Your Work
 
