@@ -1,14 +1,46 @@
 {
-  "name": "afe",
+  "name": "accessibility-for-everyone-site",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "engines": {
+    "node": "22.11.0",
+    "npm": ">= 10.9.0"
+  },
+  "keywords": ["accessibility", "inclusivity", "book", "Laura Kablag", "Accessibility For Everyone", "a4e", "Small Web", "Kitten", "Small Tech", "Small Technology", "Small Technology Foundation"],
+  "author": {
+      "name": "Aral Balkan",
+      "url": "https://ar.al"
+    },
+  "contributors": [
+    {
+      "name": "Eaton",
+      "url": "https://eaton.fyi/"
+    },
+    {
+      "name": "Mat Marquis:",
+      "url": "https://hire.wil.to/"
+    },
+    {
+      "name": "Laura Kalbag",
+      "url": "https://laurakalbag.com"
+    }
+  ],
+  "license": "AGPL-version-3.0",
+  "description": "Web site for Laura Kalbag’s book, Accessibility For Everyone. License specified is for the web site code, not the contents of the book as found in the page.md files.",
+  "homepage": "https://codeberg.org/laurakalbag/accessibilityforeveryonedotsite",
+  "repository": {
+    "type": "git",
+    "url": "https://codeberg.org/laurakalbag/accessibilityforeveryonedotsite"
+  },
+  "bugs": "https://codeberg.org/laurakalbag/accessibilityforeveryonedotsite/issues",
+  "funding": {
+    "type": "foundation",
+    "url": "https://small-tech.org/fund-us/"
+  },
   "dependencies": {
     "@small-web/kitten": "^5.2.0"
   }
