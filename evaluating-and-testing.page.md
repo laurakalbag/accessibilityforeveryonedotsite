@@ -144,7 +144,7 @@ Much like at the user research stage, it’s best to conduct usability testing w
 
 Try your best not to test with people who are working on the project: they will likely fail to notice the problems that might hold up other users, may not be part of the target audience at all, and are likely to have conflicting goals with other users. How the intended audience really interact with a product is often different from the assumptions of a team who may know the web much better and are much more familiar with the product itself.
 
-<figure><img alt="Figure" src="/images/fig-6.04-Keyboard-settings.png"/><figcaption>Fig 6.4: Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog ([https://a4e.link/06-07/](https://a4e.link/06-07/)).</figcaption></figure>
+<figure><img alt="Figure" src="/images/fig-6.04-Keyboard-settings.png"/><figcaption>Fig 6.4: Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog (<a href="https://a4e.link/06-07/">https://a4e.link/06-07/</a>).</figcaption></figure>
 
 ### Finding participants
 

@@ -58,7 +58,7 @@ Normal color vision uses all three light cones in our eyes, and is known as *tri
 
 Color blindness has a significant impact on the readability and comprehension of a page. Text colors need to be readable against background colors, and because different people perceive color differently, it’s unreliable to use color to signify meaning.
 
-<figure><img alt="Figure" src="/images/fig-2.01-comparing-colour-blindness.png"/><figcaption>Fig 2.1: A kingfisher in its original photo, then duplicated (left to right) with simulated deuteranopia, protanopia, tritanopia and monochromacy. Photograph courtesy of Foundry ([https://a4e.link/02-01/](https://a4e.link/02-01/)).</figcaption></figure>
+<figure><img alt="Figure" src="/images/fig-2.01-comparing-colour-blindness.png"/><figcaption>Fig 2.1: A kingfisher in its original photo, then duplicated (left to right) with simulated deuteranopia, protanopia, tritanopia and monochromacy. Photograph courtesy of Foundry (<a href="https://a4e.link/02-01/">https://a4e.link/02-01/</a>).</figcaption></figure>
 
 #### Eyesight loss
 
@@ -115,7 +115,7 @@ Learning disabilities are common in people of all ages. People with learning dis
 
 The British Dyslexia Association allows visitors to choose their preferred color palette from a menu at the top of the screen. The menu also relies on symbols over text, making the site easier for people with dyslexia to use. I found the site somewhat hard to use, as I’m not dyslexic and I’m more accustomed to text-based menus. This is a great example of an organization prioritizing the needs of its target audience over other audiences (Fig 2.3).
 
-<figure><img alt="Figure" src="/images/fig-2.03-British_Dyslexia_Association.png"/><figcaption>Fig 2.3: The top of the British Dyslexia Association’s site displays an array of accessibility options, including text to speech ([https://a4e.link/02-02/h](https://a4e.link/02-02/)).</figcaption></figure>
+<figure><img alt="Figure" src="/images/fig-2.03-British_Dyslexia_Association.png"/><figcaption>Fig 2.3: The top of the British Dyslexia Association’s site displays an array of accessibility options, including text to speech (<a href="https://a4e.link/02-02/">https://a4e.link/02-02/</a>).</figcaption></figure>
 
 Even though he isn’t blind, Sam—like many others with dyslexia—relies on screen readers when using a computer. He finds JAWS’s voices too robotic, and prefers NaturalReader by NaturalSoft Ltd. ([https://a4e.link/02-03/](https://a4e.link/02-03/)) to hear the text in natural speech form. Sam usually chooses to copy and paste the text he wants read aloud into the software, rather than it reading whole pages. He doesn’t want the screen reader to read him the meta information (such as headings and alternative text for images), which distracts him from the primary text.
 

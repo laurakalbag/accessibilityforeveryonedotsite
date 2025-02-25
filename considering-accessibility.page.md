@@ -33,7 +33,7 @@ I’ll start with some definitions. *Accessibility* in the physical world is the
 
 In our physical spaces, we understand that accessibility isn’t just about wheelchairs—our environments are designed to accommodate an increasingly wide range of needs. For example, interior designers are phasing out spherical door knobs in favor of pivoting door handles, because pivoting handles make it easier for people with limited movement in their arms and hands to open doors (Fig 1.2).
 
-<figure><img alt="A pivoting door handing which is opened with a push downwards and a door knob which is opened with a rotating motion.](/images/fig-1.02-door-handles.png"/><figcaption>Fig 1.2: Pivoting handles (left) only require a gentle push from above. Spherical door knobs (right) require a gripped, twisting motion. (Pivoting handles are so easy to use, my dog can use them. Though I really wish he couldn’t!)</figcaption></figure>
+<figure><img alt="A pivoting door handing which is opened with a push downwards and a door knob which is opened with a rotating motion." src="/images/fig-1.02-door-handles.png"/><figcaption>Fig 1.2: Pivoting handles (left) only require a gentle push from above. Spherical door knobs (right) require a gripped, twisting motion. (Pivoting handles are so easy to use, my dog can use them. Though I really wish he couldn’t!)</figcaption></figure>
 
 
 Similarly, many pedestrian traffic crossings play a tone to let people with visual difficulties know that it’s safe to cross. Movies offer subtitles so that people with hearing difficulties can follow the dialogue. And signage is written with as few words as possible to help people with reading difficulties understand their environment. These design features don’t make the objects less usable for those *without* the particular impairments they address—in fact, they usually make a product easier for everyone to use.
@@ -90,7 +90,7 @@ Apple’s VoiceOver screen reader has been revolutionary for users of Apple comp
 
 Over the last few years, free and open-source screen readers have popped up, such as NVDA (NonVisual Desktop Access) for Windows, Linux Screen Reader (LSR), and Orca for Linux. Window-Eyes, a proprietary screen reader for Windows, used to be as expensive as JAWS but is now free. Microsoft has a screen reader called Narrator which is similar to Apple’s VoiceOver and has recently been improved a great deal. Both VoiceOver and Narrator can be enabled quickly, providing instant access to anyone requiring a screen reader. No configuration is needed unless a user has other preferences (Fig 1.7).
 
-<figure><img alt="Narrator settings for on/off, choice of voice with speed and pitch sliders, and options to turn on sounds for controls and buttons as well as characters you type.](/images/fig-1.07-narrator.png"/><figcaption>Fig 1.7: Narrator Settings in Windows 8.1: Narrator also has a developer mode that helps you identify which objects are accessible to Narrator ([https://a4e.link/01-02/](http://bkaprt.com/afe/01-02/)).</figcaption></figure>
+<figure><img alt="Narrator settings for on/off, choice of voice with speed and pitch sliders, and options to turn on sounds for controls and buttons as well as characters you type." src="/images/fig-1.07-narrator.png"/><figcaption>Fig 1.7: Narrator Settings in Windows 8.1: Narrator also has a developer mode that helps you identify which objects are accessible to Narrator <a href="https://a4e.link/01-02/">https://a4e.link/01-02/</a>.</figcaption></figure>
 
 When deciding on which screen reader you want to use (or can afford), you’re left with striking a balance. JAWS *is* expensive, but it offers better support for more applications across Windows than other screen readers. VoiceOver has good support on Apple’s own apps and web browsers, but mixed support across other developers’ apps.
 
@@ -104,7 +104,7 @@ For people with visual impairments, a refreshable braille display can be used wi
 
 Keyboard navigation describes a situation when a person uses only a keyboard to access a computer or site. Screen readers are often (but not always!) paired with keyboard navigation. Sometimes specialist keyboards, such as custom keyboards or on-screen keyboards, are used to assist with keyboard use and keyboard-only navigation.
 
-<figure><img alt="Figure" src="/images/fig-1.08-braille-display.png"/><figcaption>Fig 1.8: Braille displays are very expensive, which limits how many people can afford to use them. (Photo courtesy of Karola Riegler [https://a4e.link/01-03/](https://a4e.link/01-03/)).</figcaption></figure>
+<figure><img alt="Figure" src="/images/fig-1.08-braille-display.png"/><figcaption>Fig 1.8: Braille displays are very expensive, which limits how many people can afford to use them. (Photo courtesy of Karola Riegler <a href="https://a4e.link/01-03/">https://a4e.link/01-03/</a>).</figcaption></figure>
 
 Most keyboard-based web browsing uses the Up and Down cursor keys for scrolling, the Tab key for moving between interactive elements, and the Space bar or Enter key for interaction. Screen readers will often map keys to different, more contextually relevant, commands.
 
