@@ -278,7 +278,6 @@ figcaption {
 }
 .inner-nav a {
   font-size: 1em;
-  text-decoration: none;
   text-transform: capitalize;
 }
 .toc-btn {
@@ -297,7 +296,6 @@ figcaption {
   font-family: "Lora", Georgia, serif;
   font-weight: normal;
   text-transform: capitalize;
-  text-decoration: none;
   display: inline-block;
   transition: all 0.15s ease-in-out;
 }

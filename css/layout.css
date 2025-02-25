@@ -5,7 +5,7 @@
   left: 0;
   z-index: 2;
   padding-bottom: 0.425em;
-  background: #fefefe;
+  background: var(--colour-foreground);
   position: fixed;
 }
 .outer-wrap {
