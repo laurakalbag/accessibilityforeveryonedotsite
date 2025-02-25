@@ -58,10 +58,10 @@
 }
 .cover {
   background: #016026;
-  padding-top: clamp(8.5em, 20vw, 15em);
+  padding-top: clamp(4.5em, 10vw, 9em);
 }
 .cover .outer-wrap {
-  padding-bottom: 6.5vw;
+  padding-bottom: clamp(1.125em, 2.5vw, 2.25em);
 }
 .title-section h1 {
   margin: 0;
