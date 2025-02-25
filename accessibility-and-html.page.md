@@ -419,7 +419,7 @@ In *Inclusive Design Patterns*, Heydon Pickering recommends using `describedby` 
 
 <input type="text" id="password" aria-invalid="true" aria- describedby="password-hint">
 
-<div id="password-hint">Your password must be at least 6 characters long</div> 
+<div id="password-hint">Your password must be at least 6 characters long</div>
 
 ### Live regions
 
