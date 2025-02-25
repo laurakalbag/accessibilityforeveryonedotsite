@@ -26,15 +26,9 @@ On the web, using conventions well makes for a gentler learning curve for new vi
 
 Alas, a visual metaphor can backfire if it looks like one object but performs like another. One of my pet peeves is when a link to another site is made to look like a button. The button style is usually chosen over a conventional link style to draw more attention to the link, but the conventional behavior of a button is to perform an action within the site, not to redirect the user to a different location. It’s like turning on your bedroom light only to find you’ve been teleported to your kitchen (Fig 4.4).
 
-<figure>
-<img alt="Figure" src="/images/fig-4.03-default-buttons.png"/>
-<figcaption>Fig 4.3: An HTML `<button>` in Safari, Firefox, and Google Chrome is rendered slightly differently depending on the browser’s default style, but they all look buttonesque.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.03-default-buttons.png"/><figcaption>Fig 4.3: An HTML `<button>` in Safari, Firefox, and Google Chrome is rendered slightly differently depending on the browser’s default style, but they all look buttonesque.</figcaption></figure>
 
-<figure>
-<img alt="Figure" src="/images/fig-4.04-coupon-button.png"/>
-<figcaption>Fig 4.4: Coupon code sites often style links to other sites as calls to action. This “Click to Redeem” is just an affiliate link to the Happy Feet homepage.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.04-coupon-button.png"/><figcaption>Fig 4.4: Coupon code sites often style links to other sites as calls to action. This “Click to Redeem” is just an affiliate link to the Happy Feet homepage.</figcaption></figure>
 
 Affordances and conventions should inform the design and content of your sites. Content could be text, images, video, audio, or interactive experiences. Ensuring that it’s all designed to be usable and accessible is paramount—starting with how the user finds their way around the content.
 
@@ -46,10 +40,7 @@ Without a strong information architecture, people can easily get lost. We need t
 
 Most sites use a navigation bar at the top of the page that contains a list of links to a site’s main areas. You’ll find many forms of navigation on the web, but this is probably the most common. However, the navigation bar doesn’t just provide a means to travel around your site—it can also provide a summary of what a visitor can expect to find (Fig 4.5).
 
-<figure>
-<img alt="Figure" src="/images/fig-4.05-United_Nations.png"/>
-<figcaption>Fig 4.5: The United Nations homepage uses subnavigation which doubles as a description of what you can find in each section.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.05-United_Nations.png"/><figcaption>Fig 4.5: The United Nations homepage uses subnavigation which doubles as a description of what you can find in each section.</figcaption></figure>
 
 Subnavigation bars, sidebars, and footers also provide visitors with a better idea of what’s available on your site. However, it’s difficult to rely on these navigation patterns as they’re not consistent from one site to another and people may not always understand where to look.
 
@@ -57,10 +48,7 @@ When the navigation reflects the information architecture of your site, it gives
 
 Once we’ve established what you want to include in your navigation elements, we can consider the text for each link. With usability in mind, and to paraphrase Steve Krug’s *Don’t Make Me Think!*, we’ve learned it’s best to make navigation descriptive and concise. It’s hard for a new visitor to understand what to expect from a site archiving interviews about the games industry when the navigation lists “Clips, Minds, Playlists, Conversations” (Fig 4.6). When we use terminology that’s easy to understand, more visitors will be able to find what they want (Fig 4.7).
 
-<figure>
-<img alt="Figure" src="/images/fig-4.06-nav.png"/>
-<figcaption>Fig 4.6: Without further explanation, a visitor can only really be assured of the contents in the “Clips” section.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.06-nav.png"/><figcaption>Fig 4.6: Without further explanation, a visitor can only really be assured of the contents in the “Clips” section.</figcaption></figure>
 
 #### Mystery meat<span><em></em></span>
 
@@ -84,17 +72,11 @@ Links are as old as the web, so long-standing conventions and standards have dev
 
 These common styles make links easy to recognize on a page. Over the years, fewer sites have stuck to the blue color standard, but most still use the underline to distinguish a link from non-interactive text. The contrast between link text and regular text is the key consideration. Finding links in a body of text shouldn’t be a cruel game where the reader has to hover over every word to find them.
 
-<figure>
-<img alt="Figure" src="/images/fig-4.12-links.png"/>
-<figcaption>Fig 4.12: The humble link in all its default style glory.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.12-links.png"/><figcaption>Fig 4.12: The humble link in all its default style glory.</figcaption></figure>
 
 Two years ago, Google decided to drop the underlined style in their links ([https://a4e.link/04-03/](https://a4e.link/04-03/)). The lack of underlines makes the page layout appear much cleaner and the text slightly easier to read (Fig 4.13).
 
-<figure>
-<img alt="Figure" src="/images/6.png"/>
-<figcaption>Fig 4.13: Google search results looks more crowded with links underlined (left) than when the links are just big and blue (right).</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/6.png"/><figcaption>Fig 4.13: Google search results looks more crowded with links underlined (left) than when the links are just big and blue (right).</figcaption></figure>
 
 Making a change this significant was a big deal for Google: they could lose a lot of page clicks—one of their sources of income—if people couldn’t distinguish the links from the rest of the text. However, Google’s other design decisions ensured they stuck with enough conventions to keep the links obvious:
 
@@ -108,8 +90,7 @@ I mentioned earlier that screen readers can jump between links on a page. Naviga
 
 The “click here” repetition is a common issue caused by nondescript link text (Fig 4.14). This often crops up in sentences ending with a call to action, such as “To get in contact with our team, click here.”
 
-<figure>
-<img alt="Figure" src="/images/fig-4.14-click-here.png)Fig 4.14: Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)
+<figure><img alt="Figure" src="/images/fig-4.14-click-here.png)Fig 4.14: Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)
 
 The problem is that using “click here” as the language for your links renders the links meaningless for those with screen readers as well as those without. Descriptive linking, instead, helps links make sense out of context, and provides users with a sense of where the link will take them or what will happen after they click. “Read the full article” is a lot more descriptive than “Click here.”
 
@@ -137,10 +118,7 @@ His ideal text format is the small bits of trivia presented on the IMDb (Interne
 
 ### Plain language
 
-<figure>
-<img alt="Figure" src="/images/fig-4.17-V_for_Vendetta_(2005)_-_IMDb.png"/>
-<figcaption>Fig 4.17: Every IMDb movie page is structured with content in the same order, and with the same headings.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.17-V_for_Vendetta_(2005)_-_IMDb.png"/><figcaption>Fig 4.17: Every IMDb movie page is structured with content in the same order, and with the same headings.</figcaption></figure>
 
 Clear, simple, and concise language makes the most accessible text. Concise writing comes with practice, and makes text much easier to read. I’m terrible at being concise, and always use more words than needed (as the editors of this book will attest!). I’ve found that Twitter is a great place to practice concise writing—I often rewrite tweets again and again to make them fit inside the character restriction.
 
@@ -172,10 +150,7 @@ Fonts have become widely used for icons too. However, icon fonts can cause probl
 
 However, these icon fonts rely on your using the symbols for the correct words in the font. Deciding to use the star symbol to mean “favorite” when the font uses it to mean “star” could result in screen readers uttering some odd-sounding language: “calendar, star, map” (Fig 4.21).
 
-<figure>
-<img alt="Figure" src="/images/fig-4.21-symbolset-navigation.png"/>
-<figcaption>Fig 4.21: The icons in Symbolset are designed to use semantic and accessible terms but rely on you using the exact same term as they do.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.21-symbolset-navigation.png"/><figcaption>Fig 4.21: The icons in Symbolset are designed to use semantic and accessible terms but rely on you using the exact same term as they do.</figcaption></figure>
 
 As with all frameworks and libraries, don’t assume that because an icon font is widely-used, it’s a best practice. If you choose to use icon fonts, be cautious to ensure you are not compromising accessibility. Use progressive enhancement so your icon fonts fall back to accessible text. (We’ll look more at progressive enhancement in the next chapter.)
 
@@ -229,15 +204,9 @@ If the user has done something wrong, explain clearly how they can rectify or ge
 
 Everyone on the team is responsible for creating a good experience for the people visiting their site. “Human copy” goes a long way in helping someone understand a problem, and how to fix it.
 
-<figure>
-<img alt="Figure" src="/images/fig-4.28-Sign_In___Est_e_Lauder.png"/>
-<figcaption>Fig 4.28: When this error came up on the Estée Lauder site, I wasn’t sure if I’d done something wrong or was just on the receiving end of a peculiar log message.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.28-Sign_In___Est_e_Lauder.png"/><figcaption>Fig 4.28: When this error came up on the Estée Lauder site, I wasn’t sure if I’d done something wrong or was just on the receiving end of a peculiar log message.</figcaption></figure>
 
-<figure>
-<img alt="Figure" src="/images/fig-4.29-basecamp-error.png"/>
-<figcaption>Fig 4.29: There are no past events in my Schedule, but instead of showing an error or an empty page, Basecamp tells me how this feature works, with a bonus cute illustration.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.29-basecamp-error.png"/><figcaption>Fig 4.29: There are no past events in my Schedule, but instead of showing an error or an empty page, Basecamp tells me how this feature works, with a bonus cute illustration.</figcaption></figure>
 
 ## Color
 
@@ -255,10 +224,7 @@ While we aim for high contrast for the majority of visitors, if the contrast bet
 
 Geri Coady, author of the fantastic *Color Accessibility Workflows*, recommends working in grayscale to test your designs. In grayscale, you can quickly see whether the text is readable against the background (Fig 4.32).
 
-<figure>
-<img alt="Figure" src="/images/7.png"/>
-<figcaption>Fig 4.31: When text is used over a photo with different textures and shapes in the background (left), the text is much harder to read and appears lower in contrast than against a solid color background (right).</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/7.png"/><figcaption>Fig 4.31: When text is used over a photo with different textures and shapes in the background (left), the text is much harder to read and appears lower in contrast than against a solid color background (right).</figcaption></figure>
 
 Avoiding contrast that is either too low or too high can feel like a difficult balancing act. Use your best judgment. And back it up with color-contrast checking tools and color-blindness emulation tools, which we’ll discuss in Chapter 6.
 
@@ -270,17 +236,11 @@ Using both the color swatch and the color name on product pages gives the user a
 
 Red is often used in forms to distinguish required fields or error fields because it’s a bright and eye-catching color. However, to many color-blind and visually impaired users, red is indistinguishable—so a form with errors will look the same as a form without errors. Users with cognitive difficulties or little previous experience on the web may also find it hard to understand (Fig 4.34).
 
-<figure>
-<img alt="Figure" src="/images/8.png"/>
-<figcaption>Fig 4.33: Fashionable names for colors can be unhelpful too. A nail polish in Relish The Moment may appear pickle green for someone with deuteranopia color blindness (simulated right) compared to its actual red (left).</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/8.png"/><figcaption>Fig 4.33: Fashionable names for colors can be unhelpful too. A nail polish in Relish The Moment may appear pickle green for someone with deuteranopia color blindness (simulated right) compared to its actual red (left).</figcaption></figure>
 
 Visual styling is still a valuable tool for getting the visitor’s attention, but using text explanations in addition to red borders will make an error or required field accessible to as many people as possible.
 
-<figure>
-<img alt="Figure" src="/images/9.png"/>
-<figcaption>Fig 4.34: The form errors on Etsy have a pink-red highlighted background, which is still very noticeable when you see the same form in grayscale.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/9.png"/><figcaption>Fig 4.34: The form errors on Etsy have a pink-red highlighted background, which is still very noticeable when you see the same form in grayscale.</figcaption></figure>
 
 ## Rich Media
 
@@ -298,10 +258,7 @@ When a screen reader comes across an image that has no `alt` attribute, in an at
 
 Providing text alternatives for images can help someone understand the context of an image without seeing the image itself. We don’t need to be overly descriptive. Poor alternative text for an image might be something like “a dog in the park.” But describing the image as “My dog Oskar sitting by a *hundrastplats* sign which means ‘dog park’ in Swedish” gives more context and meaning to the image (Fig 4.35).
 
-<figure>
-<img alt="Figure" src="/images/fig-4.35-t1G2JHyVSyaXHbK7G6BEBQ_thumb_186e.png"/>
-<figcaption>Fig 4.35: The key information about this photo is that a dog is sitting by a sign. The sign is unusual, so what it says is important.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.35-t1G2JHyVSyaXHbK7G6BEBQ_thumb_186e.png"/><figcaption>Fig 4.35: The key information about this photo is that a dog is sitting by a sign. The sign is unusual, so what it says is important.</figcaption></figure>
 
 Alternative text is not necessary for a decorative image, as decoration is more about providing atmosphere than information. In these cases, we should still use the alternative attribute, but leave the contents of the attribute blank, to tell the browser and screen readers that this image is not important:
 
@@ -325,15 +282,9 @@ Some ways of going about this are more intelligent than others, though. Simply d
 
 A text alternative may also be of use to someone who, because of cognitive or learning challenges, has difficulty understanding data presented in graphs and infographics. Furthermore, a text alternative offers a backup for all users, in case the image hasn’t loaded or the graphing library isn’t supported.
 
-<figure>
-<img alt="Figure" src="/images/fig-4.36-infographic.png"/>
-<figcaption>Fig 4.36: An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, [https://a4e.link/04-08/](https://a4e.link/04-08/).)</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.36-infographic.png"/><figcaption>Fig 4.36: An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, [https://a4e.link/04-08/](https://a4e.link/04-08/).)</figcaption></figure>
 
-<figure>
-<img alt="Figure" src="/images/fig-4.37-Infographic_with_description.png"/>
-<figcaption>Fig 4.37: The same infographic with the contents simply described alongside, making it more accessible for everyone.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.37-Infographic_with_description.png"/><figcaption>Fig 4.37: The same infographic with the contents simply described alongside, making it more accessible for everyone.</figcaption></figure>
 
 ### PDFs
 
@@ -398,10 +349,7 @@ If you’ve watched a movie in a language that’s foreign to you, you’ve prob
 
 As with transcripts, there are professional services that will create closed captions for you, but as it’s time-consuming work, these services can be expensive. YouTube has an auto-captioning option on videos, but speech-to-text software can be inaccurate if there is background noise, multiple speakers, or an accent unfamiliar to the software (Fig 4.38).
 
-<figure>
-<img alt="Figure" src="/images/fig-4.38-captioning-mytalk.png"/>
-<figcaption>Fig 4.38: YouTube’s auto-captioning is good, though tastily replaced “advertisers” with “appetizers” throughout this talk I gave at Creative Mornings Malmö.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-4.38-captioning-mytalk.png"/><figcaption>Fig 4.38: YouTube’s auto-captioning is good, though tastily replaced “advertisers” with “appetizers” throughout this talk I gave at Creative Mornings Malmö.</figcaption></figure>
 
 Producing your own closed captions will be the least expensive option and will enable you to write the most accurate text. Writing good closed captions is an art. You don’t want to show too much text on the screen at any one time, as it makes it harder to read alongside the main picture (Fig 4.39).
 

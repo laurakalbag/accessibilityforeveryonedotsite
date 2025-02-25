@@ -102,10 +102,7 @@ It’s perfectly acceptable for your code to fail validation, as long as it fail
 
 The most well-known validator is probably W3C’s markup validation tool ([https://a4e.link/06-04/](https://a4e.link/06-04/)), also known as the HTML validator. Among other warnings, it will inform you if you’ve missed a closing tag, quote mark, or required attribute, and if you’ve used an element where it isn’t allowed, or an element or attribute that doesn’t actually exist (Fig 6.2).
 
-<figure>
-<img alt="Figure" src="/images/fig-6.02-Showing_results_for_https_ind.ie_-_Nu_Html_Checker.png"/>
-<figcaption>Fig 6.2: Using a `meta` element with a `value` isn’t valid HTML, but it is the format Twitter understands for its summary cards.</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-6.02-Showing_results_for_https_ind.ie_-_Nu_Html_Checker.png"/><figcaption>Fig 6.2: Using a `meta` element with a `value` isn’t valid HTML, but it is the format Twitter understands for its summary cards.</figcaption></figure>
 
 Sometimes the errors reported by the HTML validator can be difficult to understand—“literal is missing closing delimiter”—but, fortunately, a page on the validation website helps explain the errors in plain English ([https://a4e.link/06-05/](https://a4e.link/06-05/)). (“Literal is missing closing delimiter” usually means you’ve forgotten a closing quotation mark.)
 
@@ -147,10 +144,7 @@ Much like at the user research stage, it’s best to conduct usability testing w
 
 Try your best not to test with people who are working on the project: they will likely fail to notice the problems that might hold up other users, may not be part of the target audience at all, and are likely to have conflicting goals with other users. How the intended audience really interact with a product is often different from the assumptions of a team who may know the web much better and are much more familiar with the product itself.
 
-<figure>
-<img alt="Figure" src="/images/fig-6.04-Keyboard-settings.png"/>
-<figcaption>Fig 6.4: Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog ([https://a4e.link/06-07/](https://a4e.link/06-07/)).</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/fig-6.04-Keyboard-settings.png"/><figcaption>Fig 6.4: Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog ([https://a4e.link/06-07/](https://a4e.link/06-07/)).</figcaption></figure>
 
 ### Finding participants
 
@@ -202,10 +196,7 @@ Consider adding a short form to your site for ongoing testing. A simple, obvious
 
 Twitter has a simple feedback mechanism in their @TwitterA11y Twitter account for accessibility feedback. The @TwitterA11y account is also used to broadcast new features and potential problems (Fig 6.5).
 
-<figure>
-<img alt="Figure" src="/images/16.png"/>
-<figcaption>Fig 6.5: Have you enabled image descriptions on your Twitter settings yet? No? Go do it right now, you’ll be learning to write great alt text in no time…</figcaption>
-</figure>
+<figure><img alt="Figure" src="/images/16.png"/><figcaption>Fig 6.5: Have you enabled image descriptions on your Twitter settings yet? No? Go do it right now, you’ll be learning to write great alt text in no time…</figcaption></figure>
 
 Testing is really another kind of research. Testing isn’t what you do at the end of a project to prove that you’re brilliant at your job—it’s the beginning of another iterative cycle in your project’s life. Test early and often, and then test again. Regular testing will reassure you that you’re heading in the right direction, or give you new targets if the accessibility falls short.
 

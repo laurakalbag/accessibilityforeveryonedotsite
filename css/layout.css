@@ -161,7 +161,7 @@ figure img {
   padding: 0;
   margin: 0;
   opacity: 0.975;
-  background: #000 9c;
+  background: #000000;
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
