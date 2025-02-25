@@ -23,7 +23,7 @@
   margin: auto;
   max-width: 100%;
   gap: 5%;
-  align-items: flex-end;
+  align-items: center;
 }
 .logo {
   margin: 0;
