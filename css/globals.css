@@ -1,40 +1,35 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 body {
-	margin: 0;
+  margin: 0;
 }
-
 .sr-only {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
-	display: inline-block;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  display: inline-block;
 }
 .sr-only:focus,
 .sr-only:active,
 .sr-only:hover {
-	clip: auto;
-	height: auto;
-	overflow: visible;
-	position: absolute;
-	width: auto;
+  clip: auto;
+  height: auto;
+  overflow: visible;
+  position: absolute;
+  width: auto;
 }
-
 [aria-hidden="true"] {
-	display: none;
+  display: none;
 }
-
 img {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
-
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }

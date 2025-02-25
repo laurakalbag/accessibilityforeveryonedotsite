@@ -1,314 +1,289 @@
 @font-face {
-	font-family: 'League Gothic Condensed';
-	src: url('/fonts/LeagueGothic-Condensed.woff2') format('woff2'),
-		url('/fonts/LeagueGothic-Condensed.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Sofia Sans Extra Condensed";
+  src: url("/fonts/SofiaSansExtraCondensed-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'League Gothic';
-	src: url('/fonts/LeagueGothic-Regular.woff2') format('woff2'),
-		url('/fonts/LeagueGothic-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Sofia Sans Extra Condensed";
+  src: url("/fonts/SofiaSansExtraCondensed-VariableFont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('/fonts/OpenSans-Regular.woff2') format('woff2'),
-		url('/fonts/OpenSans-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('/fonts/OpenSans-Bold.woff2') format('woff2'),
-		url('/fonts/OpenSans-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Lora';
-	src: url('/fonts/Lora-Regular.woff2') format('woff2'),
-		url('/fonts/Lora-Regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-VariableFont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Lora';
-	src: url('/fonts/Lora-Italic.woff2') format('woff2'),
-		url('/fonts/Lora-Italic.woff') format('woff');
-	font-weight: normal;
-	font-style: italic;
-	font-display: swap;
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-VariableFont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Lora';
-	src: url('/fonts/Lora-Bold.woff2') format('woff2'),
-		url('/fonts/Lora-Bold.woff') format('woff');
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Lora";
+  src: url("/fonts/Lora-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
 @font-face {
-	font-family: 'Lora';
-	src: url('/fonts/Lora-SemiBoldItalic.woff2') format('woff2'),
-		url('/fonts/Lora-SemiBoldItalic.woff') format('woff');
-	font-weight: bold;
-	font-style: italic;
-	font-display: swap;
+  font-family: "Lora";
+  src: url("/fonts/Lora-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
-
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-VariableFont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-VariableFont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
 .logo {
-	font-size: clamp( 1em, 2.5vw, 1.3em );
-	a {
-		font-family: "Lora", serif;
-		text-decoration: none;
-		font-weight: normal;
-		color: #444;
-	}
+  font-size: clamp(1em, 2.5vw, 1.3em);
 }
-
+.logo a {
+	font-family: "Sofia Sans Extra Condensed", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+  text-decoration: none;
+  color: #444;
+}
 .book-body {
-	font-size: clamp( .8em, 1.25vw, 1.2em );
-
-	h1,
-	h2 {
-		font-family: "League Gothic", sans-serif;
-		text-transform: uppercase;
-		font-size: 2.25em;
-		font-weight: normal;
-	}
-
-	h1, h2, h3, h4, h5 {
-		padding: 0;
-		margin: 1.5em 0 .5em 0;
-	}
-
-	h3 {
-		font-family: "Lora", serif;
-		font-size: 1.4em;
-		font-weight: bold;
-	}
-
-	h4 {
-		color: #666;
-		font-family: "Open Sans", sans-serif;
-		font-size: 1.1em;
-		font-weight: bold;
-	}
-
-	& > ul,
-	& > ol {
-		margin-top: 1.5em;
-		margin-bottom: 1.8em;
-	}
-
-	li,
-	p {
-		font-family: "Lora", serif;
-		color: #15141A;
-		font-size: 1.1875em;
-		line-height: 1.5;
-		margin: .625em 0;
-	}
-
-	li {
-		font-size: clamp( .9rem, 1.5vw, 1.25rem );
-		line-height: 1.4;
-		margin: .25em 0;
-	}
-
-	p + p {
-		padding: 0;
-		margin: 1.25em 0;
-	}
-
-	blockquote {
-		margin: 1.75em 0 2.2em 2vw;
-	}
-
-	blockquote p {
-		font-style: italic;
-		color: #666;
-	}
+  font-size: clamp(0.8em, 1.25vw, 1.2em);
 }
-
+h1,
+h2 {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.25em;
+  font-weight: normal;
+}
+.book-body h1,
+.book-body h2,
+.book-body h3,
+.book-body h4,
+.book-body h5 {
+  padding: 0;
+  margin: 1.5em 0 0.5em 0;
+}
+.book-body h3 {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.book-body h4 {
+  color: #666;
+  font-family: "Mulish", sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.book-body > ul,
+.book-body > ol {
+  margin-top: 1.5em;
+  margin-bottom: 1.8em;
+}
+.book-body li,
+.book-body p {
+  font-family: "Lora", Georgia, serif;
+  color: #15141a;
+  font-size: 1.1875em;
+  line-height: 1.5;
+  margin: 0.625em 0;
+}
+.book-body li {
+  font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+  line-height: 1.4;
+  margin: 0.25em 0;
+}
+.book-body p + p {
+  padding: 0;
+  margin: 1.25em 0;
+}
+.book-body blockquote {
+  margin: 1.75em 0 2.2em 2vw;
+}
+.book-body blockquote p {
+  font-style: italic;
+  color: #666;
+}
 code {
-	background: #f2f2f2;
-	color: #575aad;
-	font-size: .9em	;
-	padding: .1em;
+  background: #f2f2f2;
+  color: #575aad;
+  font-size: 0.9em;
+  padding: 0.1em;
 }
-
 pre {
-	background-color: #f2f2f2;
-	padding: 1.2em 1em;
-	margin: 2em 0;
-	font-size: 1.15em;
-	line-height: 1.55;
-	overflow: auto;
-	border: solid #ccc;
-	border-width: 0 0 0 4px;
+  background-color: #f2f2f2;
+  padding: 1.2em 1em;
+  margin: 2em 0;
+  font-size: 1.15em;
+  line-height: 1.55;
+  overflow: auto;
+  border: solid #ccc;
+  border-width: 0 0 0 4px;
 }
-
 figcaption {
-	font-size: .925em;
-	font-family: "Open Sans", sans-serif;
-	color: #666;
-	margin-top: .5em;
+  font-size: 0.925em;
+  font-family: "Mulish", sans-serif;
+  color: #666;
+  margin-top: 0.5em;
 }
-
 .title-section h1 {
-	font-family: "League Gothic", sans-serif;
-	text-transform: uppercase;
-	font-weight: normal;
-	letter-spacing: -.025em;
-	font-size: clamp(5em,20vw,14em);
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: -0.025em;
+  font-size: clamp(5em, 20vw, 14em);
 }
-
 .author {
-	font-size: clamp(1.15em, 3vw, 2.4em );
-	padding-bottom: .35em;
-	color: #fff;
-	font-style: normal;
-	font-weight: bold;
-	font-family: "Lora", serif;
+  font-size: clamp(1.15em, 3vw, 2.4em);
+  padding-bottom: 0.35em;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Lora", Georgia, serif;
 }
-
 .btn-cta {
-	font-size: clamp(1.45em, 4vw, 2.1em );
-	font-family: "League Gothic", sans-serif;
-	letter-spacing: .025em;
-	text-transform: uppercase;
-	background: #000;
-	color: #fff;
-	text-decoration: none;
-	transition: background .15s linear;
-	border-radius: 3px;
+  font-size: clamp(1.45em, 4vw, 2.1em);
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.15s linear;
+  border-radius: 3px;
 }
-
 .btn-cta:hover {
-	background: #333;
-	color: #fff;
+  background: #333;
+  color: #fff;
 }
-
 .footer {
-	color: #666;
-	font-family: "Open Sans", sans-serif;
+  color: #666;
+  font-family: "Mulish", sans-serif;
 }
-
 .footer p {
-	color: #666;
-	font-size: 1em;
-	font-family: "Open Sans", sans-serif;
+  color: #666;
+  font-size: 1em;
+  font-family: "Mulish", sans-serif;
 }
-
 .meta-hed {
-	color: #666;
-	font-family: "League Gothic", sans-serif;
-	font-weight: normal;
-	font-size: 1.45em;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	margin: .25em 0 0 0;
+  color: #666;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 1.45em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0.25em 0 0 0;
 }
-
 .pub-info p {
-	font-size: 1em;
-	line-height: 1.55;
+  font-size: 1em;
+  line-height: 1.55;
 }
-
 .pub-info p code {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
-
 .chapter-header {
-	display: flex;
-	flex-wrap: no-wrap;
-	align-items: flex-end;
-	font-size: clamp( .2em, 2vw, 1em);
+  display: flex;
+  flex-wrap: no-wrap;
+  align-items: flex-end;
+  font-size: clamp(0.2em, 2vw, 1em);
 }
-
 .chapter-title {
-	font-family: "League Gothic", sans-serif;
-	font-weight: normal;
-	text-transform: uppercase;
-	font-size: 5.5em;
-	line-height: .85;
-	margin: 0;
-	padding: 0;
-	text-shadow: 0 0 1em #FFF5;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 5.5em;
+  line-height: 0.85;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 1em #fff 5;
 }
-
 .chapter-num {
-	font-family: "League Gothic", sans-serif;
-	font-size: 15em;
-	line-height: .6;
-	color: #fff;
-	padding-right: .125em;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-size: 15em;
+  line-height: 0.6;
+  color: #fff;
+  padding-right: 0.125em;
 }
-
 .title-section h1 {
-	padding-right: 2.5vw;
-	line-height: .8;
-	font-size: clamp(4.5em, 12.5vw, 14em );
-	color: rgba(255,255,255,.95);
-	border-top: 2px solid #000;
-	border-bottom: 2px solid #000;
-	letter-spacing: -.01em;
-	padding: .12em 0;
+  padding-right: 2.5vw;
+  line-height: 0.8;
+  font-size: clamp(4.5em, 12.5vw, 14em);
+  color: rgba(255, 255, 255, 0.95);
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  letter-spacing: -0.01em;
+  padding: 0.12em 0;
 }
-
 .inner-nav {
-	margin-top: 4em;
-	padding-top: 1em;
-	border-top: 4px solid #f2f2f2;
-	font-family: "Open Sans", sans-serif;
+  margin-top: 4em;
+  padding-top: 1em;
+  border-top: 4px solid #f2f2f2;
+  font-family: "Mulish", sans-serif;
 }
-
 .inner-nav a {
-	font-size: .9em;
-	text-decoration: none;
-	text-transform: capitalize;
+  font-size: 0.9em;
+  text-decoration: none;
+  text-transform: capitalize;
 }
-
 .toc-btn {
-	font-family: "Open Sans", sans-serif;
-	color: #444;
-	font-size: .925em;
+  font-family: "Mulish", sans-serif;
+  color: #444;
+  font-size: 0.925em;
 }
-
 .header-nav a {
-	font-family: "Open Sans", sans-serif;
-	font-weight: bold;
-	font-size: .9em;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
 }
-
-.modal {
-	a {
-		color: rgba(255,255,255,.9);
-		font-size: 1.6em;
-		font-family: "Lora", serif;
-		font-weight: normal;
-		text-transform: capitalize;
-		text-decoration: none;
-		display: inline-block;
-		transition: all .15s ease-in-out;
-		&:hover {
-			color: rgba(255,255,255,.85);
-			transform: translate(.4em, 0);
-		}
-	}
+.modal a {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.6em;
+  font-family: "Lora", Georgia, serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.15s ease-in-out;
+}
+.modal a:hover {
+  color: rgba(255, 255, 255, 0.85);
+  transform: translate(0.4em, 0);
 }
