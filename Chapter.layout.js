@@ -20,16 +20,16 @@ export default function Chapter ({ SLOT, index }) {
 
   return kitten.html`
     <${Book}>
+      <div class='outer-wrap chapter-opener'>
+        <div class='inner-wrap chapter-header'>
+          <if ${isNumberedChapter(i)}>
+            <div class='chapter-num'>${chapterNumber}</div>
+          </if>
+          <h1 class='chapter-title'>${chapter.title}</h1>
+        </div>
+      </div>
       <div class='outer-wrap'>
         <div class='inner-wrap book-body'>
-          <div class='outer-wrap chapter-opener'>
-            <div class='inner-wrap chapter-header'>
-              <if ${isNumberedChapter(i)}>
-                <div class='chapter-num'>${chapterNumber}</div>
-              </if>
-              <h1 class='chapter-title'>${chapter.title}</h1>
-            </div>
-          </div>
 
           ${SLOT}
 
