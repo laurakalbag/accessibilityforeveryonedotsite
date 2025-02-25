@@ -202,11 +202,12 @@ em {
   font-style: italic;
 }
 strong {
+	color: var(--colour-foreground-highlight);
   font-weight: bold;
 }
 code {
   background: var(--colour-background-secondary);
-  color: #575aad;
+  color: var(--colour-foreground-highlight);
   font-size: 0.9em;
   padding: 0.1em;
 }
@@ -219,6 +220,9 @@ pre {
   overflow: auto;
   border: solid var(--colour-border);
   border-width: 0 0 0 4px;
+}
+pre code {
+  white-space: pre-wrap;
 }
 figcaption {
   font-size: 0.925em;
