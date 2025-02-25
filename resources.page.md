@@ -118,7 +118,7 @@ Check these blogs and sites regularly to benefit from the know-how of the access
 * “Sounding out the web: accessibility for deaf and hard of hearing people \[Part 1\].” David Swallow talks to Ruth MacMullen about her experience of being deaf and how it affects her use of the web ([https://a4e.link/08-48/](https://a4e.link/08-48/)).
 * “Accessibility with Dale Cruse.” Jen Simmons talks to Dale Cruse on The Web Ahead podcast ([https://a4e.link/01-01/](https://a4e.link/01-01/)).
 * “What Non-Disabled People Get Wrong About Accessibility.” Liam explains common misconceptions about accessibility ([https://a4e.link/08-49/](https://a4e.link/08-49/)).
-* “Accessibility According To Actual People with Disabilities.” Hampus Sethfors categories and summarises the tweets in response to Safia Abdalla’s question: “if you have a disability, what's the hardest thing about browsing the web?” ([https://a4e.link/05-50/](http://bkaprt.com/afe/05-50/))
+* “Accessibility According To Actual People with Disabilities.” Hampus Sethfors categories and summarises the tweets in response to Safia Abdalla’s question: “if you have a disability, what's the hardest thing about browsing the web?” ([https://a4e.link/05-50/](https://a4e.link/05-50/))
 
 ### Validators and inspectors
 

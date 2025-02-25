@@ -3,6 +3,7 @@
 :root {
 	--colour-foreground: #151515;
 	--colour-foreground-secondary: #3B3B3B;
+	--colour-foreground-highlight: #000;
 	--colour-background: #f5f3ee;
 	--colour-background-green: #028A37;
 	--colour-background-secondary: #D8D5D0;
@@ -16,14 +17,15 @@
   
   @media (prefers-color-scheme: dark) {
 	:root {
-	  --colour-foreground: #deddd8;
+	  --colour-foreground: #BEBCB2;
 	  --colour-foreground-secondary: #BEBCB2;
+	  --colour-foreground-highlight: #deddd8;
 	  --colour-background: #151515;
 	  --colour-background-green: #015B24;
 	  --colour-background-secondary: #0b0b0b;
 	  --colour-link: #50C3F2;
-	  --colour-border: #deddd8;
-	  --colour-button-background: #deddd8;
+	  --colour-border: #BEBCB2;
+	  --colour-button-background: #BEBCB2;
 	  --colour-button-text: #151515;
 	  --colour-button-active: #01C543;
 	  --colour-title-text: #fff;

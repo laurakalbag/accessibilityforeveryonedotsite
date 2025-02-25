@@ -153,7 +153,7 @@ a {
 .book-body h3,
 .book-body h4,
 .book-body h5 {
-	color: var(--colour-foreground);
+	color: var(--colour-foreground-highlight);
   padding: 0;
   margin: 1.5em 0 0.5em 0;
 }
@@ -194,10 +194,11 @@ a {
   margin: 1.75em 0 2.2em 2vw;
 }
 .book-body blockquote p {
-  font-style: italic;
+	font-family: "Mulish", sans-serif;
   color: var(--colour-foreground-secondary);
 }
 em {
+	color: var(--colour-foreground-highlight);
   font-style: italic;
 }
 strong {

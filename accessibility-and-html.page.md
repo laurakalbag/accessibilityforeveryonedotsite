@@ -120,7 +120,7 @@ The clearest way to show that a form field needs to be filled in is to clearly s
 
 <figure>
 	<img alt="Figure" src="/images/fig-5.09-miss-selfridge-form-amended.png"/>
-	<figcaption>Fig 5.9: Adding “(required)” tells you exactly what you need to know. Also, titles are never a real requirement...</figcaption>
+	<figcaption>Fig 5.9: Adding “(required)” tells you exactly what you need to know. Also, titles are never a real requirement…</figcaption>
 </figure>
 
 ### Label and input pairs

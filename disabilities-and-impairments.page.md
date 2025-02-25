@@ -23,7 +23,7 @@ Despite these difficulties, Sam spends nine hours a day on the web. He loves res
 An estimated 37,627,800 people in the US—12.1% of the population—have a disability. In the UK, 16% of working-age adults have a disability, amounting to over 11 million people. But what is a disability?
 
 > Disabilities is an umbrella term, covering impairments, activity limitations, and participation restrictions. An impairment is a problem in body function or structure; an activity limitation is a difficulty encountered by an individual in executing a task or action; while a participation restriction is a problem experienced by an individual in involvement in life situations.
-
+>
 > —World Health Organization
 
 That’s a tricky description, because impairments are multilevel and spread across a spectrum—we are all physically abled in different ways, some more than others. If you wear glasses, you probably don’t consider yourself disabled; but if your eyesight were to deteriorate by a few degrees, you may suddenly find yourself needing further assistance.
@@ -68,10 +68,7 @@ People with partial eyesight loss need clear labels, readable text sizes, and a 
 * *Glaucoma* is the result of damage to the optic nerve, and has the opposite effect of macular degeneration: the edges of your field of vision are obscured (Fig 2.2).
 * *Diabetic retinopathy* occurs when diabetes damages the blood vessels in light-sensitive eye tissue. It causes dark spots in your field of vision, obscuring or distorting what you see (Fig 2.2).
     
-    <figure><img alt="Figure" src="/images/fig-2.02-eyesight-degeneration-simulations.png)
-    
-    Fig 2.2: That kingfisher again, this time simulating (left to right) macular degeneration, glaucoma, and diabetic retinopathy.
-    
+<figure><img alt="Figure" src="/images/fig-2.02-eyesight-degeneration-simulations.png"/><figcaption>Fig 2.2: That kingfisher again, this time simulating (left to right) macular degeneration, glaucoma, and diabetic retinopathy.</figcaption></figure>
 
 ### Auditory impairments
 
@@ -131,7 +128,7 @@ Vestibular disorders are common, affecting as many as 35% of adults aged forty y
 
 This often manifests as motion sensitivity on the web. Animations, unconventional scrolling, and parallax backgrounds can cause headaches, dizziness, and nausea, sometimes lasting long after the animation is over.
 
-We can help people with vestibular disorders by giving them control over the animation and motion experiences on our websites. As Val Head wrote in “Designing Safer Web Animation For Motion Sensitivity”: “Consider offering an option to turn off, or reduce, motion....Providing what essentially boils down to an alternative way to view that content, or a little extra control, can be a big help for anyone sensitive to motion.” (*https://a4e.link/*[*02-04/*](http://bkaprt.com/afe/01-02/)). In order to be effective, the option to reduce motion should be presented to users before any animation happens.
+We can help people with vestibular disorders by giving them control over the animation and motion experiences on our websites. As Val Head wrote in “Designing Safer Web Animation For Motion Sensitivity”: “Consider offering an option to turn off, or reduce, motion… Providing what essentially boils down to an alternative way to view that content, or a little extra control, can be a big help for anyone sensitive to motion.” (*[https://a4e.link/02-04/](https://a4e.link/02-04/)*). In order to be effective, the option to reduce motion should be presented to users before any animation happens.
 
 Similar considerations can also help prevent seizures. Between 5–10% of people in the developed world will have at least one seizure in their life. About three in 100 people with epilepsy have photosensitive epilepsy, where seizures are triggered by flashing or flickering lights, as well as by high-contrast, striped, or checked patterns.
 
