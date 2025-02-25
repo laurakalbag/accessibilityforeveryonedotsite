@@ -168,7 +168,6 @@ figcaption {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-weight: normal;
-  letter-spacing: -0.025em;
   font-size: clamp(5em, 20vw, 14em);
 }
 .author {
@@ -182,7 +181,6 @@ figcaption {
 .btn-cta {
   font-size: clamp(1.45em, 4vw, 2.1em);
   font-family: "Sofia Sans Extra Condensed", sans-serif;
-  letter-spacing: 0.025em;
   text-transform: uppercase;
   background: #000;
   color: #fff;
@@ -208,7 +206,6 @@ figcaption {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: normal;
   font-size: 1.45em;
-  letter-spacing: 0.05em;
   text-transform: uppercase;
   margin: 0.25em 0 0 0;
 }
@@ -249,7 +246,6 @@ figcaption {
   color: rgba(255, 255, 255, 0.95);
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
-  letter-spacing: -0.01em;
   padding: 0.12em 0;
 }
 .inner-nav {
