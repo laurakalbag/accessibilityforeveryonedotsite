@@ -1,3 +1,33 @@
+:root {
+	--colour-foreground: #151515;
+	--colour-foreground-secondary: #3B3B3B;
+	--colour-background: #f5f3ee;
+	--colour-background-green: #028A37;
+	--colour-background-secondary: #D8D5D0;
+	--colour-link: #016289;
+	--colour-border: #151515;
+	--colour-button-background: #151515;
+	--colour-button-text: #f5f3ee;
+	--colour-button-active: #028A37;
+	--colour-title-text: #fff;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+	:root {
+	  --colour-foreground: #deddd8;
+	  --colour-foreground-secondary: #BEBCB2;
+	  --colour-background: #151515;
+	  --colour-background-green: #015B24;
+	  --colour-background-secondary: #0b0b0b;
+	  --colour-link: #50C3F2;
+	  --colour-border: #deddd8;
+	  --colour-button-background: #deddd8;
+	  --colour-button-text: #151515;
+	  --colour-button-active: #01C543;
+	  --colour-title-text: #fff;
+	}
+  }
+
 @font-face {
   font-family: "Sofia Sans Extra Condensed";
   src: url("/fonts/SofiaSansExtraCondensed-VariableFont.ttf") format("truetype");
@@ -98,23 +128,30 @@
   text-transform: uppercase;
   font-weight: normal;
   text-decoration: none;
-  color: #444;
+  color: var(--colour-foreground);
 }
 .book-body {
   font-size: clamp(0.8em, 1.25vw, 1.2em);
 }
 h1,
 h2 {
+color: var(--colour-foreground);
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-size: 2.25em;
   font-weight: normal;
+}
+a {
+	color: var(--colour-link);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.1rem;
 }
 .book-body h1,
 .book-body h2,
 .book-body h3,
 .book-body h4,
 .book-body h5 {
+	color: var(--colour-foreground);
   padding: 0;
   margin: 1.5em 0 0.5em 0;
 }
@@ -124,7 +161,7 @@ h2 {
   font-weight: bold;
 }
 .book-body h4 {
-  color: #666;
+  color: var(--colour-foreground-secondary);
   font-family: "Mulish", sans-serif;
   font-size: 1.1em;
   font-weight: bold;
@@ -137,7 +174,7 @@ h2 {
 .book-body li,
 .book-body p {
   font-family: "Lora", Georgia, serif;
-  color: #15141a;
+  color: var(--colour-foreground);
   font-size: 1.1875em;
   line-height: 1.5;
   margin: 0.625em 0;
@@ -156,7 +193,7 @@ h2 {
 }
 .book-body blockquote p {
   font-style: italic;
-  color: #666;
+  color: var(--colour-foreground-secondary);
 }
 em {
   font-style: italic;
@@ -165,25 +202,25 @@ strong {
   font-weight: bold;
 }
 code {
-  background: #f2f2f2;
+  background: var(--colour-background-secondary);
   color: #575aad;
   font-size: 0.9em;
   padding: 0.1em;
 }
 pre {
-  background-color: #f2f2f2;
+  background-color: var(--colour-background-secondary);
   padding: 1.2em 1em;
   margin: 2em 0;
   font-size: 1.15em;
   line-height: 1.55;
   overflow: auto;
-  border: solid #ccc;
+  border: solid var(--colour-border);
   border-width: 0 0 0 4px;
 }
 figcaption {
   font-size: 0.925em;
   font-family: "Mulish", sans-serif;
-  color: #666;
+  color: var(--colour-foreground-secondary);
   margin-top: 0.5em;
 }
 .title-section h1 {
@@ -195,7 +232,7 @@ figcaption {
 .author {
   font-size: clamp(1.15em, 3vw, 2.4em);
   padding-bottom: 0.35em;
-  color: #fff;
+  color: var(--colour-title-text);
   font-style: normal;
   font-weight: bold;
   font-family: "Lora", Georgia, serif;
@@ -204,27 +241,27 @@ figcaption {
   font-size: clamp(1.45em, 4vw, 2.1em);
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   text-transform: uppercase;
-  background: #000;
-  color: #fff;
+  background: var(--colour-button-background);
+  color: var(--colour-button-text);
   text-decoration: none;
   transition: background 0.15s linear;
   border-radius: 3px;
 }
 .btn-cta:hover {
-  background: #333;
-  color: #fff;
+  background: var(--colour-button-active);
+  color: var(--colour-button-text);
 }
 .footer {
-  color: #666;
+  color: var(--colour-foreground-secondary);
   font-family: "Mulish", sans-serif;
 }
 .footer p {
-  color: #666;
+  color: var(--colour-foreground-secondary);
   font-size: 1em;
   font-family: "Mulish", sans-serif;
 }
 .meta-hed {
-  color: #666;
+  color: var(--colour-foreground-secondary);
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: normal;
   font-size: 1.45em;
@@ -245,6 +282,7 @@ figcaption {
   font-size: clamp(0.2em, 2vw, 1em);
 }
 .chapter-title {
+	color: var(--colour-title-text);
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -252,28 +290,27 @@ figcaption {
   line-height: 0.85;
   margin: 0;
   padding: 0;
-  text-shadow: 0 0 1em #fff 5;
 }
 .chapter-num {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-size: 15em;
   line-height: 0.6;
-  color: #fff;
+  color: var(--colour-title-text);
   padding-right: 0.125em;
 }
 .title-section h1 {
   padding-right: 2.5vw;
   line-height: 0.8;
   font-size: clamp(4.5em, 12.5vw, 9em);
-  color: rgba(255, 255, 255, 0.95);
-  border-top: 2px solid #000;
-  border-bottom: 2px solid #000;
+  color: var(--colour-title-text);
+  border-top: 2px solid var(--colour-button-background);
+  border-bottom: 2px solid var(--colour-button-background);
   padding: 0.12em 0;
 }
 .inner-nav {
   margin-top: 4em;
   padding-top: 1em;
-  border-top: 4px solid #f2f2f2;
+  border-top: 4px solid var(--colour-border);
   font-family: "Mulish", sans-serif;
 }
 .inner-nav a {
@@ -282,7 +319,7 @@ figcaption {
 }
 .toc-btn {
   font-family: "Mulish", sans-serif;
-  color: #444;
+  color: var(--colour-foreground-secondary);
   font-size: 1em;
 }
 .header-nav a {
@@ -291,7 +328,7 @@ figcaption {
   font-size: 1em;
 }
 .modal a {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--colour-title-text);
   font-size: 1.6em;
   font-family: "Lora", Georgia, serif;
   font-weight: normal;
@@ -300,6 +337,5 @@ figcaption {
   transition: all 0.15s ease-in-out;
 }
 .modal a:hover {
-  color: rgba(255, 255, 255, 0.85);
-  transform: translate(0.4em, 0);
+  color: var(--colour-title-text);
 }
