@@ -1,6 +1,7 @@
 :root {
 	--colour-foreground: #151515;
 	--colour-foreground-secondary: #3B3B3B;
+	--colour-foreground-highlight: #000;
 	--colour-background: #f5f3ee;
 	--colour-background-green: #028A37;
 	--colour-background-secondary: #D8D5D0;
@@ -15,7 +16,8 @@
   @media (prefers-color-scheme: dark) {
 	:root {
 	  --colour-foreground: #BEBCB2;
-	  --colour-foreground-secondary: #ABA89B;
+	  --colour-foreground-secondary: #BEBCB2;
+	  --colour-foreground-highlight: #deddd8;
 	  --colour-background: #151515;
 	  --colour-background-green: #015B24;
 	  --colour-background-secondary: #0b0b0b;
@@ -135,7 +137,7 @@
 }
 h1,
 h2 {
-color: var(--colour-foreground);
+color: var(--colour-foreground-highlight);
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   text-transform: uppercase;
   font-size: 2.25em;
@@ -294,7 +296,7 @@ figcaption {
 .chapter-num {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   font-size: 15em;
-  line-height: 0.6;
+  line-height: 0.65;
   color: var(--colour-title-text);
   padding-right: 0.125em;
 }
