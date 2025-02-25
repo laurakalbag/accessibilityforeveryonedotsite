@@ -222,17 +222,17 @@ Text in Western languages is read horizontally from left to right. But text in l
 
 If you want your site to have international appeal, making it work in different alphabets and for right-to-left readers will go a long way toward improving the usability of your site. You can set the direction of the text using the `dir` attribute in HTML:
 
-```
+```html
 <body dir="rtl">
 ```
 
 You can also set the direction of the text using the “direction” property in CSS:
 
+```css
 body {
-
     direction: rtl;
-
 }
+```
 
 However, it’s best to add it to the HTML, as it will still display the text accessible to right-to-left readers if the CSS doesn’t load.
 

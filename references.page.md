@@ -209,7 +209,7 @@ Shortened URLs are numbered sequentially; the related long URLs are listed below
 
 08-47 [http://webaim.org/techniques/skipnav/](http://webaim.org/techniques/skipnav/)
 
-08-48 [https://www.paciellogroup.com/blog/2017/02/sounding-out-the-web-accessibility-for-deaf-and-hard-of-hearing-people-part-1*/*](https://www.paciellogroup.com/blog/2017/02/sounding-out-the-web-accessibility-for-deaf-and-hard-of-hearing-people-part-1/)
+08-48 [https://www.paciellogroup.com/blog/2017/02/sounding-out-the-web-accessibility-for-deaf-and-hard-of-hearing-people-part-1/](https://www.paciellogroup.com/blog/2017/02/sounding-out-the-web-accessibility-for-deaf-and-hard-of-hearing-people-part-1/)
 
 08-49 [https://yetanotherlefty.wordpress.com/2017/05/01/what-non-disabled-people-get-wrong-about-accessibility](https://yetanotherlefty.wordpress.com/2017/05/01/what-non-disabled-people-get-wrong-about-accessibility)
 
