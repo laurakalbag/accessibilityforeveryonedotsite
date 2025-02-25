@@ -3,6 +3,7 @@ title: Content and Design
 index: 5
 layout: ./Chapter.layout.js
 ---
+
 Design decisions made in the name of accessibility generally benefit everyone, because *all technology is assistive*. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren ([https://a4e.link/04-01/](https://a4e.link/04-01/)), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”
 
 Hendren asks, “What technology are you using that’s *not assistive*?” Our keyboards and mice assist us in communicating with a computer. Our headphones enable us to hear audio in our own spaces without disrupting those around us. Our phones give us the knowledge of the entire web in our pockets. Technology enables us all, and can give us a better experience of the world around us.
@@ -50,7 +51,7 @@ Once we’ve established what you want to include in your navigation elements, w
 
 <figure><img alt="Figure" src="/images/fig-4.06-nav.png"/><figcaption>Fig 4.6: Without further explanation, a visitor can only really be assured of the contents in the “Clips” section.</figcaption></figure>
 
-#### Mystery meat<span><em></em></span>
+#### Mystery meat
 
 Every now and again, I come across an “alternative” navigation where a designer has decided they can subvert existing conventions and provide someone with a whole new experience (Fig 4.8). Unfortunately, these experiences often don’t succeed because deciphering the navigation proves too bothersome. People would rather spend their time elsewhere.
 
@@ -90,7 +91,7 @@ I mentioned earlier that screen readers can jump between links on a page. Naviga
 
 The “click here” repetition is a common issue caused by nondescript link text (Fig 4.14). This often crops up in sentences ending with a call to action, such as “To get in contact with our team, click here.”
 
-<figure><img alt="Figure" src="/images/fig-4.14-click-here.png)Fig 4.14: Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)
+<figure><img alt="Figure" src="/images/fig-4.14-click-here.png"/><figcaption>Fig 4.14: Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)</figcaption></figure>
 
 The problem is that using “click here” as the language for your links renders the links meaningless for those with screen readers as well as those without. Descriptive linking, instead, helps links make sense out of context, and provides users with a sense of where the link will take them or what will happen after they click. “Read the full article” is a lot more descriptive than “Click here.”
 
@@ -158,11 +159,15 @@ As with all frameworks and libraries, don’t assume that because an icon font i
 
 With the advent of mobile devices, readers often use the pinch gesture to zoom into text, making it bigger and easier to read on smaller screens. However, developers often disable zoom to gain greater control over the page layout resulting in an irritatingly common accessibility problem. To disable zoom, some developers use the viewport `meta` tag in the `head` element of their web pages:
 
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+```
 
 But if people find the text too small to read, using `user-scalable=no` and `maximum``-scale=``1.0` as options for the meta viewport could render your site inaccessible. You can safely leave these attributes out, and opt for the much cleaner:
 
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 
 ## Interaction Design
 
@@ -252,7 +257,9 @@ The `img` element allows us to embed images in web pages. The `alt` (short for �
 
 When we add the `alt` attribute to HTML, we’re providing visitors with an alternative to content they may not be able to consume. If images haven’t loaded or have been disabled, a sighted user will see the alt text, a screen reader will read the alt text, and a search engine will index the alt text. We can add alt text to our HTML like this:
 
+```html
 <img src="DSCF0017.jpg" alt="the most adorable husky puppy you ever did see"/>
+```
 
 When a screen reader comes across an image that has no `alt` attribute, in an attempt to provide some useful information, it will sometimes read the file name instead. Not surprisingly, when images have digital file names like photo.jpg or DSCF0017.jpg, that’s not very useful at all.
 
@@ -262,7 +269,9 @@ Providing text alternatives for images can help someone understand the context o
 
 Alternative text is not necessary for a decorative image, as decoration is more about providing atmosphere than information. In these cases, we should still use the alternative attribute, but leave the contents of the attribute blank, to tell the browser and screen readers that this image is not important:
 
+```html
 <img src="random-stock-photo.png alt="">
+```
 
 Simon Cox, senior consultant for global publishing services at HSBC bank, has found accessible alternative text to be a sticking point. Stakeholders sometimes want to use alt text as a space to hide search engine keywords. (Search engines can “see” the alt text just like screen readers can.) However, this provides an awful experience for screen readers. Imagine reading down a page of film posters, and instead of alt text you suddenly hear irrelevant keywords: “husky, malamute, dogs, parks, celebrities, stars, gossip, fashion, photos.” Not cool.
 
@@ -359,6 +368,7 @@ Both YouTube and Vimeo have functions for uploading your own closed-caption file
 
 A .vtt file is a simple text file that lists all of the text for the captions, with timestamps telling the text when to appear on screen. It can also include meta information such as a chapter list and description of the video, as well as simple styling and structuring markup.
 
+```
 WEBVTT
 
 00:00:00.782 --> 00:00:05.000
@@ -384,6 +394,7 @@ Just between you and the person you're having
 00:00:14.647 --> 00:00:16.715
 
 the private conversation with.
+```
 
 The .vtt markup is simple and very readable, but it takes a lot of time to work out the correct timestamps to mark up each caption. There are a few free apps (see Resources) that help you create captions. These tend to work with an audio or video file, and provide an interface that makes it easy to add and edit captions while hearing or watching the audio or video playing.
 
