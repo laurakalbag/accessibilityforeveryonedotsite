@@ -210,6 +210,9 @@ A character set (more technically known as *character encoding*) is a defined li
 
 If the character sets that make up our alphabets don’t contain all the necessary characters for a given language, we can end up with ugly errors in our text. These don’t just look bad; they make the words unreadable (Fig 2.4).
 
+<figure><img alt="A Facebook ad where the accented letters are replaced with question marks in a diamond shape." src="/images/fig-2.04-facebook-ad-missing-chars.png"/><figcaption>Fig 2.4: Most modern browsers will substitute a readable character in place of an error, but the worst-case scenario is ending up with question marks in boxes instead of readable text. This Facebook ad can’t deal with the Swedish <em>å</em>, <em>ä</em> or <em>ö</em>.</figcaption></figure>
+
+
 When selecting a character set for your website, it’s always worth double-checking the character sets for foreign-language characters in case the text is translated. (Remember, if a reader is using a translation browser plugin, text can be translated without your input or knowledge.)
 
 When choosing webfonts, you also need to make sure that your fonts contain all the characters required to set the text without errors, regardless of language or alphabet. Most webfont services will allow you to choose the subset of characters embedded in the font. These additional characters can make your fonts larger and slower to load, but have the advantage of making your text much more accessible.

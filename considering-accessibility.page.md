@@ -4,15 +4,15 @@ layout: ./Chapter.layout.js
 index: 2
 ---
 
-The BBC homepage is a brilliant example of accessible web practices in the wild (Fig 1.1). The layout clearly distinguishes the different areas of content. The simple interactive elements are easy to use. The copy is understandable—helped along by readable typography and a high contrast between the text and background colors. And the page is straightforward to navigate for people using a screen reader and keyboard navigation.
+The BBC homepage is a brilliant example of accessible web practices in the wild ([Fig 1.1](#fig-1-1)). The layout clearly distinguishes the different areas of content. The simple interactive elements are easy to use. The copy is understandable—helped along by readable typography and a high contrast between the text and background colors. And the page is straightforward to navigate for people using a screen reader and keyboard navigation.
+
+<figure id="fig-1-1"><img alt="The BBC homepage features the date, weather, and top new stories." src="/images/fig-1.01-BBC_-_Home.png"/><figcaption><span class="fig-number">Fig 1.1:</span> The BBC homepage requires a very flexible design as the news content is updated so regularly and can be customized by users. The background can even be themed to fit news events.</figcaption></figure>
 
 Crucially, the BBC homepage is also a team effort. The accessibility of the site isn’t just the responsibility of one lone developer who fixed all the problems before the page went live. Product managers, content strategists, and information architects defined the homepage’s content and structure based on information and goals provided by researchers and executives. Copywriters and journalists wrote the clear and easy-to-understand copy. The team’s designers shaped the central content’s simple interactive behavior, selected accessible colors, and chose readable typography. The developers built in screen reader accessibility and keyboard navigation support.
 
 Every decision a team makes affects a site's accessibility. Just like content, interaction design, or web performance, accessibility is a core consideration of creating websites. And—contrary to what many teams assume—it can’t be addressed separately from the rest of the website creation process.
 
 In fact, if you work on the web in any capacity, accessibility is your job.
-
-<figure><img alt="The BBC homepage features the date, weather, and top new stories." src="/images/fig-1.01-BBC_-_Home.png"/><figcaption>Fig 1.1: The BBC homepage requires a very flexible design as the news content is updated so regularly and can be customized by users. The background can even be themed to fit news events.</figcaption></figure>
 
 ## Excuses, Excuses
 
@@ -31,9 +31,9 @@ But let’s not get ahead of ourselves. First we need to understand what accessi
 
 I’ll start with some definitions. *Accessibility* in the physical world is the degree to which an environment is usable by as many people as possible. *Web accessibility* is the degree to which a website is usable by as many people as possible. We can think about both kinds of accessibility as forms of *inclusion*.
 
-In our physical spaces, we understand that accessibility isn’t just about wheelchairs—our environments are designed to accommodate an increasingly wide range of needs. For example, interior designers are phasing out spherical door knobs in favor of pivoting door handles, because pivoting handles make it easier for people with limited movement in their arms and hands to open doors (Fig 1.2).
+In our physical spaces, we understand that accessibility isn’t just about wheelchairs—our environments are designed to accommodate an increasingly wide range of needs. For example, interior designers are phasing out spherical door knobs in favor of pivoting door handles, because pivoting handles make it easier for people with limited movement in their arms and hands to open doors ([Fig 1.2](#fig-1-2)).
 
-<figure><img alt="A pivoting door handing which is opened with a push downwards and a door knob which is opened with a rotating motion." src="/images/fig-1.02-door-handles.png"/><figcaption>Fig 1.2: Pivoting handles (left) only require a gentle push from above. Spherical door knobs (right) require a gripped, twisting motion. (Pivoting handles are so easy to use, my dog can use them. Though I really wish he couldn’t!)</figcaption></figure>
+<figure id="fig-1-2"><img alt="A pivoting door handing which is opened with a push downwards and a door knob which is opened with a rotating motion." src="/images/fig-1.02-door-handles.png"/><figcaption><span class="fig-number">Fig 1.2:</span> Pivoting handles (left) only require a gentle push from above. Spherical door knobs (right) require a gripped, twisting motion. (Pivoting handles are so easy to use, my dog can use them. Though I really wish he couldn’t!)</figcaption></figure>
 
 
 Similarly, many pedestrian traffic crossings play a tone to let people with visual difficulties know that it’s safe to cross. Movies offer subtitles so that people with hearing difficulties can follow the dialogue. And signage is written with as few words as possible to help people with reading difficulties understand their environment. These design features don’t make the objects less usable for those *without* the particular impairments they address—in fact, they usually make a product easier for everyone to use.
@@ -46,25 +46,25 @@ Product designers and architects often pay great attention to the accessibility 
 
 > Universal design is the design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design.
 
-The distinction between universal and accessible design is subtle but important. *Accessible design* considers the needs of people with disabilities. So, for example, accessible design might result in a building having a wheelchair ramp attached to its far side, as an afterthought. It might not be convenient for people using wheelchairs, and it’s unlikely to be used by people who find it faster to use the stairs, but at least there’s some form of access (Fig 1.3).
+The distinction between universal and accessible design is subtle but important. *Accessible design* considers the needs of people with disabilities. So, for example, accessible design might result in a building having a wheelchair ramp attached to its far side, as an afterthought. It might not be convenient for people using wheelchairs, and it’s unlikely to be used by people who find it faster to use the stairs, but at least there’s some form of access ([Fig 1.3](#fig-1-3)).
 
-On the other hand, universal design considers the needs of a diverse human population. Universal design might result in a building with a combined ramp and stairs, opening access to all and forcing no one to go out of their way to choose one option or the other (Fig 1.4).
+<figure id="fig-1-3"><img alt="A house with a ramp zigzagging more than seven times up its yard to the front door." src="/images/fig-1.03.png"/><figcaption><span class="fig-number">Fig 1.3:</span> This zigzagging wheelchair ramp installed over a steep garden is an extreme example of bolt-on ugliness and poor design.</figcaption></figure>
 
-<figure><img alt="A house with a ramp zigzagging more than seven times up its yard to the front door." src="/images/fig-1.03.png"/><figcaption>Fig 1.3: This zigzagging wheelchair ramp installed over a steep garden is an extreme example of bolt-on ugliness and poor design.</figcaption></figure>
+On the other hand, universal design considers the needs of a diverse human population. Universal design might result in a building with a combined ramp and stairs, opening access to all and forcing no one to go out of their way to choose one option or the other ([Fig 1.4](#fig-1-4)).
+
+<figure id="fig-1-4"><img alt="A single ramp with a gentle incline cutting across stone steps." src="/images/fig-1.04-ramp-stairs.png"/><figcaption><span class="fig-number">Fig 1.4:</span> This ramp could be used just as easily by cyclists or parents pushing strollers as by people using wheelchairs. It doesn’t look out of place. In fact, it contributes to the architecture.</figcaption></figure>
 
 Whereas accessible design creates products that are usable by those with disabilities, universal design creates products for the widest possible audience, which includes, but isn’t limited to, people with disabilities. Good universal architectural design is elegant, considerate of all its users, and seems to effortlessly suit the space.
 
-<figure><img alt="A single ramp with a gentle incline cutting across stone steps." src="/images/fig-1.04-ramp-stairs.png"/><figcaption>Fig 1.4: This ramp could be used just as easily by cyclists or parents pushing strollers as by people using wheelchairs. It doesn’t look out of place. In fact, it contributes to the architecture.</figcaption></figure>
+This contrast in approach is directly transferable to web design. Accessible web design might mean adding a button to your site that allows people to view the text at a larger size. It’s yet another element crowding a page layout, and people have to go out of their way to find it ([Fig 1.5](#fig-1-5)).
 
-This contrast in approach is directly transferable to web design. Accessible web design might mean adding a button to your site that allows people to view the text at a larger size. It’s yet another element crowding a page layout, and people have to go out of their way to find it (Fig 1.5).
+<figure id="fig-1-5"><img alt="A New York Times article with its Settings menu opened to show language choices, help links, and three text size options." src="/images/fig-1.05-nytimes-textsize-buttons.png"/><figcaption><span class="fig-number">Fig 1.5:</span> The New York Times’s website enables readers to change the body text size. But the text size buttons are hidden in a menu at the top of the page. You can’t see the text being resized without scrolling down.</figcaption></figure>
 
-<figure><img alt="A New York Times article with its Settings menu opened to show language choices, help links, and three text size options." src="/images/fig-1.05-nytimes-textsize-buttons.png"/><figcaption>Fig 1.5: The New York Times’s website enables readers to change the body text size. But the text size buttons are hidden in a menu at the top of the page. You can’t see the text being resized without scrolling down.</figcaption></figure>
+Universal web design, applied to the same problem, might mean making *all* the text larger so that a greater number of people can read the text without needing to find a button or use zoom shortcuts ([Fig 1.6](#fig-1-6)).
 
-Universal web design, applied to the same problem, might mean making *all* the text larger so that a greater number of people can read the text without needing to find a button or use zoom shortcuts (Fig 1.6).
+<figure id="fig-1-6"><img alt="An article on the New Republic website featuring large serif body text and large sans serif text for meta information." src="/images/fig-1.06-TNR.png"/><figcaption><span class="fig-number">Fig 1.6:</span> The default body text size on the New Republic’s site is a generous 20 pixels, which makes the page instantly more inviting as it’s easy to read.</figcaption></figure>
 
 Throughout this book, I take *a universal design approach to accessibility* wherever possible. Universal web accessibility helps us create sites that are usable by the widest, most diverse audience, rather than creating bolt-on solutions that might benefit one group at the expense of another. (But I won’t always use the terms “universal design” or “universal web accessibility” because they’re a bit of a mouthful.)
-
-<figure><img alt="An article on the New Republic website featuring large serif body text and large sans serif text for meta information." src="/images/fig-1.06-TNR.png"/><figcaption>Fig 1.6: The default body text size on the New Republic’s site is a generous 20 pixels, which makes the page instantly more inviting as it’s easy to read.</figcaption></figure>
 
 ## Empathy
 
@@ -88,9 +88,9 @@ Screen readers used to be very expensive, specialist software that few people co
 
 Apple’s VoiceOver screen reader has been revolutionary for users of Apple computers and devices. Before Mac OS X 10.4 introduced this feature, screen readers were usually stand-alone software that could be installed on a computer. VoiceOver, however, included a screen reader as a core part of the operating system and on every device (although, granted, they are expensive devices). It works with all Apple software, including the browser, and works with all native controls provided to developers on the Apple platform.
 
-Over the last few years, free and open-source screen readers have popped up, such as NVDA (NonVisual Desktop Access) for Windows, Linux Screen Reader (LSR), and Orca for Linux. Window-Eyes, a proprietary screen reader for Windows, used to be as expensive as JAWS but is now free. Microsoft has a screen reader called Narrator which is similar to Apple’s VoiceOver and has recently been improved a great deal. Both VoiceOver and Narrator can be enabled quickly, providing instant access to anyone requiring a screen reader. No configuration is needed unless a user has other preferences (Fig 1.7).
+Over the last few years, free and open-source screen readers have popped up, such as NVDA (NonVisual Desktop Access) for Windows, Linux Screen Reader (LSR), and Orca for Linux. Window-Eyes, a proprietary screen reader for Windows, used to be as expensive as JAWS but is now free. Microsoft has a screen reader called Narrator which is similar to Apple’s VoiceOver and has recently been improved a great deal. Both VoiceOver and Narrator can be enabled quickly, providing instant access to anyone requiring a screen reader. No configuration is needed unless a user has other preferences ([Fig 1.7](#fig-1-7)).
 
-<figure><img alt="Narrator settings for on/off, choice of voice with speed and pitch sliders, and options to turn on sounds for controls and buttons as well as characters you type." src="/images/fig-1.07-narrator.png"/><figcaption>Fig 1.7: Narrator Settings in Windows 8.1: Narrator also has a developer mode that helps you identify which objects are accessible to Narrator <a href="https://a4e.link/01-02/">https://a4e.link/01-02/</a>.</figcaption></figure>
+<figure id="fig-1-7"><img alt="Narrator settings for on/off, choice of voice with speed and pitch sliders, and options to turn on sounds for controls and buttons as well as characters you type." src="/images/fig-1.07-narrator.png"/><figcaption><span class="fig-number">Fig 1.7:</span> Narrator Settings in Windows 8.1: Narrator also has a developer mode that helps you identify which objects are accessible to Narrator <a href="https://a4e.link/01-02/">https://a4e.link/01-02/</a>.</figcaption></figure>
 
 When deciding on which screen reader you want to use (or can afford), you’re left with striking a balance. JAWS *is* expensive, but it offers better support for more applications across Windows than other screen readers. VoiceOver has good support on Apple’s own apps and web browsers, but mixed support across other developers’ apps.
 
@@ -98,13 +98,13 @@ Screen readers don’t just benefit those with visual impairments. Some people c
 
 Screen readers also enable people to engage in other activities while listening—such as driving while listening to an SMS text message. As the web starts finding its way into more mobile systems, we’re likely to come across more use cases like this.
 
-For people with visual impairments, a refreshable braille display can be used with a screen reader. Some braille displays also enable users to write in braille and have their input automatically translated back into text (Fig 1.8).
+For people with visual impairments, a refreshable braille display can be used with a screen reader. Some braille displays also enable users to write in braille and have their input automatically translated back into text ([Fig 1.8](#fig-1-8)).
+
+<figure id="fig-1-8"><img alt="A person using a braille display running their finger over patterns of raised dots along the display." src="/images/fig-1.08-braille-display.png"/><figcaption><span class="fig-number">Fig 1.8:</span> Braille displays are very expensive, which limits how many people can afford to use them. (Photo courtesy of Karola Riegler <a href="https://a4e.link/01-03/">https://a4e.link/01-03/</a>).</figcaption></figure>
 
 ### Keyboard navigation
 
 Keyboard navigation describes a situation when a person uses only a keyboard to access a computer or site. Screen readers are often (but not always!) paired with keyboard navigation. Sometimes specialist keyboards, such as custom keyboards or on-screen keyboards, are used to assist with keyboard use and keyboard-only navigation.
-
-<figure><img alt="A person using a braille display running their finger over patterns of raised dots along the display." src="/images/fig-1.08-braille-display.png"/><figcaption>Fig 1.8: Braille displays are very expensive, which limits how many people can afford to use them. (Photo courtesy of Karola Riegler <a href="https://a4e.link/01-03/">https://a4e.link/01-03/</a>).</figcaption></figure>
 
 Most keyboard-based web browsing uses the Up and Down cursor keys for scrolling, the Tab key for moving between interactive elements, and the Space bar or Enter key for interaction. Screen readers will often map keys to different, more contextually relevant, commands.
 
@@ -132,9 +132,9 @@ Apple recently made their operating systems natively accessible to switch contro
 
 Eye trackers are similar to electronic or sensor switches, but rely on a camera to analyze the movement of the user’s eyes and navigate the screen accordingly. Eye trackers can be used to help people with disabilities communicate via a computer, but they are generally very expensive.
 
-Dwell Control was also recently added to macOS to enable the use of eye-tracking or head-tracking to control the mouse. The Dwell Control Home Panel helps users click, drag, and scroll to interact with the screen (Fig 1.9).
+Dwell Control was also recently added to macOS to enable the use of eye-tracking or head-tracking to control the mouse. The Dwell Control Home Panel helps users click, drag, and scroll to interact with the screen ([Fig 1.9](#fig-1-9)).
 
-<figure><img alt="A web page displaying a button. The Dwell Control panel is displayed over the web page with options for different input interactions including clicking, drag and drop, and menus." src="/images/fig-1.09-dwell-control.png"/><figcaption>Fig 1.9: The user chooses an interaction from the Dwell Control Home Panel, and then hovers (or dwells) over the item they want to interact with. There is a countdown to ensure the correct item is selected.</figcaption></figure>
+<figure id="fig-1-9"><img alt="A web page displaying a button. The Dwell Control panel is displayed over the web page with options for different input interactions including clicking, drag and drop, and menus." src="/images/fig-1.09-dwell-control.png"/><figcaption><span class="fig-number">Fig 1.9:</span> The user chooses an interaction from the Dwell Control Home Panel, and then hovers (or dwells) over the item they want to interact with. There is a countdown to ensure the correct item is selected.</figcaption></figure>
 
 ### Speech recognition
 
