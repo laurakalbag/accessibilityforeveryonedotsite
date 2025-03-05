@@ -230,6 +230,9 @@ figcaption {
   color: var(--colour-foreground-secondary);
   margin-top: 0.5em;
 }
+.fig-number {
+  font-weight: bold;
+}
 .title-section h1 {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   text-transform: uppercase;
