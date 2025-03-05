@@ -3,12 +3,13 @@ title: Planning for Accessibility
 index: 4
 layout: ./Chapter.layout.js
 ---
+
 Incorporating accessibility from the beginning is almost always easier, more effective, and less expensive than making accessibility improvements as a separate project. In fact, building accessibility into your project and processes has a wealth of business benefits. If you’re looking to make the case for accessibility—to yourself, to coworkers, or to bosses and clients—you might start here:
 
-* **Findability and ease of use:** In the broadest terms, accessibility can make it easier for anyone to find, access, and use a website successfully. By ensuring better usability for all, accessibility boosts a site’s effectiveness and increases its potential audience.
-* **Competitive edge:** The wider your audience, the greater your reach and commercial appeal. When a site is more accessible than other sites in the same market, it can lead to preferential treatment from people who struggled to use competitors’ sites. If a site is translated, or has more simply written content that improves automated translation, increased accessibility can lead to a larger audience by reaching people who speak other languages.
-* **Lower costs:** Accessible websites can cut costs in other areas of a business. On a more accessible site, more customers can complete more tasks and transactions online, rather than needing to talk to a representative one-to-one.
-* **Legal protection:** In a few countries, an accessible site is required by law for organizations in certain sectors—and organizations with inaccessible sites can be sued for discrimination against people with disabilities.
+- **Findability and ease of use:** In the broadest terms, accessibility can make it easier for anyone to find, access, and use a website successfully. By ensuring better usability for all, accessibility boosts a site’s effectiveness and increases its potential audience.
+- **Competitive edge:** The wider your audience, the greater your reach and commercial appeal. When a site is more accessible than other sites in the same market, it can lead to preferential treatment from people who struggled to use competitors’ sites. If a site is translated, or has more simply written content that improves automated translation, increased accessibility can lead to a larger audience by reaching people who speak other languages.
+- **Lower costs:** Accessible websites can cut costs in other areas of a business. On a more accessible site, more customers can complete more tasks and transactions online, rather than needing to talk to a representative one-to-one.
+- **Legal protection:** In a few countries, an accessible site is required by law for organizations in certain sectors—and organizations with inaccessible sites can be sued for discrimination against people with disabilities.
 
 Once you’ve made the case for incorporating accessibility into your work, the next step is to integrate an accessibility mindset into your processes. Include accessibility by default by giving accessibility proper consideration at every step in a product’s lifecycle.
 
@@ -46,12 +47,12 @@ When you’re trying to find the right expert for your organization’s needs, a
 
 At the beginning of a project, you’ll need to make many decisions that will have an impact on accessibility efforts and approaches, including:
 
-* What is the purpose of your product?
-* Who are the target audiences for your product? What are their needs, restrictions, and technology preferences?
-* What are the goals and tasks that your product enables the user to complete?
-* What is the experience your product should provide for each combination of user group and user goal?
-* How can accessibility be integrated during production?
-* Which target platforms, browsers, operating systems and assistive technologies should you test the product on?
+- What is the purpose of your product?
+- Who are the target audiences for your product? What are their needs, restrictions, and technology preferences?
+- What are the goals and tasks that your product enables the user to complete?
+- What is the experience your product should provide for each combination of user group and user goal?
+- How can accessibility be integrated during production?
+- Which target platforms, browsers, operating systems and assistive technologies should you test the product on?
 
 If you have answers to these questions—possibly recorded more formally in an accessibility policy (which we’ll look at later in this chapter)—you’ll have something to refer to when making design decisions throughout the creation and maintenance of the product.
 
@@ -71,7 +72,7 @@ Ultimately, the cost of accessibility depends on the size of the project, team, 
 
 ## Research
 
-Research can help us gain a better understanding of the people who will be using the site. It gives us a much stronger foundation on which to make informed decisions—about accessibility, but also about every other aspect of a site’s design. As Erika Hall explains in *Just Enough Research* ([https://a4e.link/03-01/](https://a4e.link/03-01/)):
+Research can help us gain a better understanding of the people who will be using the site. It gives us a much stronger foundation on which to make informed decisions—about accessibility, but also about every other aspect of a site’s design. As Erika Hall explains in _Just Enough Research_ ([https://a4e.link/03-01/](https://a4e.link/03-01/)):
 
 > Discovering how and why people behave as they do and what opportunities that presents for your business or organization will open the way to more innovative and appropriate design solutions than asking how they feel or merely tweaking your current design based on analytics.
 
@@ -81,7 +82,7 @@ Researching accessibility forces you to delve into the full range of your audien
 
 ### Researching with real users
 
-Online testing can be a good option for small teams with tight budgets. Additionally, in *A Web* *for Everyone*, Sarah Horton and Whitney Quesenbery observe that “including people with disabilities in user experience design is even easier if you’re doing your research or testing online.” This makes a lot of sense: it’s easier to find a wider range of people if your search can be global.
+Online testing can be a good option for small teams with tight budgets. Additionally, in _A Web_ _for Everyone_, Sarah Horton and Whitney Quesenbery observe that “including people with disabilities in user experience design is even easier if you’re doing your research or testing online.” This makes a lot of sense: it’s easier to find a wider range of people if your search can be global.
 
 If you have the time and budget, face-to-face research has a lot more benefits. Seeing real people use your product lets you understand their environment, context, needs, and behaviors. You can see exactly how they interact with their hardware and software, and you won’t need to rely on people accurately reporting their own behavior.
 
@@ -99,7 +100,7 @@ To make it simple: when you’re researching your target audience, always includ
 
 It can be difficult to research a broad enough group of people, and you won’t be able to learn about every impairment or combinations of impairments. Some impairments may not affect how someone uses your site. However, you can only understand how to make your site accessible to your target audience if you record the requirements of people with specialist needs.
 
-In *Just Ask: Integrating Accessibility Throughout Design*, Shawn Henry reminds us to look at people with disabilities as individuals, rather than grouping them together ([https://a4e.link/03-02/](https://a4e.link/03-02/)):
+In _Just Ask: Integrating Accessibility Throughout Design_, Shawn Henry reminds us to look at people with disabilities as individuals, rather than grouping them together ([https://a4e.link/03-02/](https://a4e.link/03-02/)):
 
 > Be careful not to assume that feedback from one person with a disability applies to all people with disabilities. A person with a disability doesn’t necessarily know how other people with the same disability interact with products, nor know enough about other disabilities to provide valid guidance on other accessibility issues. Just as you would not make design decisions based on feedback from just one user, don’t make accessibility decisions based only on the recommendations of one person with a disability. What works for one person might not work for everyone with that disability or for people with other disabilities.
 
@@ -107,7 +108,7 @@ An important part of research with people using assistive technologies is to sep
 
 ### Interacting with participants
 
-In *Just Ask*, Henry has great advice on how to provide for, and interact with, people with disabilities in your research and testing: treat people with disabilities in the same way you’d treat anybody else.
+In _Just Ask_, Henry has great advice on how to provide for, and interact with, people with disabilities in your research and testing: treat people with disabilities in the same way you’d treat anybody else.
 
 Don’t make assumptions about what people want or need. Stick to information relevant to the participant’s interaction with your site. And for crying out loud, get to know them before you ask any personal questions. You might be curious, but it really is rude to ask, “Have you always been like that?” Once you’ve welcomed your participant and introduced the research you’re doing, “How long have you been using a screen reader?” might be a relevant question to ask. And it may get you some further contextual information if the participant is comfortable talking to you.
 
@@ -149,28 +150,28 @@ Again, having an accessibility policy will help you maintain high standards and 
 
 Good accessibility policies are informed by extensive research into the needs of your target audience, and will help:
 
-* ensure everyone in your organization understands the importance of accessibility,
-* standardize the way your organization approaches accessibility, and
-* prioritize user groups when handling competing needs.
+- ensure everyone in your organization understands the importance of accessibility,
+- standardize the way your organization approaches accessibility, and
+- prioritize user groups when handling competing needs.
 
 The term “policy” is slightly misleading corporate-speak: an accessibility policy can be anything from a formal document that shows compliance, to a set of standards, to a casual statement that outlines your organization’s approach and intentions toward the accessibility of your site.
 
 Guidelines in your accessibility policy should be:
 
-* clear and simply written, so anyone in your organization can refer to your policy and understand the implications and their role;
-* hierarchical, so needs are prioritized as primary, secondary, etc.; and
-* testable, so you can easily determine whether your site is sufficiently accessible.
+- clear and simply written, so anyone in your organization can refer to your policy and understand the implications and their role;
+- hierarchical, so needs are prioritized as primary, secondary, etc.; and
+- testable, so you can easily determine whether your site is sufficiently accessible.
 
 The testable criteria in your accessibility policy could be based on the Web Content Accessibility Guidelines (WCAG) 2.0 criteria, or criteria from the standards local to your country.
 
-You can see a great example of an accessibility policy on the UK’s Post Office website ([https://a4e.link/03-03/](https://a4e.link/03-03/)). The Post Office’s accessibility policy moves from general to more specific aims (Fig 3.1), covering:
+You can see a great example of an accessibility policy on the UK’s Post Office website ([https://a4e.link/03-03/](https://a4e.link/03-03/)). The Post Office’s accessibility policy moves from general to more specific aims ([Fig 3.1](#fig-3-1)), covering:
 
-Fig 3.1: The Post Office’s accessibility policy puts “Complying with the British Standards Institution” up top, but further down there’s more focus on the people using their site.
+- goals for the website experience,
+- goals for site’s accessibility,
+- the individual responsible for the policy and its implementation, and
+- the accessibility of their non-digital products and services.
 
-* goals for the website experience,
-* goals for site’s accessibility,
-* the individual responsible for the policy and its implementation, and
-* the accessibility of their non-digital products and services.
+<figure id="fig-3-1"><img alt="The Post Office website’s accessibility policy featuring how they’re committed to accessibility and how they comply with British Standard BS8878." src="/images/fig-3.01-Our-Policies-Accessibility-Post-Office.png"/><figcaption><span class="fig-number">Fig 3.1:</span> The Post Office’s accessibility policy puts “Complying with the British Standards Institution” up top, but further down there’s more focus on the people using their site.</figcaption></figure>
 
 Accessibility policies, much like style guides, don’t always have to be made public—their primary value is as internal documents. That said, posting them publicly shows your commitment to accessibility and lets visitors know what they can expect from your site or agency.
 
