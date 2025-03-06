@@ -19,23 +19,21 @@ While these examples illustrate just a few benefits, they show that accessibilit
 
 ## Affordances and Conventions
 
-*Affordances* are how objects suggest the interactions that can be performed with them—ideally in a way that’s recognizable by users. For example, when we turn on a new computer for the first time, we look for a button with the power icon. We expect a button because we’re accustomed to the on-off function of hardware operated by a physical input. We look for the power icon because it’s a conventional symbol used in electronics (Fig 4.1). Over time, these affordances become conventions we can rely on, both as designers and as users.
+*Affordances* are how objects suggest the interactions that can be performed with them—ideally in a way that’s recognizable by users. For example, when we turn on a new computer for the first time, we look for a button with the power icon. We expect a button because we’re accustomed to the on-off function of hardware operated by a physical input. We look for the power icon because it’s a conventional symbol used in electronics ([Fig 4.1](#fig-4-1)). Over time, these affordances become conventions we can rely on, both as designers and as users.
 
-Usability can be compromised when designers abandon conventions because we've decided to “redefine” how something is usually done. Very occasionally, this can result in a new innovation that genuinely redefines and reshapes behavior, but it usually just makes a really unique mess (Fig 4.2).
+<figure id="fig-4-1"><img alt="The power button on a laptop keyboard." src="/images/fig-4.01-power.jpg"/><figcaption><span class="fig-number">Fig 4.1:</span> A button with the power icon is the first thing we look for when we turn on our electronics. Photograph courtesy of Anssi Koskinen (<a href="https://a4e.link/04-02/">https://a4e.link/04-02/</a>).</figcaption></figure>
 
-On the web, using conventions well makes for a gentler learning curve for new visitors. A common convention is to design interactions using visual metaphors, to make the design imitate a similar real-world artifact. The most prevalent and successful use of a visual metaphor on the web is the button. Buttons trigger a behavior, such as submitting a form or changing a setting, because buttons in the physical space trigger behaviors, too, such as turning lights on and off. Browsers commonly use a simple three-dimensional appearance to give a button on the web an affordance that suggests, “Press me and I’ll respond” (Fig 4.3).
+Usability can be compromised when designers abandon conventions because we've decided to “redefine” how something is usually done. Very occasionally, this can result in a new innovation that genuinely redefines and reshapes behavior, but it usually just makes a really unique mess ([Fig 4.2](#fig-4-2)).
 
-Alas, a visual metaphor can backfire if it looks like one object but performs like another. One of my pet peeves is when a link to another site is made to look like a button. The button style is usually chosen over a conventional link style to draw more attention to the link, but the conventional behavior of a button is to perform an action within the site, not to redirect the user to a different location. It’s like turning on your bedroom light only to find you’ve been teleported to your kitchen (Fig 4.4).
+<figure id="fig-4-2"><img alt="A band website where the page content is displayed as ornately framed pictures in a side-scrolling gallery." src="/images/fig-4-02-nirvannatheband.png"/><figcaption><span class="fig-number">Fig 4.2:</span> Sideways scrolling websites had their peak in the late 00s. It certainly makes for an attention-grabbing surprise, but horizontal scrolling can be difficult if you use a mouse for scrolling—very few mice have horizontal scroll wheels./figcaption></figure>
 
-<figure>
-    <img alt="The unstyled buttons rendered in Safari, Firefox, and Google Chrome. They’re all light grey with rounded corners, dark text and grey shadow borders. But each button is a different size with different font sizes and padding." src="/images/fig-4.03-default-buttons.png"/>
-    <figcaption>Fig 4.3: An HTML <code>&lt;button&gt;</code> in Safari, Firefox, and Google Chrome is rendered slightly differently depending on the browser’s default style, but they all look buttonesque.</figcaption>
-</figure>
+On the web, using conventions well makes for a gentler learning curve for new visitors. A common convention is to design interactions using visual metaphors, to make the design imitate a similar real-world artifact. The most prevalent and successful use of a visual metaphor on the web is the button. Buttons trigger a behavior, such as submitting a form or changing a setting, because buttons in the physical space trigger behaviors, too, such as turning lights on and off. Browsers commonly use a simple three-dimensional appearance to give a button on the web an affordance that suggests, “Press me and I’ll respond” ([Fig 4.3](#fig-4-3)).
 
-<figure>
-    <img alt="A box with an orange background, white text, and a dashed orange border with the text Click to Redeem. It doesn’t look like a button." src="/images/fig-4.04-coupon-button.png"/>
-    <figcaption>Fig 4.4: Coupon code sites often style links to other sites as calls to action. This “Click to Redeem” is just an affiliate link to the Happy Feet homepage.</figcaption>
-</figure>
+<figure id="fig-4-3"><img alt="The unstyled buttons rendered in Safari, Firefox, and Google Chrome. They’re all light grey with rounded corners, dark text and grey shadow borders. But each button is a different size with different font sizes and padding." src="/images/fig-4-03-default-buttons.jpg"/><figcaption><span class="fig-number">Fig 4.3:</span> An HTML <code>&lt;button&gt;</code> in Safari, Firefox, and Google Chrome is rendered slightly differently depending on the browser’s default style, but they all look buttonesque.</figcaption></figure>
+
+Alas, a visual metaphor can backfire if it looks like one object but performs like another. One of my pet peeves is when a link to another site is made to look like a button. The button style is usually chosen over a conventional link style to draw more attention to the link, but the conventional behavior of a button is to perform an action within the site, not to redirect the user to a different location. It’s like turning on your bedroom light only to find you’ve been teleported to your kitchen ([Fig 4.4](#fig-4-4)).
+
+<figure id="fig-4-4"><img alt="A box with an orange background, white text, and a dashed orange border with the text Click to Redeem. It doesn’t look like a button." src="/images/fig-4-04-coupon-button.png"/><figcaption><span class="fig-number">Fig 4.4:</span> Coupon code sites often style links to other sites as calls to action. This “Click to Redeem” is just an affiliate link to the Happy Feet homepage.</figcaption></figure>
 
 Affordances and conventions should inform the design and content of your sites. Content could be text, images, video, audio, or interactive experiences. Ensuring that it’s all designed to be usable and accessible is paramount—starting with how the user finds their way around the content.
 
@@ -45,57 +43,56 @@ Without a strong information architecture, people can easily get lost. We need t
 
 ### Navigation bar
 
-Most sites use a navigation bar at the top of the page that contains a list of links to a site’s main areas. You’ll find many forms of navigation on the web, but this is probably the most common. However, the navigation bar doesn’t just provide a means to travel around your site—it can also provide a summary of what a visitor can expect to find (Fig 4.5).
+Most sites use a navigation bar at the top of the page that contains a list of links to a site’s main areas. You’ll find many forms of navigation on the web, but this is probably the most common. However, the navigation bar doesn’t just provide a means to travel around your site—it can also provide a summary of what a visitor can expect to find ([Fig 4.5](#fig-4-5)).
 
-<figure>
-    <img alt="On the United Nations homepage, the Home navigation contains subnavigation for Resources for delegates, journalists, business, civil society, academia, students, visitors, and job seekers." src="/images/fig-4.05-United_Nations.png"/>
-    <figcaption>Fig 4.5: The United Nations homepage uses subnavigation which doubles as a description of what you can find in each section.</figcaption>
-</figure>
+<figure id="fig-4-5"><img alt="On the United Nations homepage, the Home navigation contains subnavigation for Resources for delegates, journalists, business, civil society, academia, students, visitors, and job seekers." src="/images/fig-4-05-unitednations.png"/><figcaption><span class="fig-number">Fig 4.5:</span> The United Nations homepage uses subnavigation which doubles as a description of what you can find in each section.</figcaption></figure>
 
 Subnavigation bars, sidebars, and footers also provide visitors with a better idea of what’s available on your site. However, it’s difficult to rely on these navigation patterns as they’re not consistent from one site to another and people may not always understand where to look.
 
 When the navigation reflects the information architecture of your site, it gives people a better understanding of where they need to go and offers a preview of other information they might find relevant or interesting. Navigation bars work best when they offer a brief snapshot; they become unwieldy if the list of links they contain is too long.
 
-Once we’ve established what you want to include in your navigation elements, we can consider the text for each link. With usability in mind, and to paraphrase Steve Krug’s *Don’t Make Me Think!*, we’ve learned it’s best to make navigation descriptive and concise. It’s hard for a new visitor to understand what to expect from a site archiving interviews about the games industry when the navigation lists “Clips, Minds, Playlists, Conversations” (Fig 4.6). When we use terminology that’s easy to understand, more visitors will be able to find what they want (Fig 4.7).
+Once we’ve established what you want to include in your navigation elements, we can consider the text for each link. With usability in mind, and to paraphrase Steve Krug’s *Don’t Make Me Think!*, we’ve learned it’s best to make navigation descriptive and concise. It’s hard for a new visitor to understand what to expect from a site archiving interviews about the games industry when the navigation lists “Clips, Minds, Playlists, Conversations” ([Fig 4.6](#fig-4-6)). When we use terminology that’s easy to understand, more visitors will be able to find what they want ([Fig 4.7](#fig-4-7)).
 
-<figure>
-    <img alt="Navigation featuring links to Clips, Minds, Playlists, and Conversations." src="/images/fig-4.06-nav.png"/>
-    <figcaption>Fig 4.6: Without further explanation, a visitor can only really be assured of the contents in the “Clips” section.</figcaption>
-</figure>
+<figure id="fig-4-6"><img alt="Navigation featuring links to Clips, Minds, Playlists, and Conversations." src="/images/fig-4-06-nav.png"/><figcaption><span class="fig-number">Fig 4.6:</span> Without further explanation, a visitor can only really be assured of the contents in the “Clips” section.</figcaption></figure>
+
+<figure id="fig-4-7"><img alt="The same navigation with links renamed to Themes, Minds, and People." src="/images/fig-4-07-nav.png"/><figcaption><span class="fig-number">Fig 4.7:</span> Replacing “Playlists” with “Themes,” and “Minds” with “People” makes more sense
+within the context of a games industry interview archive.</figcaption></figure>
 
 #### Mystery meat
 
-Every now and again, I come across an “alternative” navigation where a designer has decided they can subvert existing conventions and provide someone with a whole new experience (Fig 4.8). Unfortunately, these experiences often don’t succeed because deciphering the navigation proves too bothersome. People would rather spend their time elsewhere.
+Every now and again, I come across an “alternative” navigation where a designer has decided they can subvert existing conventions and provide someone with a whole new experience ([Fig 4.8](#fig-4-8)). Unfortunately, these experiences often don’t succeed because deciphering the navigation proves too bothersome. People would rather spend their time elsewhere.
 
-Back in the heyday of Adobe Flash, there was a lot of experimentation around navigation using hovering, dragging, and some kind of logic puzzle you had to solve to navigate the site. While I’m not averse to experimentation and innovation—we all want to make better web experiences—you’d need to have an extraordinarily good reason as to why existing conventions don’t work for your site if you insist on going that route (Fig 4.9).
+<figure id="fig-4-8"><img alt="Hovering over an abstract map of a theme park, the Nautic Jet text appears in red Comic Sans font overlayed over green and yellow at a diagonal." src="/images/fig-4-07-nav.png"/><figcaption><span class="fig-number">Fig 4.8:</span> Hovering over different parts of the green map on this theme park’s site brings up different navigation links, including the terrifying-looking “Nautic Jet.” The buttons down the side do provide an alternative navigation. But why have two of the same navigation? (<a href="http://www.freizeitparkherne.de/overview/overview.html">http://www.freizeitparkherne.de/overview/overview.html</a>)</figcaption></figure>
+
+Back in the heyday of Adobe Flash, there was a lot of experimentation around navigation using hovering, dragging, and some kind of logic puzzle you had to solve to navigate the site. While I’m not averse to experimentation and innovation—we all want to make better web experiences—you’d need to have an extraordinarily good reason as to why existing conventions don’t work for your site if you insist on going that route ([Fig 4.9](#fig-4-9)).
+
+<figure id="fig-4-9"><img alt="A rainbow loading bar appears over a wooden floor background. Text above the bar reads Click and hold your mouse down anywhere on the site to access quick product navigation." src="/images/fig-4-09-gomacro.png"/><figcaption><span class="fig-number">Fig 4.9:</span> Why not always have “quick product navigation” on the site? Why is there a loading bar? I have so many questions!</figcaption></figure>
 
 If your navigation needs an explanation, you should probably rethink it—and consider returning to well-established conventions.
 
 ### Titles and breadcrumbs
 
-Another role of navigation is orientation—helping someone determine where they are. Search results often bring people to an internal page on a site that’s not listed in the main navigation elements. A visitor’s first stop when identifying where they are on a site is usually the page title. A highlighted or “active” style in the navigation can also help people understand where they are. (Fig 4.10).
+Another role of navigation is orientation—helping someone determine where they are. Search results often bring people to an internal page on a site that’s not listed in the main navigation elements. A visitor’s first stop when identifying where they are on a site is usually the page title. A highlighted or “active” style in the navigation can also help people understand where they are. ([Fig 4.10](#fig-4-10)).
 
-On large sites, breadcrumbs are often used to help visitors understand the relationship between the page they’re viewing and other areas of the site (Fig 4.11). Breadcrumbs can be particularly valuable to people who have difficulty remembering where they’ve been or what they’re trying to accomplish.
+<figure id="fig-4-10"><img alt="The DC comics website Wonderwoman page. The navigation links are grey, the selected Characters section has a blue bar underneath the link." src="/images/fig-4-10-nav-wonderwoman-dc.png"/><figcaption><span class="fig-number">Fig 4.10:</span> The DC Comics site navigation uses a blue bar under the active navigation link to remind you which section you’re currently viewing.</figcaption></figure>
+
+On large sites, breadcrumbs are often used to help visitors understand the relationship between the page they’re viewing and other areas of the site ([Fig 4.11](#fig-4-11)). Breadcrumbs can be particularly valuable to people who have difficulty remembering where they’ve been or what they’re trying to accomplish.
+
+<figure id="fig-4-11"><img alt="The short-term memory problems and dementia page on the Alzheimer’s Society website. The breadcrumb navigation features Home, About Dementia, Symptoms and diagnosis, How dementia progresses, and then the page title." src="/images/fig-4-11-alzheimerssociety.png"/><figcaption><span class="fig-number">Fig 4.11:</span> Not everyone who uses the Alzheimer’s Society site will have symptoms of dementia—a visitor could be learning about a loved one’s illness. But clear and useful navigation is valuable in times of stress.</figcaption></figure>
 
 When I worked with the Alzheimer’s Society on a responsive redesign of their site, we paid particular attention to the navigation. Research and usability testing on their site indicated that breadcrumbs were especially valuable to visitors who had symptoms of dementia, including memory loss and confusion. But, again, all audiences benefit from clear wayfinding signals that orient them within a site.
 
 ### Links
 
-Links are as old as the web, so long-standing conventions and standards have developed around them. Most browsers render links in blue text with an underline by default. If the link has been visited before, the text appears purple (Fig 4.12).
+Links are as old as the web, so long-standing conventions and standards have developed around them. Most browsers render links in blue text with an underline by default. If the link has been visited before, the text appears purple ([Fig 4.12](#fig-4-12)).
+
+<figure id="fig-4-12"><img alt="Unstyled default, hovered, visited, and active links on a web page. Each link is underlined. The default and hovered links are blue, the visited link is purple and the active link is orange." src="/images/fig-4-12-links.jpg"/><figcaption><span class="fig-number">Fig 4.12:</span> The humble link in all its default style glory.</figcaption></figure>
 
 These common styles make links easy to recognize on a page. Over the years, fewer sites have stuck to the blue color standard, but most still use the underline to distinguish a link from non-interactive text. The contrast between link text and regular text is the key consideration. Finding links in a body of text shouldn’t be a cruel game where the reader has to hover over every word to find them.
 
-<figure>
-    <img alt="Unstyled default, hovered, visited, and active links on a web page. Each link is underlined. The default and hovered links are blue, the visited link is purple and the active link is orange." src="/images/fig-4.12-links.png"/>
-    <figcaption>Fig 4.12: The humble link in all its default style glory.</figcaption>
-</figure>
+Two years ago, Google decided to drop the underlined style in their links ([https://a4e.link/04-03/](https://a4e.link/04-03/)). The lack of underlines makes the page layout appear much cleaner and the text slightly easier to read ([Fig 4.13](#fig-4-13)).
 
-Two years ago, Google decided to drop the underlined style in their links ([https://a4e.link/04-03/](https://a4e.link/04-03/)). The lack of underlines makes the page layout appear much cleaner and the text slightly easier to read (Fig 4.13).
-
-<figure>
-    <img alt="Google search results side by side. The left side has underlined links for the title of each search result, the right side has no underlines on the links." src="/images/6.png"/>
-    <figcaption>Fig 4.13: Google search results looks more crowded with links underlined (left) than when the links are just big and blue (right).</figcaption>
-</figure>
+<figure id="fig-4-13" class="images-pair"><img alt="Google search results with underlined links for the title of each search result." src="/images/fig-4-13-a-vforvendetta-googlesearch.png"/><img alt="Google search results with no underlines on the links." src="/images/fig-4-13-b-vforvendetta-googlesearch2.png"/><figcaption><span class="fig-number">Fig 4.13:</span> Google search results looks more crowded with links underlined (left/top) than when the links are just big and blue (right/bottom).</figcaption></figure>
 
 Making a change this significant was a big deal for Google: they could lose a lot of page clicks—one of their sources of income—if people couldn’t distinguish the links from the rest of the text. However, Google’s other design decisions ensured they stuck with enough conventions to keep the links obvious:
 
@@ -107,12 +104,9 @@ Making a change this significant was a big deal for Google: they could lose a lo
 
 I mentioned earlier that screen readers can jump between links on a page. Navigating through a page full of links using a screen reader can be tiresome—or worse, useless. “Click here, click here, click here” is often all you’ll hear.
 
-The “click here” repetition is a common issue caused by nondescript link text (Fig 4.14). This often crops up in sentences ending with a call to action, such as “To get in contact with our team, click here.”
+The “click here” repetition is a common issue caused by nondescript link text ([Fig 4.14](#fig-4-14)). This often crops up in sentences ending with a call to action, such as “To get in contact with our team, click here.”
 
-<figure>
-    <img alt="A web page with links for video tutorials. The text is Click here for instructional help using the the Locator, and Click here for instructional help on Filtering and Downloading a List of Facilities, but only the here part of each text is a link." src="/images/fig-4.14-click-here.png"/>
-    <figcaption>Fig 4.14: Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)</figcaption>
-</figure>
+<figure id="fig-4-14"><img alt="A web page with links for video tutorials. The text is Click here for instructional help using the the Locator, and Click here for instructional help on Filtering and Downloading a List of Facilities, but only the here part of each text is a link." src="/images/fig-4.14-click-here.png"/><figcaption><span class="fig-number">Fig 4.14:</span> Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)</figcaption></figure>
 
 The problem is that using “click here” as the language for your links renders the links meaningless for those with screen readers as well as those without. Descriptive linking, instead, helps links make sense out of context, and provides users with a sense of where the link will take them or what will happen after they click. “Read the full article” is a lot more descriptive than “Click here.”
 
@@ -128,7 +122,7 @@ Writing great copy comprises more than good spelling, grammar, and text in a coh
 
 Accessible content begins with well-structured copy. At the page level, structure helps readers understand which text on a page is most important. Using clear and concise headings makes it easy for someone to skim the page and understand the information they’re likely to find (Fig 4.15).
 
-If your text contains lists, separate them out from paragraph text to make them clear. The different structure will also break up the page, providing space for the reader to rest (Fig 4.16).
+If your text contains lists, separate them out from paragraph text to make them clear. The different structure will also break up the page, providing space for the reader to rest ([Fig 4.16](#fig-4-16)).
 
 A well-structured and easily navigable page also looks less intimidating. For someone who struggles to read and understand text, a clear content hierarchy could be the difference between wanting to read a page or closing the browser tab because the page doesn’t look worth the effort.
 
@@ -136,14 +130,11 @@ Long lines of text can be hard to read, as readers may struggle to read continuo
 
 Everyone can benefit from short, easy-to-read sentences and well-structured page content. Take my brother Sam, for example. Reading requires a lot of concentration for him, so Sam tends to read in short bursts, returning to the same page multiple times. Content that is split into a clear hierarchy, with obvious headings, helps him easily return to his previous place.
 
-His ideal text format is the small bits of trivia presented on the IMDb (Internet Movie Database) website, because they’re relatively easy for him to memorize. The IMDb movie pages are well-structured, with clearly bordered sections and large bold titles. Visual cues like hyperlinks help Sam quickly find related content. Similarities in layout from one page to another help him remember the area of the page where he’ll find the information he wants without having to read everything else on the page first—for instance, he knows he will always find the “Storyline” below the “Cast List” on an IMDb movie page (Fig 4.17).
+His ideal text format is the small bits of trivia presented on the IMDb (Internet Movie Database) website, because they’re relatively easy for him to memorize. The IMDb movie pages are well-structured, with clearly bordered sections and large bold titles. Visual cues like hyperlinks help Sam quickly find related content. Similarities in layout from one page to another help him remember the area of the page where he’ll find the information he wants without having to read everything else on the page first—for instance, he knows he will always find the “Storyline” below the “Cast List” on an IMDb movie page ([Fig 4.17](#fig-4-17)).
+
+<figure id="fig-4-17"><img alt="The IMDB page for V for Vendetta has prominent headings including Cast, Storyline, and Details." src="/images/fig-4.17-V_for_Vendetta_IMDb.png"/><figcaption><span class="fig-number">Fig 4.17:</span> Every IMDb (Internet Movie Database) movie page is structured with content in the same order, and with the same headings.</figcaption></figure>
 
 ### Plain language
-
-<figure>
-    <img alt="The IMDB page for V for Vendetta has prominent headings including Cast, Storyline, and Details." src="/images/fig-4.17-V_for_Vendetta_IMDb.png"/>
-    <figcaption>Fig 4.17: Every IMDb (Internet Movie Database) movie page is structured with content in the same order, and with the same headings.</figcaption>
-</figure>
 
 Clear, simple, and concise language makes the most accessible text. Concise writing comes with practice, and makes text much easier to read. I’m terrible at being concise, and always use more words than needed (as the editors of this book will attest!). I’ve found that Twitter is a great place to practice concise writing—I often rewrite tweets again and again to make them fit inside the character restriction.
 
@@ -167,18 +158,15 @@ Jason Santa Maria’s *On Web Typography* ([https://a4e.link/04-04/](https://a4e
 
 ### Specialist typefaces
 
-There are specialist typefaces designed to aid young readers and people who have difficulty reading. Heinemann is an unfussy typeface that uses the same shapes for characters as many people are taught to write in school: the *a*, for instance, has a single story and a large round counter (the white space in the center of the shape) (Fig 4.18). Its numeral *9* has a straight stem (or main stroke) rather than a curved stem, which some claim is more legible. The oft-maligned Comic Sans, looked down on by many designers, shares some of Heinemann’s simple letterforms, and so is often favored for signs and displays in classrooms (Fig 4.18).
+There are specialist typefaces designed to aid young readers and people who have difficulty reading. Heinemann is an unfussy typeface that uses the same shapes for characters as many people are taught to write in school: the *a*, for instance, has a single story and a large round counter (the white space in the center of the shape) ([Fig 4.18](#fig-4-18)). Its numeral *9* has a straight stem (or main stroke) rather than a curved stem, which some claim is more legible. The oft-maligned Comic Sans, looked down on by many designers, shares some of Heinemann’s simple letterforms, and so is often favored for signs and displays in classrooms ([Fig 4.18](#fig-4-18)).
 
 ### Icon fonts
 
-Fonts have become widely used for icons too. However, icon fonts can cause problems for accessibility, depending on their implementation. If the icon is mapped to an unrecognized glyph in the HTML, a screen reader will just ignore it (Fig 4.19). Some icon fonts map icons to whole words, which can work very well if, for example, your house icon reads as “home” in the HTML (Fig 4.20).
+Fonts have become widely used for icons too. However, icon fonts can cause problems for accessibility, depending on their implementation. If the icon is mapped to an unrecognized glyph in the HTML, a screen reader will just ignore it ([Fig 4.19](#fig-4-19)). Some icon fonts map icons to whole words, which can work very well if, for example, your house icon reads as “home” in the HTML ([Fig 4.20](#fig-4-20)).
 
-However, these icon fonts rely on your using the symbols for the correct words in the font. Deciding to use the star symbol to mean “favorite” when the font uses it to mean “star” could result in screen readers uttering some odd-sounding language: “calendar, star, map” (Fig 4.21).
+However, these icon fonts rely on your using the symbols for the correct words in the font. Deciding to use the star symbol to mean “favorite” when the font uses it to mean “star” could result in screen readers uttering some odd-sounding language: “calendar, star, map” ([Fig 4.21](#fig-4-21)).
 
-<figure>
-    <img alt="The Symbolset web page showing icons for calendar, star, and map." src="/images/fig-4.21-symbolset-navigation.png"/>
-    <figcaption>Fig 4.21: The icons in Symbolset are designed to use semantic and accessible terms but rely on you using the exact same term as they do.</figcaption>
-</figure>
+<figure id="fig-4-21"><img alt="The Symbolset web page showing icons for calendar, star, and map." src="/images/fig-4.21-symbolset-navigation.png"/><figcaption><span class="fig-number">Fig 4.21:</span> The icons in Symbolset are designed to use semantic and accessible terms but rely on you using the exact same term as they do.</figcaption></figure>
 
 As with all frameworks and libraries, don’t assume that because an icon font is widely-used, it’s a best practice. If you choose to use icon fonts, be cautious to ensure you are not compromising accessibility. Use progressive enhancement so your icon fonts fall back to accessible text. (We’ll look more at progressive enhancement in the next chapter.)
 
@@ -208,11 +196,11 @@ When we require visitors to input content, we shouldn’t allow the page to time
 
 Forms are the key elements in interactive sites—they are, after all, how a user communicates with a site. But even filling out the shortest form can be taxing for people with learning difficulties. Form interactions should be made as stress-free as possible, assisting the user in filling out the form easily and accurately. People with literacy or language difficulties, for example, can benefit from spelling and grammar checks inside forms. Predictive text in search forms can assist people who have trouble spelling search terms correctly.
 
-We’ve all been there: a form returns an error because what we’ve entered is in an “incorrect format,” or the form field requires a specific format (Fig 4.22).
+We’ve all been there: a form returns an error because what we’ve entered is in an “incorrect format,” or the form field requires a specific format ([Fig 4.22](#fig-4-22)).
 
 But that’s not a user error—that’s the site developers’ fault. Formatting the content of an input field should not be a burden placed on the user; the burden should be on the developers to convert user input into the necessary format.
 
-An input field should be constructed in a way that helps people enter the appropriate format. This could be through a JavaScript helper that converts their entry into the correct format on the fly (Fig 4.23), or even just microcopy clearly explaining the required format alongside the form field. (Fig 4.24). Asynchronous validation can also reassure people that their input is correct, resulting in a successful form submission.
+An input field should be constructed in a way that helps people enter the appropriate format. This could be through a JavaScript helper that converts their entry into the correct format on the fly ([Fig 4.23](#fig-4-23)), or even just microcopy clearly explaining the required format alongside the form field. ([Fig 4.24](#fig-4-24)). Asynchronous validation can also reassure people that their input is correct, resulting in a successful form submission.
 
 If format conversion or asynchronous validation aren’t possible, the contents of the form field should be converted after the form is submitted into the format needed by the site. That way the people using the site aren’t unnecessarily challenged with working out the format required for their entries.
 
@@ -220,31 +208,25 @@ If format conversion or asynchronous validation aren’t possible, the contents 
 
 Rich web applications have become more popular since the early 2000s, as the web has become more capable of providing interactive experiences. But rich web apps have introduced new accessibility issues: content on a page can change without being triggered by visitors. When an alert appears on a page without a page refresh, visitors need to have their attention drawn to that change.
 
-We often use contrasting boxes near the top of the viewport for alerts, instantly capturing sighted people’s attention. However, those using screen readers also need a cue to tell them that the state has changed (Fig 4.25).
+We often use contrasting boxes near the top of the viewport for alerts, instantly capturing sighted people’s attention. However, those using screen readers also need a cue to tell them that the state has changed ([Fig 4.25](#fig-4-25)).
 
-The alert should be given focus, alerting the user to the state change. Twitter does this very well. When a person using a screen reader views a Twitter feed, an instant alert announces: “New tweets available. Press period to review them.” The Twitter alert doesn’t just give you the changed state, but also gives you a keyboard shortcut to access those changes (Fig 4.26).
+The alert should be given focus, alerting the user to the state change. Twitter does this very well. When a person using a screen reader views a Twitter feed, an instant alert announces: “New tweets available. Press period to review them.” The Twitter alert doesn’t just give you the changed state, but also gives you a keyboard shortcut to access those changes ([Fig 4.26](#fig-4-26)).
 
 Once people have interacted with an alert, they should be able to return to their original position on the page.
 
 ### Error messages
 
-There are many different types of error messages: error messages on forms as the result of an interaction gone wrong; or even a simple “Page Not Found.” Error messages can either fix a problem, or confuse and frustrate us. These little chunks of text attract visitors’ attention, so making sure that the copy is friendly, appropriate, and useful is effort well spent (Fig 4.27).
+There are many different types of error messages: error messages on forms as the result of an interaction gone wrong; or even a simple “Page Not Found.” Error messages can either fix a problem, or confuse and frustrate us. These little chunks of text attract visitors’ attention, so making sure that the copy is friendly, appropriate, and useful is effort well spent ([Fig 4.27](#fig-4-27)).
 
-Sometimes these snippets of text are written by developers who are just passing on the error from the server, forgetting that there’s a human being on the other side (Fig 4.28).
+Sometimes these snippets of text are written by developers who are just passing on the error from the server, forgetting that there’s a human being on the other side ([Fig 4.28](#fig-4-28)).
 
-If the user has done something wrong, explain clearly how they can rectify or get around the error (Fig 4.29).
+<figure id="fig-4-28"><img alt="The Estée Lauder website displaying small red text and the message length_max.password.loyalty_registration." src="/images/fig-4.28-Sign_In___Est_e_Lauder.png"/><figcaption><span class="fig-number">Fig 4.28:</span> When this error came up on the Estée Lauder site, I wasn’t sure if I’d done something wrong or was just on the receiving end of a peculiar log message.</figcaption></figure>
+
+If the user has done something wrong, explain clearly how they can rectify or get around the error ([Fig 4.29](#fig-4-29)).
+
+<figure id="fig-4-29"><img alt="The Basecamp Schedule Looking back tab features a message saying There aren’t any past events yet! Once an event has gone by, you’ll find it here. The handdrawn illustration is of a basecamp snowglobe icon roasting a marsmallow over a campfire." src="/images/fig-4.29-basecamp-error.png"/><figcaption><span class="fig-number">Fig 4.29:</span> There are no past events in my Schedule, but instead of showing an error or an empty page, Basecamp tells me how this feature works, with a bonus cute illustration.</figcaption></figure>
 
 Everyone on the team is responsible for creating a good experience for the people visiting their site. “Human copy” goes a long way in helping someone understand a problem, and how to fix it.
-
-<figure>
-    <img alt="The Estée Lauder website displaying small red text and the message length_max.password.loyalty_registration." src="/images/fig-4.28-Sign_In___Est_e_Lauder.png"/>
-    <figcaption>Fig 4.28: When this error came up on the Estée Lauder site, I wasn’t sure if I’d done something wrong or was just on the receiving end of a peculiar log message.</figcaption>
-</figure>
-
-<figure>
-    <img alt="The Basecamp Schedule Looking back tab features a message saying There aren’t any past events yet! Once an event has gone by, you’ll find it here. The handdrawn illustration is of a basecamp snowglobe icon roasting a marsmallow over a campfire." src="/images/fig-4.29-basecamp-error.png"/>
-    <figcaption>Fig 4.29: There are no past events in my Schedule, but instead of showing an error or an empty page, Basecamp tells me how this feature works, with a bonus cute illustration.</figcaption>
-</figure>
 
 ## Color
 
@@ -252,42 +234,33 @@ In Chapter 2, we learned about how different types of color blindness affect how
 
 ### Contrast
 
-Text whose color is too close to that of the background will be hard to read. Someone with a visual impairment will find this scenario particularly difficult, but all readers struggle with low-contrast text, especially if they’re using old displays or sitting in bright sunlight. High contrast can help make a screen easier to read in such situations (Fig 4.30).
+Text whose color is too close to that of the background will be hard to read. Someone with a visual impairment will find this scenario particularly difficult, but all readers struggle with low-contrast text, especially if they’re using old displays or sitting in bright sunlight. High contrast can help make a screen easier to read in such situations ([Fig 4.30](#fig-4-30)).
 
-Low contrast isn’t just a problem on plain backgrounds—contrast issues can also occur when text is on a textured background or on top of an image (Fig 4.31). Sufficient contrast between foreground and background colors makes text much easier to read. People who are color-blind are particularly affected by low color contrast, since they find it difficult to distinguish between colors.
+Low contrast isn’t just a problem on plain backgrounds—contrast issues can also occur when text is on a textured background or on top of an image ([Fig 4.31](#fig-4-31)). Sufficient contrast between foreground and background colors makes text much easier to read. People who are color-blind are particularly affected by low color contrast, since they find it difficult to distinguish between colors.
+
+<figure id="fig-4-31"><img alt="The same text advertising a movie in two images. The left image shows the text overlayed over a contrasting image of red theatre seats. The right image shows the same text over a solid red background." src="/images/7.png"/><figcaption><span class="fig-number">Fig 4.31:</span> When text is used over a photo with different textures and shapes in the background (left), the text is much harder to read and appears lower in contrast than against a solid color background (right).</figcaption></figure>
 
 To some degree, using big or bold type will make your text stand out from the background. This frees you up to use slightly lower-contrast colors since the size and weight of the type will do some of the work of distinguishing text from background.
 
 While we aim for high contrast for the majority of visitors, if the contrast between text and background is too high, the text can appear to dance on screen. High-contrast text is particularly problematic for people with a dyslexic condition called *scotopic sensitivity* *syndrome* (SSS). People with SSS find that high-contrast text appears to shimmer or wobble on the screen.
 
-Geri Coady, author of the fantastic *Color Accessibility Workflows*, recommends working in grayscale to test your designs. In grayscale, you can quickly see whether the text is readable against the background (Fig 4.32).
-
-<figure>
-    <img alt="The same text advertising a movie in two images. The left image shows the text overlayed over a contrasting image of red theatre seats. The right image shows the same text over a solid red background." src="/images/7.png"/>
-    <figcaption>Fig 4.31: When text is used over a photo with different textures and shapes in the background (left), the text is much harder to read and appears lower in contrast than against a solid color background (right).</figcaption>
-</figure>
+Geri Coady, author of the fantastic *Color Accessibility Workflows*, recommends working in grayscale to test your designs. In grayscale, you can quickly see whether the text is readable against the background ([Fig 4.32](#fig-4-32)).
 
 Avoiding contrast that is either too low or too high can feel like a difficult balancing act. Use your best judgment. And back it up with color-contrast checking tools and color-blindness emulation tools, which we’ll discuss in Chapter 6.
 
 ### Color as information
 
-Color should never be used as the sole means of conveying information. On ecommerce sites, we’re often given a choice between different colors for a product. On the Body Shop’s site, for example, color choices are displayed as little colored squares. However, no text equivalent is provided unless you select the color swatch first. Without supplemental text, the little colored squares are meaningless to people who are visually impaired or color-blind (Fig 4.33).
+Color should never be used as the sole means of conveying information. On ecommerce sites, we’re often given a choice between different colors for a product. On the Body Shop’s site, for example, color choices are displayed as little colored squares. However, no text equivalent is provided unless you select the color swatch first. Without supplemental text, the little colored squares are meaningless to people who are visually impaired or color-blind ([Fig 4.33](#fig-4-33)).
+
+<figure id="fig-4-33"><img alt="A selection of swatches for nail polish colors in an ecommerce website. The Relish the Moment swatch appears red in the default image, and a gray green in the image with a filter simulating deuteranopia." src="/images/8.png"/><figcaption><span class="fig-number">Fig 4.33:</span> Fashionable names for colors can be unhelpful too. A nail polish in Relish The Moment may appear pickle green for someone with deuteranopia color blindness (simulated right) compared to its actual red (left).</figcaption></figure>
 
 Using both the color swatch and the color name on product pages gives the user a fallback. It also makes the page accessible if the images don’t load.
 
-Red is often used in forms to distinguish required fields or error fields because it’s a bright and eye-catching color. However, to many color-blind and visually impaired users, red is indistinguishable—so a form with errors will look the same as a form without errors. Users with cognitive difficulties or little previous experience on the web may also find it hard to understand (Fig 4.34).
+Red is often used in forms to distinguish required fields or error fields because it’s a bright and eye-catching color. However, to many color-blind and visually impaired users, red is indistinguishable—so a form with errors will look the same as a form without errors. Users with cognitive difficulties or little previous experience on the web may also find it hard to understand ([Fig 4.34](#fig-4-34)).
 
-<figure>
-    <img alt="A selection of swatches for nail polish colors in an ecommerce website. The Relish the Moment swatch appears red in the default image, and a gray green in the image with a filter simulating deuteranopia." src="/images/8.png"/>
-    <figcaption>Fig 4.33: Fashionable names for colors can be unhelpful too. A nail polish in Relish The Moment may appear pickle green for someone with deuteranopia color blindness (simulated right) compared to its actual red (left).</figcaption>
-</figure>
+<figure id="fig-4-34"><img alt="An Etsy form for choosing the color and quantity of a product on a white background. There’s a contrasting error message with white text on a pink red background which is equally contrasting in grayscale with white text on a gray background." src="/images/9.png"/><figcaption><span class="fig-number">Fig 4.34:</span> The form errors on Etsy have a pink-red highlighted background, which is still very noticeable when you see the same form in grayscale.</figcaption></figure>
 
 Visual styling is still a valuable tool for getting the visitor’s attention, but using text explanations in addition to red borders will make an error or required field accessible to as many people as possible.
-
-<figure>
-    <img alt="An Etsy form for choosing the color and quantity of a product on a white background. There’s a contrasting error message with white text on a pink red background which is equally contrasting in grayscale with white text on a gray background." src="/images/9.png"/>
-    <figcaption>Fig 4.34: The form errors on Etsy have a pink-red highlighted background, which is still very noticeable when you see the same form in grayscale.</figcaption>
-</figure>
 
 ## Rich Media
 
@@ -305,12 +278,9 @@ When we add the `alt` attribute to HTML, we’re providing visitors with an alte
 
 When a screen reader comes across an image that has no `alt` attribute, in an attempt to provide some useful information, it will sometimes read the file name instead. Not surprisingly, when images have digital file names like photo.jpg or DSCF0017.jpg, that’s not very useful at all.
 
-Providing text alternatives for images can help someone understand the context of an image without seeing the image itself. We don’t need to be overly descriptive. Poor alternative text for an image might be something like “a dog in the park.” But describing the image as “My dog Oskar sitting by a *hundrastplats* sign which means ‘dog park’ in Swedish” gives more context and meaning to the image (Fig 4.35).
+Providing text alternatives for images can help someone understand the context of an image without seeing the image itself. We don’t need to be overly descriptive. Poor alternative text for an image might be something like “a dog in the park.” But describing the image as “My dog Oskar sitting by a *hundrastplats* sign which means ‘dog park’ in Swedish” gives more context and meaning to the image ([Fig 4.35](#fig-4-35)).
 
-<figure>
-    <img alt="A large fluffy huskamute dog sitting by a Hundrastplats Swedish dog park sign." src="/images/fig-4.35-t1G2JHyVSyaXHbK7G6BEBQ_thumb_186e.png"/>
-    <figcaption>Fig 4.35: The key information about this photo is that a dog is sitting by a sign. The sign is unusual, so what it says is important.</figcaption>
-</figure>
+<figure id="fig-4-35"><img alt="A large fluffy huskamute dog sitting by a Hundrastplats Swedish dog park sign." src="/images/fig-4.35-t1G2JHyVSyaXHbK7G6BEBQ_thumb_186e.png"/><figcaption><span class="fig-number">Fig 4.35:</span> The key information about this photo is that a dog is sitting by a sign. The sign is unusual, so what it says is important.</figcaption></figure>
 
 Alternative text is not necessary for a decorative image, as decoration is more about providing atmosphere than information. In these cases, we should still use the alternative attribute, but leave the contents of the attribute blank, to tell the browser and screen readers that this image is not important:
 
@@ -330,21 +300,15 @@ It’s only worth putting text in an image if it’s part of a logo. That’s th
 
 ### Graphs and infographics
 
-Graphs and infographics are a great way to make information easy to digest; they can tell stories and make connections in an engaging way (Fig 4.36). Providing text alternatives to explain the content is usually the most straightforward method of approaching screen reader accessibility (Fig 4.37).
+Graphs and infographics are a great way to make information easy to digest; they can tell stories and make connections in an engaging way ([Fig 4.36](#fig-4-36)). Providing text alternatives to explain the content is usually the most straightforward method of approaching screen reader accessibility ([Fig 4.37](#fig-4-37)).
+
+<figure id="fig-4-36"><img alt="An infographic which maps time between 1950 and 2050 from left to right. There are red and blue flags indicating key points in time." src="/images/fig-4.36-infographic.png"/><figcaption><span class="fig-number">Fig 4.36:</span> An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, <a href="https://a4e.link/04-08/">https://a4e.link/04-08/</a>.)</figcaption></figure>
+
+<figure id="fig-4-37"><img alt="The same infographic as above with text titled Data and Social Cooling, and a list describing the data displayed for each key point in time." src="/images/fig-4.37-Infographic_with_description.png"/><figcaption><span class="fig-number">Fig 4.37:</span> The same infographic with the contents simply described alongside, making it more accessible for everyone.</figcaption></figure>
 
 Some ways of going about this are more intelligent than others, though. Simply dumping the words of an infographic into a paragraph won’t be very enlightening for readers, and neither will spitting out all the data from a graph. After all, we use graphs and infographics to make it easier to understand data—presenting that data as a chunk of obscure text defeats the point. It might help to think about how you would explain the contents of the media to someone over the phone, or via email. Ask yourself: what are the highlights and lowlights of the infographic you’re describing? What are its important and notable parts?
 
 A text alternative may also be of use to someone who, because of cognitive or learning challenges, has difficulty understanding data presented in graphs and infographics. Furthermore, a text alternative offers a backup for all users, in case the image hasn’t loaded or the graphing library isn’t supported.
-
-<figure>
-    <img alt="An infographic which maps time between 1950 and 2050 from left to right. There are red and blue flags indicating key points in time." src="/images/fig-4.36-infographic.png"/>
-    <figcaption>Fig 4.36: An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, <a href="https://a4e.link/04-08/">https://a4e.link/04-08/</a>.)</figcaption>
-</figure>
-
-<figure>
-    <img alt="The same infographic as above with text titled Data and Social Cooling, and a list describing the data displayed for each key point in time." src="/images/fig-4.37-Infographic_with_description.png"/>
-    <figcaption>Fig 4.37: The same infographic with the contents simply described alongside, making it more accessible for everyone.</figcaption>
-</figure>
 
 ### PDFs
 
@@ -407,12 +371,9 @@ If you’ve watched a movie in a language that’s foreign to you, you’ve prob
 
 *Closed captions*, on the other hand, provide the same information present in subtitles, but also include other audio cues, such as “\[music\]” to describe when music is the only sound, or “\[doorbell rings\]” when an important sound effect is heard. Only important audio cues that are pertinent to understanding the movie are included in closed captions. Having “\[sirens in distant background\]” in a scene set in New York wouldn’t provide much meaningful detail when describing a city known for its loud traffic.
 
-As with transcripts, there are professional services that will create closed captions for you, but as it’s time-consuming work, these services can be expensive. YouTube has an auto-captioning option on videos, but speech-to-text software can be inaccurate if there is background noise, multiple speakers, or an accent unfamiliar to the software (Fig 4.38).
+As with transcripts, there are professional services that will create closed captions for you, but as it’s time-consuming work, these services can be expensive. YouTube has an auto-captioning option on videos, but speech-to-text software can be inaccurate if there is background noise, multiple speakers, or an accent unfamiliar to the software ([Fig 4.38](#fig-4-38)).
 
-<figure>
-    <img alt="A YouTube video showing Laura speaking at a podium with the caption appetizers are dealing with this is where they get their data." src="/images/fig-4.38-captioning-mytalk.png"/>
-    <figcaption>Fig 4.38: YouTube’s auto-captioning is good, though tastily replaced “advertisers” with “appetizers” throughout this talk I gave at Creative Mornings Malmö.</figcaption>
-</figure>
+<figure id="fig-4-38"><img alt="A YouTube video showing Laura speaking at a podium with the caption appetizers are dealing with this is where they get their data." src="/images/fig-4.38-captioning-mytalk.png"/><figcaption><span class="fig-number">Fig 4.38:</span> YouTube’s auto-captioning is good, though tastily replaced “advertisers” with “appetizers” throughout this talk I gave at Creative Mornings Malmö.</figcaption></figure>
 
 Producing your own closed captions will be the least expensive option and will enable you to write the most accurate text. Writing good closed captions is an art. You don’t want to show too much text on the screen at any one time, as it makes it harder to read alongside the main picture (Fig 4.39).
 
