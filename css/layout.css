@@ -124,7 +124,16 @@ figure {
   border: dashed var(--colour-border);
   border-width: 1px 0;
 }
+.images-pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1em;
+}
+.images-pair img {
+  width: clamp(20rem, calc(50% - 0.1em), 30rem);
+}
 figure img {
+  border: 1px solid var(--colour-border);
   display: block;
   margin: 0 auto 0.825em auto;
 }
