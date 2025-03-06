@@ -48,7 +48,7 @@ A huge spectrum of disabilities involves eyesight, and gives rise to a wide rang
 
 Color blindness is a common visual impairment that affects up to 8% of men and 0.5% of women. Color blindness doesn’t mean that a person can’t see any colors, or that they only see in grayscale, but that they cannot see a particular color or distinguish certain colors from one another.
 
-Normal color vision uses all three light cones in our eyes, and is known as *trichromacy*. Each cone has a different sensitivity to light wavelengths—red, green, and blue. Deficiencies in different cones create different types of color blindness (Fig 2.1):
+Normal color vision uses all three light cones in our eyes, and is known as *trichromacy*. Each cone has a different sensitivity to light wavelengths—red, green, and blue. Deficiencies in different cones create different types of color blindness ([Fig 2.1](#fig-2-1)):
 
 * *Deuteranopia* causes reds to look lighter, and makes them easily confused with greens.
 * *Protanopia* is a rare red-cone deficiency that makes pinks appear blue, and makes dark reds and blacks easy to confuse.
@@ -56,19 +56,19 @@ Normal color vision uses all three light cones in our eyes, and is known as *tri
 * *Tritanopia* is an extremely rare blue-cone deficiency that causes people to confuse blue with green and yellow with violet.
 * *Monochromacy* is the rarest type of color blindness, affecting just one person in 33,000. It’s similar to seeing in grayscale. Affected people often wear dark glasses in normal light due to increased light sensitivity.
 
-Color blindness has a significant impact on the readability and comprehension of a page. Text colors need to be readable against background colors, and because different people perceive color differently, it’s unreliable to use color to signify meaning.
+<figure id="fig-2-1"><img alt="Five of the same kingfisher photo with different colour filters." src="/images/fig-2-01-comparing-colour-blindness.jpg"/><figcaption><span class="fig-number">Fig 2.1:</span> A kingfisher in its original photo (red orange breast with blue head and wings), then duplicated (left to right) with simulated deuteranopia (green breast with purple blue head and wings), protanopia (darker green with purple blue head and wings), tritanopia (pink breast with turquoise head and wings) and monochromacy (grey breast with grey head and wings). Photograph courtesy of Foundry (<a href="https://a4e.link/02-01/">https://a4e.link/02-01/</a>).</figcaption></figure>
 
-<figure><img alt="Five of the same kingfisher photo with different colour filters." src="/images/fig-2.01-comparing-colour-blindness.png"/><figcaption>Fig 2.1: A kingfisher in its original photo (red orange breast with blue head and wings), then duplicated (left to right) with simulated deuteranopia (green breast with purple blue head and wings), protanopia (darker green with purple blue head and wings), tritanopia (pink breast with turquoise head and wings) and monochromacy (grey breast with grey head and wings). Photograph courtesy of Foundry (<a href="https://a4e.link/02-01/">https://a4e.link/02-01/</a>).</figcaption></figure>
+Color blindness has a significant impact on the readability and comprehension of a page. Text colors need to be readable against background colors, and because different people perceive color differently, it’s unreliable to use color to signify meaning.
 
 #### Eyesight loss
 
 People with partial eyesight loss need clear labels, readable text sizes, and a high contrast between text and background colors. They may want to invert screen colors or hide background images to make a page easier to read. They may also use a screen reader or braille display, and will benefit from well-written HTML and a text alternative for images and video.
 
-* *Age-related macular degeneration* is the leading cause of blindness in adults. It causes the center of your field of vision—what you’re looking at directly—to be blurry or obscured, making it hard to watch TV, look at photos, and read (Fig 2.2).
-* *Glaucoma* is the result of damage to the optic nerve, and has the opposite effect of macular degeneration: the edges of your field of vision are obscured (Fig 2.2).
-* *Diabetic retinopathy* occurs when diabetes damages the blood vessels in light-sensitive eye tissue. It causes dark spots in your field of vision, obscuring or distorting what you see (Fig 2.2).
+* *Age-related macular degeneration* is the leading cause of blindness in adults. It causes the center of your field of vision—what you’re looking at directly—to be blurry or obscured, making it hard to watch TV, look at photos, and read ([Fig 2.2](#fig-2-2)).
+* *Glaucoma* is the result of damage to the optic nerve, and has the opposite effect of macular degeneration: the edges of your field of vision are obscured ([[Fig 2.2](#fig-2-2)).
+* *Diabetic retinopathy* occurs when diabetes damages the blood vessels in light-sensitive eye tissue. It causes dark spots in your field of vision, obscuring or distorting what you see ([Fig 2.2](#fig-2-2)).
     
-<figure><img alt="The kingfisher photo four times again from left to right, with different dark patches obscuring the photo." src="/images/fig-2.02-eyesight-degeneration-simulations.png"/><figcaption>Fig 2.2: That kingfisher again, this time simulating (left to right) macular degeneration (obscuring the center of the image), glaucoma (obsuring the outer edges of the image), and diabetic retinopathy (patches across the whole image).</figcaption></figure>
+<figure id="fig-2-2"><img alt="The kingfisher photo four times again from left to right, with different dark patches obscuring the photo." src="/images/fig-2-02-eyesight-degeneration-simulations.jpg"/><figcaption><span class="fig-number">Fig 2.2:</span> That kingfisher again, this time simulating (left to right) macular degeneration (obscuring the center of the image), glaucoma (obsuring the outer edges of the image), and diabetic retinopathy (patches across the whole image).</figcaption></figure>
 
 ### Auditory impairments
 
@@ -110,9 +110,9 @@ Learning disabilities are common in people of all ages. People with learning dis
 
 *Dyslexia* is a general term for disorders that result in difficulty in learning to read or interpret words, letters, and other symbols. Dyslexic readers sometimes find it easier to read using specific text and background color combinations. Including a dyslexia-friendly option in your site’s preferences will allow people with dyslexia to have a better experience each time they visit your site.
 
-The British Dyslexia Association allows visitors to choose their preferred color palette from a menu at the top of the screen. The menu also relies on symbols over text, making the site easier for people with dyslexia to use. I found the site somewhat hard to use, as I’m not dyslexic and I’m more accustomed to text-based menus. This is a great example of an organization prioritizing the needs of its target audience over other audiences (Fig 2.3).
+The British Dyslexia Association allows visitors to choose their preferred color palette from a menu at the top of the screen. The menu also relies on symbols over text, making the site easier for people with dyslexia to use. I found the site somewhat hard to use, as I’m not dyslexic and I’m more accustomed to text-based menus. This is a great example of an organization prioritizing the needs of its target audience over other audiences ([Fig 2.3](#fig-2-3)).
 
-<figure><img alt="The British Dyslexia Association homepage with colorful buttons along the top of the page. Including back, play, and forward buttons and text resizing buttons." src="/images/fig-2.03-British_Dyslexia_Association.png"/><figcaption>Fig 2.3: The top of the British Dyslexia Association’s site displays an array of accessibility options, including text to speech (<a href="https://a4e.link/02-02/">https://a4e.link/02-02/</a>).</figcaption></figure>
+<figure id="fig-2-3"><img alt="The British Dyslexia Association homepage with colorful buttons along the top of the page. Including back, play, and forward buttons and text resizing buttons." src="/images/fig-2-03-britishdyslexiaassociation.png"/><figcaption><span class="fig-number">Fig 2.3:</span> The top of the British Dyslexia Association’s site displays an array of accessibility options, including text to speech (<a href="https://a4e.link/02-02/">https://a4e.link/02-02/</a>).</figcaption></figure>
 
 Even though he isn’t blind, Sam—like many others with dyslexia—relies on screen readers when using a computer. He finds JAWS’s voices too robotic, and prefers NaturalReader by NaturalSoft Ltd. ([https://a4e.link/02-03/](https://a4e.link/02-03/)) to hear the text in natural speech form. Sam usually chooses to copy and paste the text he wants read aloud into the software, rather than it reading whole pages. He doesn’t want the screen reader to read him the meta information (such as headings and alternative text for images), which distracts him from the primary text.
 
@@ -208,9 +208,9 @@ For example, quotation marks vary wildly across Western languages. In English, w
 
 A character set (more technically known as *character encoding*) is a defined list of characters that is recognized by software and hardware. For example, the American Standard Code for Information Interchange (ASCII) is a character-encoding standard that maps English letters to numbers that computers understand. For instance, a lowercase *w* is 119 in ASCII. Europe’s International Organization for Standardization (ISO) character sets are similar to ASCII, but include additional characters (like *à*, *ö*, or *æ*) needed for European languages.
 
-If the character sets that make up our alphabets don’t contain all the necessary characters for a given language, we can end up with ugly errors in our text. These don’t just look bad; they make the words unreadable (Fig 2.4).
+If the character sets that make up our alphabets don’t contain all the necessary characters for a given language, we can end up with ugly errors in our text. These don’t just look bad; they make the words unreadable ([Fig 2.4](#fig-2-4)).
 
-<figure><img alt="A Facebook ad where the accented letters are replaced with question marks in a diamond shape." src="/images/fig-2.04-facebook-ad-missing-chars.png"/><figcaption>Fig 2.4: Most modern browsers will substitute a readable character in place of an error, but the worst-case scenario is ending up with question marks in boxes instead of readable text. This Facebook ad can’t deal with the Swedish <em>å</em>, <em>ä</em> or <em>ö</em>.</figcaption></figure>
+<figure id="fig-2-4"><img alt="A Facebook ad where the accented letters are replaced with question marks in a diamond shape." src="/images/fig-2-04-facebook-ad-missing-chars.png"/><figcaption><span class="fig-number">Fig 2.4:</span> Most modern browsers will substitute a readable character in place of an error, but the worst-case scenario is ending up with question marks in boxes instead of readable text. This Facebook ad can’t deal with the Swedish <em>å</em>, <em>ä</em> or <em>ö</em>.</figcaption></figure>
 
 
 When selecting a character set for your website, it’s always worth double-checking the character sets for foreign-language characters in case the text is translated. (Remember, if a reader is using a translation browser plugin, text can be translated without your input or knowledge.)
@@ -219,9 +219,9 @@ When choosing webfonts, you also need to make sure that your fonts contain all t
 
 #### Reading direction
 
-Text in Western languages is read horizontally from left to right. But text in languages such as Arabic, Hebrew, Persian, and Urdu is read horizontally from right to left (Fig 2.5). Reading from right to left usually leads to right-aligned text, and a mirror-imaging of the left-to-right page layout.
+Text in Western languages is read horizontally from left to right. But text in languages such as Arabic, Hebrew, Persian, and Urdu is read horizontally from right to left ([Fig 2.5](#fig-2-5)). Reading from right to left usually leads to right-aligned text, and a mirror-imaging of the left-to-right page layout.
 
-<figure><img alt="On the BBC news English page both the layout and text runs left-to-right in English. On the BBC news Arabic page both the layout and text runs right-to-left in Arabic." src="/images/3.png"/><figcaption>Fig 2.5: BBC News in English (left) uses a left-to-right layout. BBC News in Arabic (right) uses a right-to-left layout.</figcaption></figure>
+<figure id="fig-2-5" class="images-pair"><img alt="On the BBC news English page both the layout and text runs left-to-right in English." src="/images/fig-2-05-a-english.png"/><img alt="On the BBC news Arabic page both the layout and text runs right-to-left in Arabic." src="/images/fig-2-05-b-arabic.png"/><figcaption><span class="fig-number">Fig 2.5:</span> BBC News in English (left/top) uses a left-to-right layout. BBC News in Arabic (right/bottom) uses a right-to-left layout.</figcaption></figure>
 
 If you want your site to have international appeal, making it work in different alphabets and for right-to-left readers will go a long way toward improving the usability of your site. You can set the direction of the text using the `dir` attribute in HTML:
 
@@ -249,9 +249,9 @@ As designers and developers, it can be easy to get caught up in the interaction 
 
 But environments aren’t just about the weather and light, they can also be about who’s in the room with you. If you’re working in a public space and don’t have headphones, you may not want to play audio content or videos with sound. If you’re trying to get work done in a noisy or disruptive space, you may not be able to hear audio or video, even with headphones. The considerations for these contexts are similar to those for hearing loss—you’d probably prefer subtitles, captions, or another text alternative for the content.
 
-Using the web can also be a personal experience requiring privacy. Sites can be made more usable in these situations (and benefit everybody) by making their information clear and easy to locate, and even tailoring the experience to specific stress cases (Fig 2.6). Sara Wachter-Boettcher and Eric Meyer explain how to identify these stress cases and incorporate compassion into your design process in their book, *Design for Real Life* ([https://a4e.link/02-09/](https://a4e.link/02-09/)).
+Using the web can also be a personal experience requiring privacy. Sites can be made more usable in these situations (and benefit everybody) by making their information clear and easy to locate, and even tailoring the experience to specific stress cases ([Fig 2.6](#fig-2-6)). Sara Wachter-Boettcher and Eric Meyer explain how to identify these stress cases and incorporate compassion into your design process in their book, *Design for Real Life* ([https://a4e.link/02-09/](https://a4e.link/02-09/)).
 
-<figure><img alt="The Domestic Violence UK homepage showing a dark hide site button in the top left corner margin of the page." src="/images/fig-2.06-_Domestic_Violence_UK.png"/><figcaption>Fig 2.6: Domestic Violence UK has a sticky “Hide Site” button at the top of every page which quickly redirects the page to Google, in case victims of abuse are being watched or monitored by abusive partners.</figcaption></figure>
+<figure id="fig-2-6"><img alt="The Domestic Violence UK homepage showing a dark hide site button in the top left corner margin of the page." src="/images/fig-2-06-domesticviolenceuk.png"/><figcaption><span class="fig-number">Fig 2.6:</span> Domestic Violence UK has a sticky “Hide Site” button at the top of every page which quickly redirects the page to Google, in case victims of abuse are being watched or monitored by abusive partners.</figcaption></figure>
 
 Sharing devices can also reveal potential problems. Someone who’s been looking for information on a medical condition doesn’t want personalized ads for therapies and medications following their partner or family member around the web. Respect the privacy of your visitors by default, and ensure you aren’t leaking their information to third parties who may not be so respectful.
 

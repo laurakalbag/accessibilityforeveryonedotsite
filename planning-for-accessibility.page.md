@@ -171,7 +171,7 @@ You can see a great example of an accessibility policy on the UK’s Post Office
 - the individual responsible for the policy and its implementation, and
 - the accessibility of their non-digital products and services.
 
-<figure id="fig-3-1"><img alt="The Post Office website’s accessibility policy featuring how they’re committed to accessibility and how they comply with British Standard BS8878." src="/images/fig-3.01-Our-Policies-Accessibility-Post-Office.png"/><figcaption><span class="fig-number">Fig 3.1:</span> The Post Office’s accessibility policy puts “Complying with the British Standards Institution” up top, but further down there’s more focus on the people using their site.</figcaption></figure>
+<figure id="fig-3-1"><img alt="The Post Office website’s accessibility policy featuring how they’re committed to accessibility and how they comply with British Standard BS8878." src="/images/fig-3-01-ourpolicies-accessibility-postoffice.png"/><figcaption><span class="fig-number">Fig 3.1:</span> The Post Office’s accessibility policy puts “Complying with the British Standards Institution” up top, but further down there’s more focus on the people using their site.</figcaption></figure>
 
 Accessibility policies, much like style guides, don’t always have to be made public—their primary value is as internal documents. That said, posting them publicly shows your commitment to accessibility and lets visitors know what they can expect from your site or agency.
 
