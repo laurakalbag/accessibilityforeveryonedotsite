@@ -25,7 +25,7 @@ While these examples illustrate just a few benefits, they show that accessibilit
 
 Usability can be compromised when designers abandon conventions because we've decided to “redefine” how something is usually done. Very occasionally, this can result in a new innovation that genuinely redefines and reshapes behavior, but it usually just makes a really unique mess ([Fig 4.2](#fig-4-2)).
 
-<figure id="fig-4-2"><img alt="A band website where the page content is displayed as ornately framed pictures in a side-scrolling gallery." src="/images/fig-4-02-nirvannatheband.png"/><figcaption><span class="fig-number">Fig 4.2:</span> Sideways scrolling websites had their peak in the late 00s. It certainly makes for an attention-grabbing surprise, but horizontal scrolling can be difficult if you use a mouse for scrolling—very few mice have horizontal scroll wheels./figcaption></figure>
+<figure id="fig-4-2"><img alt="A band website where the page content is displayed as ornately framed pictures in a side-scrolling gallery." src="/images/fig-4-02-nirvannatheband.png"/><figcaption><span class="fig-number">Fig 4.2:</span> Sideways scrolling websites had their peak in the late 00s. It certainly makes for an attention-grabbing surprise, but horizontal scrolling can be difficult if you use a mouse for scrolling—very few mice have horizontal scroll wheels.</figcaption></figure>
 
 On the web, using conventions well makes for a gentler learning curve for new visitors. A common convention is to design interactions using visual metaphors, to make the design imitate a similar real-world artifact. The most prevalent and successful use of a visual metaphor on the web is the button. Buttons trigger a behavior, such as submitting a form or changing a setting, because buttons in the physical space trigger behaviors, too, such as turning lights on and off. Browsers commonly use a simple three-dimensional appearance to give a button on the web an affordance that suggests, “Press me and I’ll respond” ([Fig 4.3](#fig-4-3)).
 
@@ -106,7 +106,7 @@ I mentioned earlier that screen readers can jump between links on a page. Naviga
 
 The “click here” repetition is a common issue caused by nondescript link text ([Fig 4.14](#fig-4-14)). This often crops up in sentences ending with a call to action, such as “To get in contact with our team, click here.”
 
-<figure id="fig-4-14"><img alt="A web page with links for video tutorials. The text is Click here for instructional help using the the Locator, and Click here for instructional help on Filtering and Downloading a List of Facilities, but only the here part of each text is a link." src="/images/fig-4.14-click-here.png"/><figcaption><span class="fig-number">Fig 4.14:</span> Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)</figcaption></figure>
+<figure id="fig-4-14"><img alt="A web page with links for video tutorials. The text is Click here for instructional help using the the Locator, and Click here for instructional help on Filtering and Downloading a List of Facilities, but only the here part of each text is a link." src="/images/fig-4-14-click-here.png"/><figcaption><span class="fig-number">Fig 4.14:</span> Both links for these video tutorials are just labelled “here.” (And not everyone even clicks! As we saw in Chapter 1, many people use different input devices.)</figcaption></figure>
 
 The problem is that using “click here” as the language for your links renders the links meaningless for those with screen readers as well as those without. Descriptive linking, instead, helps links make sense out of context, and provides users with a sense of where the link will take them or what will happen after they click. “Read the full article” is a lot more descriptive than “Click here.”
 
@@ -120,9 +120,13 @@ Writing great copy comprises more than good spelling, grammar, and text in a coh
 
 ### Hierarchy and structure
 
-Accessible content begins with well-structured copy. At the page level, structure helps readers understand which text on a page is most important. Using clear and concise headings makes it easy for someone to skim the page and understand the information they’re likely to find (Fig 4.15).
+Accessible content begins with well-structured copy. At the page level, structure helps readers understand which text on a page is most important. Using clear and concise headings makes it easy for someone to skim the page and understand the information they’re likely to find ([Fig 4.15](#fig-4-15)).
+
+<figure id="fig-4-15" class="images-pair"><img alt="A movie review web page where all the text is in long paragraphs with no headings." src="/images/fig-4-15-a-reviewtext.png"/><img alt="The same movie review where most of the paragraphs have a short clear heading above them." src="/images/fig-4-15-b-reviewtext.png"/><figcaption><span class="fig-number">Fig 4.15:</span> Body text with no headings (left/top), and with headings breaking up the text (right/bottom). I know which one I’d rather read!.</figcaption></figure>
 
 If your text contains lists, separate them out from paragraph text to make them clear. The different structure will also break up the page, providing space for the reader to rest ([Fig 4.16](#fig-4-16)).
+
+<figure id="fig-4-16" class="images-pair"><img alt="A movie review web page where all the text is in long paragraphs." src="/images/fig-4-16-a-no-bullets.png"/><img alt="The same movie review where some of the text is presented in lists instead of paragraphs." src="/images/fig-4-16-b-bullets-reviewtext.png"/><figcaption><span class="fig-number">Fig 4.16:</span> Bulleted lists and numbered lists don’t just make the items easier to read, they also break up long blocks of text, making the reading experience less intimidating.</figcaption></figure>
 
 A well-structured and easily navigable page also looks less intimidating. For someone who struggles to read and understand text, a clear content hierarchy could be the difference between wanting to read a page or closing the browser tab because the page doesn’t look worth the effort.
 
@@ -132,7 +136,7 @@ Everyone can benefit from short, easy-to-read sentences and well-structured page
 
 His ideal text format is the small bits of trivia presented on the IMDb (Internet Movie Database) website, because they’re relatively easy for him to memorize. The IMDb movie pages are well-structured, with clearly bordered sections and large bold titles. Visual cues like hyperlinks help Sam quickly find related content. Similarities in layout from one page to another help him remember the area of the page where he’ll find the information he wants without having to read everything else on the page first—for instance, he knows he will always find the “Storyline” below the “Cast List” on an IMDb movie page ([Fig 4.17](#fig-4-17)).
 
-<figure id="fig-4-17"><img alt="The IMDB page for V for Vendetta has prominent headings including Cast, Storyline, and Details." src="/images/fig-4.17-V_for_Vendetta_IMDb.png"/><figcaption><span class="fig-number">Fig 4.17:</span> Every IMDb (Internet Movie Database) movie page is structured with content in the same order, and with the same headings.</figcaption></figure>
+<figure id="fig-4-17"><img alt="The IMDB page for V for Vendetta has prominent headings including Cast, Storyline, and Details." src="/images/fig-4-17-imdb.png"/><figcaption><span class="fig-number">Fig 4.17:</span> Every IMDb (Internet Movie Database) movie page is structured with content in the same order, and with the same headings.</figcaption></figure>
 
 ### Plain language
 
@@ -160,9 +164,15 @@ Jason Santa Maria’s *On Web Typography* ([https://a4e.link/04-04/](https://a4e
 
 There are specialist typefaces designed to aid young readers and people who have difficulty reading. Heinemann is an unfussy typeface that uses the same shapes for characters as many people are taught to write in school: the *a*, for instance, has a single story and a large round counter (the white space in the center of the shape) ([Fig 4.18](#fig-4-18)). Its numeral *9* has a straight stem (or main stroke) rather than a curved stem, which some claim is more legible. The oft-maligned Comic Sans, looked down on by many designers, shares some of Heinemann’s simple letterforms, and so is often favored for signs and displays in classrooms ([Fig 4.18](#fig-4-18)).
 
+<figure id="fig-4-18"><img alt="Lowercase A and 9 in Heinemann, where each letter has a round counter and straight lines. Lowercase A and 9 in Comic Sans, where the counters are round but the lines are more curved." src="/images/fig-4-18-comic-sans-and-heinemann.jpg"/><figcaption><span class="fig-number">Fig 4.18:</span> Heinemann (left/top) and Comic Sans (right/bottom) both use the single-story <em >a</em>, but their <em>9</em>s are different. Heinemann favors <em>9</em> as it would be written by hand.</figcaption></figure>
+
 ### Icon fonts
 
 Fonts have become widely used for icons too. However, icon fonts can cause problems for accessibility, depending on their implementation. If the icon is mapped to an unrecognized glyph in the HTML, a screen reader will just ignore it ([Fig 4.19](#fig-4-19)). Some icon fonts map icons to whole words, which can work very well if, for example, your house icon reads as “home” in the HTML ([Fig 4.20](#fig-4-20)).
+
+<figure id="fig-4-19"><img alt="Left and right arrow buttons alongside the VoiceOver panel showing VoiceOver reading a question mark in a box glyph alongside the word button." src="/images/fig-4-18-unrecognised-icon.png"/><figcaption><span class="fig-number">Fig 4.19:</span> These buttons use an icon font for their arrow icons. VoiceOver doesn’t recognize the arrow right character and ignores it, but has no other content to read for this button.</figcaption></figure>
+
+<figure id="fig-4-20"><img alt="Type the text home into the Symbolset website, and it shows a simplified house icon." src="/images/fig-4-20-symbolset-home.png"/><figcaption><span class="fig-number">Fig 4.20:</span> Typing the word “home” in Symbolset results in a cute house icon (<a href="https://a4e.link/04-06/"><span class="FigureURL">https://a4e.link/04-06/</span></a>)./figcaption></figure>
 
 However, these icon fonts rely on your using the symbols for the correct words in the font. Deciding to use the star symbol to mean “favorite” when the font uses it to mean “star” could result in screen readers uttering some odd-sounding language: “calendar, star, map” ([Fig 4.21](#fig-4-21)).
 
@@ -198,9 +208,15 @@ Forms are the key elements in interactive sites—they are, after all, how a use
 
 We’ve all been there: a form returns an error because what we’ve entered is in an “incorrect format,” or the form field requires a specific format ([Fig 4.22](#fig-4-22)).
 
+<figure id="fig-4-22"><img alt="A number input field in a form with helper text stating ignoring any spaces, please enter the number that is displayed on your card-reader here." src="/images/fig-4-22-format.png"/><figcaption><span class="fig-number">Fig 4.22:</span> This text field has very specific information to “ignore any spaces.” Why can’t the form field remove my spaces if it knows that spaces are commonly entered?</figcaption></figure>
+
 But that’s not a user error—that’s the site developers’ fault. Formatting the content of an input field should not be a burden placed on the user; the burden should be on the developers to convert user input into the necessary format.
 
 An input field should be constructed in a way that helps people enter the appropriate format. This could be through a JavaScript helper that converts their entry into the correct format on the fly ([Fig 4.23](#fig-4-23)), or even just microcopy clearly explaining the required format alongside the form field. ([Fig 4.24](#fig-4-24)). Asynchronous validation can also reassure people that their input is correct, resulting in a successful form submission.
+
+<figure id="fig-4-23"><img alt="The Kickstarter card payment form showing an error with the card number and text saying the card number format is invalid." src="/images/fig-4-23-kickstarter-validation.png"/><figcaption><span class="fig-number">Fig 4.23:</span> Kickstarter’s payment form checks if your card number is valid on the fly, making it harder for you to make a mistake.</figcaption></figure>
+
+<figure id="fig-4-24"><img alt="A sign up form. Under the email input it says never shown to the public. Under the username field it says unique, no spaces, short." src="/images/fig-4-24-discourse-registration.jpg"/><figcaption><span class="fig-number">Fig 4.24:</span> When you’re creating a new account on a Discourse forum, there’s helpful microcopy below each text input to give you some guidance.</figcaption></figure>
 
 If format conversion or asynchronous validation aren’t possible, the contents of the form field should be converted after the form is submitted into the format needed by the site. That way the people using the site aren’t unnecessarily challenged with working out the format required for their entries.
 
@@ -210,7 +226,11 @@ Rich web applications have become more popular since the early 2000s, as the web
 
 We often use contrasting boxes near the top of the viewport for alerts, instantly capturing sighted people’s attention. However, those using screen readers also need a cue to tell them that the state has changed ([Fig 4.25](#fig-4-25)).
 
+<figure id="fig-4-25"><img alt="A sign up form. Under the email input it says never shown to the public. Under the username field it says unique, no spaces, short." src="/images/fig-4-24-discourse-registration.jpg"/><figcaption><span class="fig-number">Fig 4.25:</span> When you’re creating a new account on a Discourse forum, there’s helpful microcopy below each text input to give you some guidance.</figcaption></figure>
+
 The alert should be given focus, alerting the user to the state change. Twitter does this very well. When a person using a screen reader views a Twitter feed, an instant alert announces: “New tweets available. Press period to review them.” The Twitter alert doesn’t just give you the changed state, but also gives you a keyboard shortcut to access those changes ([Fig 4.26](#fig-4-26)).
+
+<figure id="fig-4-26"><img alt="VoiceOver panel over the Twitter website saying New Tweets available. Press period to review them." src="/images/fig-4-25-twitter.png"/><figcaption><span class="fig-number">Fig 4.26:</span> Twitter uses Accessible Rich Internet Applications (ARIA) to announce new Tweets to screen readers, so you’re not excluded if you cannot see the visual alert. We’ll look at ARIA more in the next chapter.</figcaption></figure>
 
 Once people have interacted with an alert, they should be able to return to their original position on the page.
 
@@ -218,13 +238,15 @@ Once people have interacted with an alert, they should be able to return to thei
 
 There are many different types of error messages: error messages on forms as the result of an interaction gone wrong; or even a simple “Page Not Found.” Error messages can either fix a problem, or confuse and frustrate us. These little chunks of text attract visitors’ attention, so making sure that the copy is friendly, appropriate, and useful is effort well spent ([Fig 4.27](#fig-4-27)).
 
+<figure id="fig-4-27"><img alt="A form titled my details. The email input contains a URL. The input box has a red bottom border and a red cross icon in the corner." src="/images/fig-4-27-hm.png"/><figcaption><span class="fig-number">Fig 4.27:</span> What’s worse than a vague error message? No error message! This form doesn’t even explain why my email address is formatted incorrectly, it just subtly turns the bottom border and icon red</figcaption></figure>
+
 Sometimes these snippets of text are written by developers who are just passing on the error from the server, forgetting that there’s a human being on the other side ([Fig 4.28](#fig-4-28)).
 
-<figure id="fig-4-28"><img alt="The Estée Lauder website displaying small red text and the message length_max.password.loyalty_registration." src="/images/fig-4.28-Sign_In___Est_e_Lauder.png"/><figcaption><span class="fig-number">Fig 4.28:</span> When this error came up on the Estée Lauder site, I wasn’t sure if I’d done something wrong or was just on the receiving end of a peculiar log message.</figcaption></figure>
+<figure id="fig-4-28"><img alt="The Estée Lauder website displaying small red text and the message length_max.password.loyalty_registration." src="/images/fig-4-28-signin-esteelauder.png"/><figcaption><span class="fig-number">Fig 4.28:</span> When this error came up on the Estée Lauder site, I wasn’t sure if I’d done something wrong or was just on the receiving end of a peculiar log message.</figcaption></figure>
 
 If the user has done something wrong, explain clearly how they can rectify or get around the error ([Fig 4.29](#fig-4-29)).
 
-<figure id="fig-4-29"><img alt="The Basecamp Schedule Looking back tab features a message saying There aren’t any past events yet! Once an event has gone by, you’ll find it here. The handdrawn illustration is of a basecamp snowglobe icon roasting a marsmallow over a campfire." src="/images/fig-4.29-basecamp-error.png"/><figcaption><span class="fig-number">Fig 4.29:</span> There are no past events in my Schedule, but instead of showing an error or an empty page, Basecamp tells me how this feature works, with a bonus cute illustration.</figcaption></figure>
+<figure id="fig-4-29"><img alt="The Basecamp Schedule Looking back tab features a message saying There aren’t any past events yet! Once an event has gone by, you’ll find it here. The handdrawn illustration is of a basecamp snowglobe icon roasting a marsmallow over a campfire." src="/images/fig-4-29-basecamp-error.png"/><figcaption><span class="fig-number">Fig 4.29:</span> There are no past events in my Schedule, but instead of showing an error or an empty page, Basecamp tells me how this feature works, with a bonus cute illustration.</figcaption></figure>
 
 Everyone on the team is responsible for creating a good experience for the people visiting their site. “Human copy” goes a long way in helping someone understand a problem, and how to fix it.
 
@@ -236,9 +258,11 @@ In Chapter 2, we learned about how different types of color blindness affect how
 
 Text whose color is too close to that of the background will be hard to read. Someone with a visual impairment will find this scenario particularly difficult, but all readers struggle with low-contrast text, especially if they’re using old displays or sitting in bright sunlight. High contrast can help make a screen easier to read in such situations ([Fig 4.30](#fig-4-30)).
 
+<figure id="fig-4-30" class="images-pair"><img alt="Information panel about the King of the Zombies 1941 film with pale green text on a bright green background." src="/images/fig-4-30-a-low-contrast.png"/><img alt="The same panel about the King of the Zombies 1941 film with pale green text on a dark green background." src="/images/fig-4-30-b-high-contrast.png"/><figcaption><span class="fig-number">Fig 4.30:</span> These two color schemes may be similar, but the low contrast version (left/top) is much harder to read than the high contrast version (right/bottom).</figcaption></figure>
+
 Low contrast isn’t just a problem on plain backgrounds—contrast issues can also occur when text is on a textured background or on top of an image ([Fig 4.31](#fig-4-31)). Sufficient contrast between foreground and background colors makes text much easier to read. People who are color-blind are particularly affected by low color contrast, since they find it difficult to distinguish between colors.
 
-<figure id="fig-4-31"><img alt="The same text advertising a movie in two images. The left image shows the text overlayed over a contrasting image of red theatre seats. The right image shows the same text over a solid red background." src="/images/7.png"/><figcaption><span class="fig-number">Fig 4.31:</span> When text is used over a photo with different textures and shapes in the background (left), the text is much harder to read and appears lower in contrast than against a solid color background (right).</figcaption></figure>
+<figure id="fig-4-31" class="images-pair"><img alt="Text overlayed over a contrasting image of red theatre seats." src="/images/fig-4-31-a-low-contrast.png"/><img alt="The same text over a solid red background." src="/images/fig-4-31-b-high-contrast.png"/><figcaption><span class="fig-number">Fig 4.31:</span> When text is used over a photo with different textures and shapes in the background (left/top), the text is much harder to read and appears lower in contrast than against a solid color background (right/bottom).</figcaption></figure>
 
 To some degree, using big or bold type will make your text stand out from the background. This frees you up to use slightly lower-contrast colors since the size and weight of the type will do some of the work of distinguishing text from background.
 
@@ -246,19 +270,21 @@ While we aim for high contrast for the majority of visitors, if the contrast bet
 
 Geri Coady, author of the fantastic *Color Accessibility Workflows*, recommends working in grayscale to test your designs. In grayscale, you can quickly see whether the text is readable against the background ([Fig 4.32](#fig-4-32)).
 
+<figure id="fig-4-32" class="images-pair"><img alt="A film review banner with a blue background and pink stars representing a 5 star review." src="/images/fig-4-32-a-color.png"/><img alt="The same film review banner in greyscale makes the stars indistinguishable from the background." src="/images/fig-4-32-b-greyscale.png"/><figcaption><span class="fig-number">Fig 4.32:</span> The design in color (upper) looks fairly high contrast, but when you see it in greyscale (lower), you can see the pink stars disappear into the blue background.</figcaption></figure>
+
 Avoiding contrast that is either too low or too high can feel like a difficult balancing act. Use your best judgment. And back it up with color-contrast checking tools and color-blindness emulation tools, which we’ll discuss in Chapter 6.
 
 ### Color as information
 
 Color should never be used as the sole means of conveying information. On ecommerce sites, we’re often given a choice between different colors for a product. On the Body Shop’s site, for example, color choices are displayed as little colored squares. However, no text equivalent is provided unless you select the color swatch first. Without supplemental text, the little colored squares are meaningless to people who are visually impaired or color-blind ([Fig 4.33](#fig-4-33)).
 
-<figure id="fig-4-33"><img alt="A selection of swatches for nail polish colors in an ecommerce website. The Relish the Moment swatch appears red in the default image, and a gray green in the image with a filter simulating deuteranopia." src="/images/8.png"/><figcaption><span class="fig-number">Fig 4.33:</span> Fashionable names for colors can be unhelpful too. A nail polish in Relish The Moment may appear pickle green for someone with deuteranopia color blindness (simulated right) compared to its actual red (left).</figcaption></figure>
+<figure id="fig-4-33" class="images-pair"><img alt="A selection of swatches for nail polish colors in an ecommerce website. The Relish the Moment swatch appears red in the default image." src="/images/fig-4-33-a-colourcrush.png"/><img alt="The same Relish the Moment swatch appears gray green in the image with a filter simulating deuteranopia." src="/images/fig-4-33-b-colororacle.png"/><figcaption><span class="fig-number">Fig 4.33:</span> Fashionable names for colors can be unhelpful too. A nail polish in Relish The Moment may appear pickle green for someone with deuteranopia color blindness (simulated right/bottom) compared to its actual red (left/top).</figcaption></figure>
 
 Using both the color swatch and the color name on product pages gives the user a fallback. It also makes the page accessible if the images don’t load.
 
 Red is often used in forms to distinguish required fields or error fields because it’s a bright and eye-catching color. However, to many color-blind and visually impaired users, red is indistinguishable—so a form with errors will look the same as a form without errors. Users with cognitive difficulties or little previous experience on the web may also find it hard to understand ([Fig 4.34](#fig-4-34)).
 
-<figure id="fig-4-34"><img alt="An Etsy form for choosing the color and quantity of a product on a white background. There’s a contrasting error message with white text on a pink red background which is equally contrasting in grayscale with white text on a gray background." src="/images/9.png"/><figcaption><span class="fig-number">Fig 4.34:</span> The form errors on Etsy have a pink-red highlighted background, which is still very noticeable when you see the same form in grayscale.</figcaption></figure>
+<figure id="fig-4-34" class="images-pair"><img alt="An Etsy form for choosing the color and quantity of a product on a white background. There’s a contrasting error message with white text on a pink red background." src="/images/fig-4-34-a-etsy-shop.png"/><img alt="The Etsy form is equally contrasting in grayscale with white text on a gray background." src="/images/fig-4-34-b-etsy-shop-greyscale.png"/><figcaption><span class="fig-number">Fig 4.34:</span> The form errors on Etsy have a pink-red highlighted background, which is still very noticeable when you see the same form in grayscale.</figcaption></figure>
 
 Visual styling is still a valuable tool for getting the visitor’s attention, but using text explanations in addition to red borders will make an error or required field accessible to as many people as possible.
 
@@ -280,7 +306,7 @@ When a screen reader comes across an image that has no `alt` attribute, in an at
 
 Providing text alternatives for images can help someone understand the context of an image without seeing the image itself. We don’t need to be overly descriptive. Poor alternative text for an image might be something like “a dog in the park.” But describing the image as “My dog Oskar sitting by a *hundrastplats* sign which means ‘dog park’ in Swedish” gives more context and meaning to the image ([Fig 4.35](#fig-4-35)).
 
-<figure id="fig-4-35"><img alt="A large fluffy huskamute dog sitting by a Hundrastplats Swedish dog park sign." src="/images/fig-4.35-t1G2JHyVSyaXHbK7G6BEBQ_thumb_186e.png"/><figcaption><span class="fig-number">Fig 4.35:</span> The key information about this photo is that a dog is sitting by a sign. The sign is unusual, so what it says is important.</figcaption></figure>
+<figure id="fig-4-35"><img alt="A large fluffy huskamute dog sitting by a Hundrastplats Swedish dog park sign." src="/images/fig-4-35.jpg"/><figcaption><span class="fig-number">Fig 4.35:</span> The key information about this photo is that a dog is sitting by a sign. The sign is unusual, so what it says is important.</figcaption></figure>
 
 Alternative text is not necessary for a decorative image, as decoration is more about providing atmosphere than information. In these cases, we should still use the alternative attribute, but leave the contents of the attribute blank, to tell the browser and screen readers that this image is not important:
 
@@ -302,9 +328,9 @@ It’s only worth putting text in an image if it’s part of a logo. That’s th
 
 Graphs and infographics are a great way to make information easy to digest; they can tell stories and make connections in an engaging way ([Fig 4.36](#fig-4-36)). Providing text alternatives to explain the content is usually the most straightforward method of approaching screen reader accessibility ([Fig 4.37](#fig-4-37)).
 
-<figure id="fig-4-36"><img alt="An infographic which maps time between 1950 and 2050 from left to right. There are red and blue flags indicating key points in time." src="/images/fig-4.36-infographic.png"/><figcaption><span class="fig-number">Fig 4.36:</span> An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, <a href="https://a4e.link/04-08/">https://a4e.link/04-08/</a>.)</figcaption></figure>
+<figure id="fig-4-36"><img alt="An infographic which maps time between 1950 and 2050 from left to right. There are red and blue flags indicating key points in time." src="/images/fig-4-36-infographic.png"/><figcaption><span class="fig-number">Fig 4.36:</span> An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, <a href="https://a4e.link/04-08/">https://a4e.link/04-08/</a>.)</figcaption></figure>
 
-<figure id="fig-4-37"><img alt="The same infographic as above with text titled Data and Social Cooling, and a list describing the data displayed for each key point in time." src="/images/fig-4.37-Infographic_with_description.png"/><figcaption><span class="fig-number">Fig 4.37:</span> The same infographic with the contents simply described alongside, making it more accessible for everyone.</figcaption></figure>
+<figure id="fig-4-37"><img alt="The same infographic as above with text titled Data and Social Cooling, and a list describing the data displayed for each key point in time." src="/images/fig-4-37-infographicwithdescription.png"/><figcaption><span class="fig-number">Fig 4.37:</span> The same infographic with the contents simply described alongside, making it more accessible for everyone.</figcaption></figure>
 
 Some ways of going about this are more intelligent than others, though. Simply dumping the words of an infographic into a paragraph won’t be very enlightening for readers, and neither will spitting out all the data from a graph. After all, we use graphs and infographics to make it easier to understand data—presenting that data as a chunk of obscure text defeats the point. It might help to think about how you would explain the contents of the media to someone over the phone, or via email. Ask yourself: what are the highlights and lowlights of the infographic you’re describing? What are its important and notable parts?
 
@@ -373,9 +399,11 @@ If you’ve watched a movie in a language that’s foreign to you, you’ve prob
 
 As with transcripts, there are professional services that will create closed captions for you, but as it’s time-consuming work, these services can be expensive. YouTube has an auto-captioning option on videos, but speech-to-text software can be inaccurate if there is background noise, multiple speakers, or an accent unfamiliar to the software ([Fig 4.38](#fig-4-38)).
 
-<figure id="fig-4-38"><img alt="A YouTube video showing Laura speaking at a podium with the caption appetizers are dealing with this is where they get their data." src="/images/fig-4.38-captioning-mytalk.png"/><figcaption><span class="fig-number">Fig 4.38:</span> YouTube’s auto-captioning is good, though tastily replaced “advertisers” with “appetizers” throughout this talk I gave at Creative Mornings Malmö.</figcaption></figure>
+<figure id="fig-4-38"><img alt="A YouTube video showing Laura speaking at a podium with the caption appetizers are dealing with this is where they get their data." src="/images/fig-4-38-captioning-mytalk.png"/><figcaption><span class="fig-number">Fig 4.38:</span> YouTube’s auto-captioning is good, though tastily replaced “advertisers” with “appetizers” throughout this talk I gave at Creative Mornings Malmö.</figcaption></figure>
 
-Producing your own closed captions will be the least expensive option and will enable you to write the most accurate text. Writing good closed captions is an art. You don’t want to show too much text on the screen at any one time, as it makes it harder to read alongside the main picture (Fig 4.39).
+Producing your own closed captions will be the least expensive option and will enable you to write the most accurate text. Writing good closed captions is an art. You don’t want to show too much text on the screen at any one time, as it makes it harder to read alongside the main picture ([Fig 4.39](#fig-4-39)).
+
+<figure id="fig-4-39"><img alt="A video player showing an animation with an xray of a head on a desktop computer with the captions that’s the insight that it sells to its customers." src="/images/fig-4-39-closed-captions.png"/><figcaption><span class="fig-number">Fig 4.39:</span> For Ind.ie’s Spyware 2.0 video, I tried to make the captions short to make them easy to read on a small screen, but not so short that they flashed up too quickly (<a href="https://a4e.link/04-11/">https://a4e.link/04-11</a>).</figcaption></figure>
 
 Closed captions are most comfortably read in short bursts, since they are shown at exactly the same time as the speech and sound on screen. If there are pauses or silence in the speech, the captions can be shown for longer, giving readers more time to absorb the text. Full sentences are far too long, and the text shouldn’t carry over into two lines unless your screen size is very small. If you watch closed captions on TV, or in a movie theater, you’ll get an idea of the right line length and where it’s comfortable to put a break in a phrase.
 
