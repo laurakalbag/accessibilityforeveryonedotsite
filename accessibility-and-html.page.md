@@ -24,7 +24,7 @@ Unstyled HTML looks slightly different in each browser because it uses the brows
 
 A unstyled view of an HTML document approximates the way it would be read by a screen reader—from top to bottom. If the most important information on a page is at the bottom, most visitors will skim and skip and scroll to get to the good stuff. But screen readers can’t skim for patterns and context, so it’s crucial that the content is in an order that make sense to the screen reader, with the most important information appearing first ([Fig 5.1](#fig-5-1)).
 
-<figure id="fig-5-1"><img alt="The unstyled HTML for the Wikipedia page about hustkies is a series of text, images, and links displayed linearly from top to bottom of the page." src="/images/fig-5-01-husky-wikipedia.png"/><figcaption><span class="fig-number">Fig 5.1:<span> The unstyled HTML for the Wikipedia page about huskies looks unexciting, but the content is all there.</figcaption></figure>
+<figure id="fig-5-1"><img alt="The unstyled HTML for the Wikipedia page about hustkies is a series of text, images, and links displayed linearly from top to bottom of the page." src="/images/fig-5-01-husky-wikipedia.png"/><figcaption><span class="fig-number">Fig 5.1:</span> The unstyled HTML for the Wikipedia page about huskies looks unexciting, but the content is all there.</figcaption></figure>
 
 Books usually have tables of contents to give the book structure and show the reader what’s to come. In the same way, screen readers benefit from headings and other structural HTML elements that create a content outline for a web page ([Fig 5.2](#fig-5-2)).
 
@@ -255,7 +255,7 @@ font-size: 2em;
 
 If you look at the same page without CSS, you can see how confusing the structure appears to screen readers and search engines ([Fig 5.23](#fig-5-23)).
 
-<figure id="fig-5-23"><img alt="Figure" src="/images/images/fig-5-23-html.png"/><figcaption><span class="fig-number">Fig 5.23:</span> Without the visual style, the hierarchy of the title and subtitle are the wrong way round because that’s the structure defined by the HTML.</figcaption></figure>
+<figure id="fig-5-23"><img alt="Figure" src="/images/fig-5-23-html.png"/><figcaption><span class="fig-number">Fig 5.23:</span> Without the visual style, the hierarchy of the title and subtitle are the wrong way round because that’s the structure defined by the HTML.</figcaption></figure>
 
 ### Meaningful HTML
 
