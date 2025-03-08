@@ -134,7 +134,7 @@ As useful as these shortcuts are, keyboard shortcuts provided by JavaScript don�
 
 Access keys went through a popular phase in the late 90s and early 00s, when developers created their own keyboard shortcuts for links on their sites using the `accesskey` HTML attribute. Often the navigation would show an underlined letter in the link text to inform the user of the access key shortcut, in a similar way to old Windows menus ([Fig 5.14](#fig-5-14)).
 
-<figure id="fig-5-14"><img alt="Figure" src="/images/fig-5-14-windowsmenu.png"/><figcaption><span class="fig-number">Fig 5.14:</span> The Firefox toolbar in Windows 2000, showing F, E, V, G, B, T and H as shortcuts. Photograph courtesy Chris Waigl, <a href='https://a4e.link/05-04/'>https://a4e.link/05-04/</a>.</figcaption></figure>
+<figure id="fig-5-14"><img alt="A menu for File, Edit, View, Go, Bookmarks, Tools, and Help where the first letter of each menu item is underlined." src="/images/fig-5-14-windowsmenu.png"/><figcaption><span class="fig-number">Fig 5.14:</span> The Firefox toolbar in Windows 2000, showing F, E, V, G, B, T and H as shortcuts. Photograph courtesy Chris Waigl, <a href='https://a4e.link/05-04/'>https://a4e.link/05-04/</a>.</figcaption></figure>
 
 However, the modifier key for shortcuts varied across operating systems, and the access key modifiers (the key you hold down at the same time as the shortcut key) varied from browser to browser. As a result, access keys were confusing to document and use—in other words, not very accessible. We should bear this in mind if we create text shortcuts for our own sites, and not repeat the same mistakes we made in the past.
 
@@ -142,7 +142,7 @@ However, the modifier key for shortcuts varied across operating systems, and the
 
 Many sites use skip links to assist people using keyboard navigation. *Skip links* are a common accessibility feature allowing people to skip past lengthy navigation and go straight to the page content ([Fig 5.15](#fig-5-15)). They’ve also become a common form of navigation used on one-page sites that have a lot of content to scroll through.
 
-<figure id="fig-5-15"><img alt="Figure" src="/images/fig-5-15-skip-link.png"/><figcaption><span class="fig-number">Fig 5.15:</span> I use a skip link on my blog’s list page, so readers can get to the search, categories and tags section without having to scroll past all the blog posts I’ve ever written.</figcaption></figure>
+<figure id="fig-5-15"><img alt="A link to Skip to search, categories, and tags underneath the Blog page heading." src="/images/fig-5-15-skip-link.png"/><figcaption><span class="fig-number">Fig 5.15:</span> I use a skip link on my blog’s list page, so readers can get to the search, categories and tags section without having to scroll past all the blog posts I’ve ever written.</figcaption></figure>
 
 Some sites choose to make skip links invisible unless you’re using a screen reader, but screen reader users rarely use skip links because screen readers have more sophisticated navigation to skip to content. Hiding skip links from everyone except screen reader users excludes the people who may benefit the most from skip links—sighted people using keyboard navigation. The best possible option is to make the skip links visible to all users so that all users benefit.
 
@@ -229,7 +229,7 @@ The same problem occurs when HTML elements are chosen because of their associate
 
 Consider a bit of text that has a main title—“Huskies!”—and a subtitle—“Husky is a general name for a sled-type of dog used in northern regions.” The hierarchy is very clear to sighted users ([Fig 5.22](#fig-5-22)).
 
-<figure id="fig-5-22"><img alt="Figure" src="/images/fig-5-22-html.png"/><figcaption><span class="fig-number">Fig 5.22:</span> Looking good. Nice big heading, smaller subheading. The hierarchy is clear, right?</figcaption></figure>
+<figure id="fig-5-22"><img alt="A large title in uppercase and a subheading in smaller green sentence case text." src="/images/fig-5-22-html.png"/><figcaption><span class="fig-number">Fig 5.22:</span> Looking good. Nice big heading, smaller subheading. The hierarchy is clear, right?</figcaption></figure>
 
 When you look at the HTML and CSS, though, you see that the main title is in fact an `h2` and the subtitle is an `h1`. They’ve only been chosen to mark up the content this way because of their visual presentation: the CSS has been written so that the `h2` is big and uppercase, while the `h1` is smaller and green. No wonder the `h1` is being used as a subtitle.
 
@@ -255,7 +255,7 @@ font-size: 2em;
 
 If you look at the same page without CSS, you can see how confusing the structure appears to screen readers and search engines ([Fig 5.23](#fig-5-23)).
 
-<figure id="fig-5-23"><img alt="Figure" src="/images/fig-5-23-html.png"/><figcaption><span class="fig-number">Fig 5.23:</span> Without the visual style, the hierarchy of the title and subtitle are the wrong way round because that’s the structure defined by the HTML.</figcaption></figure>
+<figure id="fig-5-23"><img alt="The same text rendered without styles shows the title text smaller than the subheading text." src="/images/fig-5-23-html.png"/><figcaption><span class="fig-number">Fig 5.23:</span> Without the visual style, the hierarchy of the title and subtitle are the wrong way round because that’s the structure defined by the HTML.</figcaption></figure>
 
 ### Meaningful HTML
 
@@ -289,9 +289,9 @@ Separating structure and style has the added bonus of making HTML and CSS easier
 
 Fortunately, WYSIWYG editors have improved; many allow you to choose the structural element from a dropdown list ([Fig 5.24](#fig-5-24)) leading to more accurate and meaningful HTML output ([Fig 5.25](#fig-5-25)).
 
-<figure id="fig-5-24"><img alt="Figure" src="/images/fig-5-24-addnewpost-wordpress2.png"/><figcaption><span class="fig-number">Fig 5.24:</span> The TinyMCE WYSIWYG editor in WordPress enables you to add CSS styles to the text formatting dropdown in the Visual editor view, giving writers a better idea of how their structured text will appear when published.</figcaption></figure>
+<figure id="fig-5-24"><img alt="A dropdown menu for text styles showing the smallest grey Paragraph text, a big uppercase Heading 1 text, a smaller green Heading 2 text and an even smaller gray bold Heading 3 text." src="/images/fig-5-24-addnewpost-wordpress2.png"/><figcaption><span class="fig-number">Fig 5.24:</span> The TinyMCE WYSIWYG editor in WordPress enables you to add CSS styles to the text formatting dropdown in the Visual editor view, giving writers a better idea of how their structured text will appear when published.</figcaption></figure>
 
-<figure id="fig-5-25"><img alt="Figure" src="/images/fig-5-25-addnewpost-wordpress.png"/><figcaption><span class="fig-number">Fig 5.25:</span> In the Text editor view, you can see that the HTML produced is meaningful and not muddied with inline CSS.</figcaption></figure>
+<figure id="fig-5-25"><img alt="A code view showing the title wrapped in an H1 element, and the subheading wrapped in an h2 element." src="/images/fig-5-25-addnewpost-wordpress.png"/><figcaption><span class="fig-number">Fig 5.25:</span> In the Text editor view, you can see that the HTML produced is meaningful and not muddied with inline CSS.</figcaption></figure>
 
 Even though a site’s HTML is usually created by a developer or generated by a content management system, this doesn’t mean we should blame the developer for badly formed HTML. With the previous examples, you can see how closely the structure of the HTML is linked to the roles of content strategy, copywriting, and search engine optimization. Sites are likely to be much more accessible if every team member understands the impact the markup has on the content they’re creating.
 
@@ -301,7 +301,7 @@ In a world where we frequently access websites from different devices and browse
 
 RSS readers and browser readability extensions take the structured content of a page and display it with custom styles. These readers and extensions focus on making content as readable as possible by using clean typography and hiding headers, footers, and ads ([Fig 5.26](#fig-5-26)). They usually allow people to set overarching preferences for all the pages they view.
 
-<figure id="fig-5-26" class="images-pair"><img alt="Figure" src="/images/fig-5-26-a-guardian.png"/><img alt="Figure" src="/images/fig-5-26-b-guardian-with-reader.png"/><figcaption><span class="fig-number">Fig 5.26:</span> Safari’s Reader view on iOS strips out the page’s navigation and branding, but uses the underlying HTML to apply its own subtle (and customizable) styling.</figcaption></figure>
+<figure id="fig-5-26" class="images-pair"><img alt="A Guardian news page article with blue and gray navigation, an image, and pink bars behind the article title and subheading." src="/images/fig-5-26-a-guardian.png"/><img alt="The same article in Safari’s reader view shows the same article text but in grey text on a white background. The image is still there, but the navigation is gone." src="/images/fig-5-26-b-guardian-with-reader.png"/><figcaption><span class="fig-number">Fig 5.26:</span> Safari’s Reader view on iOS strips out the page’s navigation and branding, but uses the underlying HTML to apply its own subtle (and customizable) styling.</figcaption></figure>
 
 Most RSS readers and readability extensions aren’t compatible with interactive pages and will strip out the visual information and behavior of interactive elements. Some extensions, such as Safari’s Reader, can only be enabled on pages that contain a significant amount of text in one block.
 
@@ -313,11 +313,11 @@ People may rely on alternative styles if they find a site hard to read or access
 
 A simple example of progressive enhancement is adding `background-blend-mode`s to images on a site. Browsers that don’t support CSS `background-blend-mode` won’t parse the blend effects on the images, but the visitor’s core experience isn’t affected by seeing the original non-blended images instead. Visitors using browsers that *do* support CSS background-blend-mode can have an enhanced experience ([Fig 5.27](#fig-5-27)).
 
-<figure id="fig-5-27"><img alt="Figure" src="/images/fig-5-27-filtered-and-not-filtered.png"/><figcaption><span class="fig-number">Fig 5.27:</span> Some browsers will see the original photo (left) instead of the fancy saturated and filtered photo (right), but it’s no big deal.</figcaption></figure>
+<figure id="fig-5-27"><img alt="Two of the same husky photos in the browser. The original photo has no filter, the filtered image is heavily saturated with red colors." src="/images/fig-5-27-filtered-and-not-filtered.png"/><figcaption><span class="fig-number">Fig 5.27:</span> Some browsers will see the original photo (left) instead of the fancy saturated and filtered photo (right), but it’s no big deal.</figcaption></figure>
 
 A more complex example of progressive enhancement is when a simple interaction has a more complex interaction layered on top. I designed a responsive accessible HTML5 video player for Ind.ie based on Dennis Lembree’s accessible HTML5 video player ([https://a4e.link/05-06/](https://a4e.link/05-06/)). The HTML for the video player just uses the HTML video tag, which plays the source video file with the native video player provided by the user’s operating system ([Fig 5.28](#fig-5-28)).
 
-<figure id="fig-5-28" class="images-pair"><img alt="Figure" src="/images/fig-5-28-a-ind-ie-internetasacommons.png"/><img alt="Figure" src="/images/fig-5-28-b-ind-ie-internetasacommons2.png"/><figcaption><span class="fig-number">Fig 5.28:</span> When you use the video element, the browser will use its native video player. Safari’s video player is very minimalist (left/top). Using a custom video player meant I could add extra controls and style them to match the rest of the Ind.ie site (right/bottom).</figcaption></figure>
+<figure id="fig-5-28" class="images-pair"><img alt="Video of Aral presenting at the European Parliament. When paused, the video player is indistuishable from an image on the page as there’s no visible video player controls." src="/images/fig-5-28-a-ind-ie-internetasacommons.png"/><img alt="The same video with custom video player controls including a grey timeline, and minimalist icon buttons." src="/images/fig-5-28-b-ind-ie-internetasacommons2.png"/><figcaption><span class="fig-number">Fig 5.28:</span> When you use the video element, the browser will use its native video player. Safari’s video player is very minimalist (left/top). Using a custom video player meant I could add extra controls and style them to match the rest of the Ind.ie site (right/bottom).</figcaption></figure>
 
 If JavaScript is enabled, a custom control panel replaces the controls of the native video player. These enhanced controls make the video player appear consistent across platforms and with the branding of the overall site, but aren’t necessary to operate the video player.
 
@@ -328,11 +328,11 @@ Graceful degradation is often preferred for interaction-based sites and web apps
 
 Graceful degradation is often used in conjunction with a list of supported browsers where the site must provide the best experience. Experiences in other browsers are considered adequate if the interactive elements provide the expected response and the text is readable. A basic example of graceful degradation is when an image falls back to show only the alt text ([Fig 5.29](#fig-5-29)). The experience may not be comparable, but it’s adequate.
 
-<figure id="fig-5-29"><img alt="Figure" src="/images/fig-5-29-alt-text.png"/><figcaption><span class="fig-number">Fig 5.29:</span> The image might not be loading, but you know what you’re missing because the alt text is shown.</figcaption></figure>
+<figure id="fig-5-29"><img alt="An image border area with the text On the beach with Oskar the husky in the light snow, he’s squinting as snow gets in his eyes." src="/images/fig-5-29-alt-text.png"/><figcaption><span class="fig-number">Fig 5.29:</span> The image might not be loading, but you know what you’re missing because the alt text is shown.</figcaption></figure>
 
 Sites that don’t provide a basic experience for all users often display an error message, telling the user to change or upgrade their browsers ([Fig 5.30](#fig-5-30)). Blocking visitors this way is generally considered lazy and bad practice. While it’s reasonable to assume that an interaction-heavy site won’t be able to support Internet Explorer 7, cross-browser support is a core part of building products for the modern web.
 
-<figure id="fig-5-30"><img alt="Figure" src="/images/fig-5-30-chromedetection.png"/><figcaption><span class="fig-number">Fig 5.30:</span> Don’t just assume that your browser is the best and everyone else wants to use it. Most visitors don’t care if Clever works best in Google Chrome, and some may not know how to download another browser or have the admin privileges to do so.</figcaption></figure>
+<figure id="fig-5-30"><img alt="A website displaying a message saying Clever works best in Google Chrome!" src="/images/fig-5-30-chromedetection.png"/><figcaption><span class="fig-number">Fig 5.30:</span> Don’t just assume that your browser is the best and everyone else wants to use it. Most visitors don’t care if Clever works best in Google Chrome, and some may not know how to download another browser or have the admin privileges to do so.</figcaption></figure>
 
 Progressive enhancement has gained favor over graceful degradation in recent years because the variety of devices and browsers has made it difficult, and unrealistic, to support only a small group of browsers. The capabilities of devices and browsers can differ wildly from one to the next, so layering feature support and enhancements on top of a baseline experience is the easiest way to make the best site for the widest audience.
 
