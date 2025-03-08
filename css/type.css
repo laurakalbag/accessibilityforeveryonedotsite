@@ -230,6 +230,10 @@ figcaption {
   color: var(--colour-foreground-secondary);
   margin-top: 0.5em;
 }
+a[href*="#fig-"] {
+  font-family: "Mulish", sans-serif;
+  font-size: 0.925em;
+}
 .fig-number {
   font-weight: bold;
 }
