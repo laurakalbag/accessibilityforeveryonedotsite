@@ -160,15 +160,15 @@ Links, buttons, and inputs are given default interaction events and `tabindex` b
 
 For people using keyboard navigation, focus styles (frequently displayed by browsers as a combination of dotted borders and blue glows) are indispensable. You might recognize these styles if you’ve removed them in the past when they didn’t fit in with your site’s aesthetic ([Fig 5.16](#fig-5-16)). (Don’t worry, I won’t tell anyone. Just go put them back now.)
 
-<figure id="fig-5-16" class="images-pair"><img alt="Figure" src="/images/fig-5-16-a-focus.png"/><img alt="Figure" src="/images/fig-5-16-b-firefox-focus.png"/><figcaption><span class="fig-number">Fig 5.16:</span> Focus styles in Safari (left/top) and Firefox (right/bottom). Don’t remove them. Or even better, replace the browser’s default focus and hover styles with your own styles that both fit with your site’s aesthetic and are even more visible.</figcaption></figure>
+<figure id="fig-5-16" class="images-pair"><img alt="Blue link text with an underline surrounded by a few pixels of padding and a chunky light blue solid border." src="/images/fig-5-16-a-focus.png"/><img alt="Blue link text with an underline surrounded by a dotted border, the same colour as the link text. There’s no padding around the link text." src="/images/fig-5-16-b-firefox-focus.png"/><figcaption><span class="fig-number">Fig 5.16:</span> Focus styles in Safari (left/top) and Firefox (right/bottom). Don’t remove them. Or even better, replace the browser’s default focus and hover styles with your own styles that both fit with your site’s aesthetic and are even more visible.</figcaption></figure>
 
 Like focus styles, *hover styles* give us visual feedback as we navigate a page. Hover styles are most frequently used to show that we can interact with an element. Think about how links and buttons often change to a different color when we hover over them ([Fig 5.17](#fig-5-17)).
 
-<figure id="fig-5-17"><img alt="Figure" src="/images/fig-5-17-hover-nav.png"/><figcaption><span class="fig-number">Fig 5.17:</span> On the Tactical Tech site, the navigation link color changes on hover.</figcaption></figure>
+<figure id="fig-5-17"><img alt="Hovering over the projects link renders the text pink. The other, inactive, links in the navigation are black text." src="/images/fig-5-17-hover-nav.png"/><figcaption><span class="fig-number">Fig 5.17:</span> On the Tactical Tech site, the navigation link color changes on hover.</figcaption></figure>
 
 Because hover styles are most commonly used on interactive elements, they shouldn’t be used on non-interactive elements. But at the same time, when designing hover styles, don’t rely on them for showing interaction. Not only are hover styles invisible to people with visual impairments, but they’re also hidden from most touchscreen users—touchscreen devices rarely support the hover action ([Fig 5.18](#fig-5-18)).
 
-<figure id="fig-5-18"><img alt="Figure" src="/images/fig-5-18-hover-on-ios.png"/><figcaption><span class="fig-number">Fig 5.18:</span> The hovering style on iOS can only be triggered by very lightly pressing a link.</figcaption></figure>
+<figure id="fig-5-18"><img alt="Apple website’s menu on a tablet sized touch screen. The inactive links are white, the hovered link is a subtly different gray." src="/images/fig-5-18-hover-on-ios.png"/><figcaption><span class="fig-number">Fig 5.18:</span> The hovering style on iOS can only be triggered by very lightly pressing a link.</figcaption></figure>
 
 If you make `span`s, `div`s, and other usually non-interactive elements into interactive elements, you create confusion for those using screen readers and keyboard navigation, which rely on the accessible cues provided by the default HTML. Keyboard navigation demands special consideration in rich applications, because events can change regularly on a page, causing confusion and disorientation if focus isn’t managed correctly.
 
@@ -194,7 +194,7 @@ If a keyboard navigation user uses the Tab key to navigate, the `tabindex` order
 
 `tabindex=`"`-1`" can also be valuable for more complex interfaces that try to behave like a desktop application interface. For example, a menu widget may want to receive tab focus (and so uses `tabindex=`"`0`"), but the list inside that menu may need to be controlled using Left and Right keys to expand and collapse the menu items. We can use `tabindex=`"`-1`" to give the menu visual focus, but leave the keyboard focus control to JavaScript ([Fig 5.19](#fig-5-19)).
 
-<figure id="fig-5-19"><img alt="Figure" src="/images/fig-5-19-ala-menu.png"/><figcaption><span class="fig-number">Fig 5.19:</span> The A List Apart collapsible navigation menu is an example of a complex menu widget that you can navigate using only the keyboard.</figcaption></figure>
+<figure id="fig-5-19"><img alt="The A List Apart website’s menu shown in a narrow browser viewport." src="/images/fig-5-19-ala-menu.png"/><figcaption><span class="fig-number">Fig 5.19:</span> The A List Apart collapsible navigation menu is an example of a complex menu widget that you can navigate using only the keyboard.</figcaption></figure>
 
 Although the `tabindex` attribute has its uses, it should never replace well-structured HTML: `tabindex` only affects keyboard navigation, not other input or output types.
 
@@ -206,11 +206,11 @@ If HTML is so accessible by default, then why aren’t more sites accessible? Th
 
 What-You-See-Is-What-You-Get (WYSIWYG) editing software outputs HTML from content created in a visual editing interface. Although they’ve improved enormously over the last ten years, WYSIWYG editors can still be used to commit HTML atrocities. The problem with WYSIWYG editors lies in the name: they’re designed to manipulate the appearance, not the structure, of the content. For example, if I wanted to make “Huskies!” into the title of my page, I would choose a big font size and a bright color to visually suggest its importance ([Fig 5.20](#fig-5-20)).
 
-<figure id="fig-5-20"><img alt="Figure" src="/images/fig-5-20-huskies-html.png"/><figcaption><span class="fig-number">Fig 5.19:</span> KompoZer, an old-school WYSIWYG editor, has a split view so you can preview your rendered HTML and CSS as you write.</figcaption></figure>
+<figure id="fig-5-20"><img alt="HTML in an old school WYSIWYG editor showing a big green bold title and a black serif text paragraph. The HTML uses the outdated elements of font to change the font weight and size of the title and big to change the size of the paragraph text." src="/images/fig-5-20-huskies-html.png"/><figcaption><span class="fig-number">Fig 5.19:</span> KompoZer, an old-school WYSIWYG editor, has a split view so you can preview your rendered HTML and CSS as you write.</figcaption></figure>
 
 While making the text big and colorful makes it stand out to sighted users, it’s completely meaningless to a screen reader or a search engine. When they read the unstyled HTML, all they see is another chunk of body text, exactly the same as the text around it ([Fig 5.21](#fig-5-21)).
 
-<figure id="fig-5-21"><img alt="Figure" src="/images/fig-5-21-huskies.png"/><figcaption><span class="fig-number">Fig 5.21:</span> A screen reader needs meaningful HTML to tell it how to convey text to the listener.</figcaption></figure>
+<figure id="fig-5-21"><img alt="The same text displayed in a browser shows no visual distinction between the title and paragraph text." src="/images/fig-5-21-huskies.png"/><figcaption><span class="fig-number">Fig 5.21:</span> A screen reader needs meaningful HTML to tell it how to convey text to the listener.</figcaption></figure>
 
 To make matters worse, many WYSIWYG editors generate unnecessary elements and attributes in their attempt to parse meaning from visual design choices. For example, the WYSIWYG editor KompoZer uses the `<font>` element whenever the font is made bigger, so the HTML ends up as:
 
