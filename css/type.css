@@ -4,7 +4,7 @@
 	--colour-foreground-highlight: #000;
 	--colour-background: #f5f3ee;
 	--colour-background-green: #028A37;
-	--colour-background-secondary: #D8D5D0;
+	--colour-background-secondary: #FDFBF7;
 	--colour-link: #016289;
 	--colour-border: #151515;
 	--colour-button-background: #151515;
@@ -223,6 +223,9 @@ pre {
 }
 pre code {
   white-space: pre-wrap;
+}
+pre code.hljs {
+  background-color: transparent;
 }
 figcaption {
   font-size: 0.925em;

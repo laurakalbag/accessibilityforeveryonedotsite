@@ -36,6 +36,8 @@ export default function ({ SLOT }) {
       <link rel='stylesheet' href='/css/type.css'>
     </content>
 
+    <page syntaxHighlighter>
+
     <a class="sr-only skiplink" href="#main">Skip to main content</a>
 
     <header class='masthead'>
