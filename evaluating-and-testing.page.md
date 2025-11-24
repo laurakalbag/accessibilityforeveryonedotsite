@@ -74,7 +74,9 @@ If testers aren’t aware of the mismatch between hardware and software, they’
 
 ### Using a testing matrix
 
-In a wonderful article on *A List* *Apart*, Anne Gibson recommended following a testing matrix with a list of outputs along the top and inputs along the side ([https://a4e.link/06-02/](https://a4e.link/06-02/)). The corresponding boxes should then be filled out as you test with each combination of input and output. The matrix is a great way to ensure your testing is thorough and takes many different setups into consideration (Fig 6.1).
+In a wonderful article on *A List* *Apart*, Anne Gibson recommended following a testing matrix with a list of outputs along the top and inputs along the side ([https://a4e.link/06-02/](https://a4e.link/06-02/)). The corresponding boxes should then be filled out as you test with each combination of input and output. The matrix is a great way to ensure your testing is thorough and takes many different setups into consideration ([Fig 6.1](#fig-6-1)).
+
+<figure id="fig-6-1"><table><thead><tr><th scope="col"></th><th scope="col">screen (Firefox)</th><th scope="col">Desktop color screen (with Color Oracle emulating deuteranopia) (Firefox)</th><th scope="col">Small smartphone magnified using pinch zoom (iPhone 4s)</th><th scope="col">Audio/screenreader (macOS VoiceOver)</th></tr></thead><tbody class=" css-y6j1my"><tr><td>Keyboard navigation (desktop)</td><td>Works</td><td>Footer text needs higher contrast focus color</td><td>Not applicable</td><td>Works</td></tr><tr><td>Mouse input (desktop)</td><td>Works</td><td>Works</td><td>Not applicable</td><td>Works</td></tr><tr><td>Touch screen (iOS Safari)</td><td>Not applicable</td><td>Not applicable</td><td>Works, though requires a lot of horizontal scrolling to read text</td><td>Works (Tested with iOS VoiceOver)</td></tr><tr><td>Switch control (iOS)</td><td>Not applicable</td><td>Not applicable</td><td>Works</td><td>Not applicable</td></tr><tr><td>VoiceOver/Dictation (macOS Voiceover)</td><td>Works</td><td>Works</td><td>Not applicable</td><td>Works</td></tr></tbody></table><figcaption><span class="fig-number">Fig 6.1:</span> The testing matrix ensures you don’t miss a specific combination of input and output. Your testing matrix should be bigger and better!</figcaption></figure>
 
 ### Going the extra mile
 
@@ -100,9 +102,9 @@ It’s perfectly acceptable for your code to fail validation, as long as it fail
 
 #### W3C
 
-The most well-known validator is probably W3C’s markup validation tool ([https://a4e.link/06-04/](https://a4e.link/06-04/)), also known as the HTML validator. Among other warnings, it will inform you if you’ve missed a closing tag, quote mark, or required attribute, and if you’ve used an element where it isn’t allowed, or an element or attribute that doesn’t actually exist (Fig 6.2).
+The most well-known validator is probably W3C’s markup validation tool ([https://a4e.link/06-04/](https://a4e.link/06-04/)), also known as the HTML validator. Among other warnings, it will inform you if you’ve missed a closing tag, quote mark, or required attribute, and if you’ve used an element where it isn’t allowed, or an element or attribute that doesn’t actually exist ([Fig 6.2](#fig-6-2)).
 
-<figure><img alt="Figure" src="/images/fig-6.02-Showing_results_for_https_ind.ie_-_Nu_Html_Checker.png"/><figcaption>Fig 6.2: Using a `meta` element with a `value` isn’t valid HTML, but it is the format Twitter understands for its summary cards.</figcaption></figure>
+<figure id="fig-6-2"><img alt="Figure" src="/images/fig-6-02-nuhtmlchecker.png"/><figcaption><span class="fig-number">Fig 6.2:</span> Using a <code>meta</code> element with a <code>value</code> isn’t valid HTML, but it is the format Twitter understands for its summary cards.</figcaption></figure>
 
 Sometimes the errors reported by the HTML validator can be difficult to understand—“literal is missing closing delimiter”—but, fortunately, a page on the validation website helps explain the errors in plain English ([https://a4e.link/06-05/](https://a4e.link/06-05/)). (“Literal is missing closing delimiter” usually means you’ve forgotten a closing quotation mark.)
 
@@ -110,7 +112,9 @@ Sometimes the errors reported by the HTML validator can be difficult to understa
 
 When it comes to specialist accessibility validation tools, nothing beats WebAIM’s WAVE web accessibility evaluation tool. WAVE uniquely presents the original page with icons and indicators that draw attention to accessibility errors, features, and alerts. Its focus is on helping humans evaluate web pages while also educating them about accessibility.
 
-When you paste your URL into WAVE, it tests your markup against the WCAG guidelines. Much like the W3C HTML validator, WAVE shows you a list of errors. However, it also shows you alerts, accessibility features, structural elements, HTML5 and WAI-ARIA features, and contrast errors on your page (Fig 6.3). It’s a nice boost to get recognition for the effort you’ve put into the accessibility of your site, even if it’s from a bot!
+When you paste your URL into WAVE, it tests your markup against the WCAG guidelines. Much like the W3C HTML validator, WAVE shows you a list of errors. However, it also shows you alerts, accessibility features, structural elements, HTML5 and WAI-ARIA features, and contrast errors on your page ([Fig 6.3](#fig-6-3)). It’s a nice boost to get recognition for the effort you’ve put into the accessibility of your site, even if it’s from a bot!
+
+<figure id="fig-6-3"><img alt="Figure" src="/images/fig-6-03-wavereportofind-ie.png"/><figcaption><span class="fig-number">Fig 6.3:</span> WAVE results for the Ind.ie site showing “2&#160;X&#160;Linked image missing alternative text”. I better go fix that…</figcaption></figure>
 
 If you want to test a local URL, or a site that’s password-protected, you can use the WAVE toolbar for Firefox or Chrome. WebAIM is currently working on a toolbar for Microsoft Edge, too.
 
@@ -132,7 +136,9 @@ As mentioned earlier, technology professionals tend to enjoy much better connect
 
 It’s not hard to test how easy your site is to browse using keyboard navigation. Most browsers just require the Tab key to move between interactive elements. Some browsers use a combination of the Tab key and a modifier key (such as Alt or Ctrl), or the Left and Right cursor keys, to move between all elements on the page. This is useful when navigating using a screen reader.
 
-To access all elements on the page, you may have to enable a full-keyboard access setting in your operating system preferences. If you’re using VoiceOver on macOS, you can use the interactive training tour available from the Accessibility panel in System Preferences to familiarize yourself with the common controls (Fig 6.4).
+To access all elements on the page, you may have to enable a full-keyboard access setting in your operating system preferences. If you’re using VoiceOver on macOS, you can use the interactive training tour available from the Accessibility panel in System Preferences to familiarize yourself with the common controls ([Fig 6.4](#fig-6-4)).
+
+<figure id="fig-6-4"><img alt="Figure" src="/images/fig-6-04-keyboard-settings.png"/><figcaption><span class="fig-number">Fig 6.4:</span> Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog (<a href="https://a4e.link/06-07/">https://a4e.link/06-07/</a>).</figcaption></figure>
 
 Remember, we can’t make assumptions that someone using a screen reader is using keyboard navigation. Screen reader output and keyboard input should be tested both together and separately.
 
@@ -143,8 +149,6 @@ Testing with people who are likely to use your site is the best way to gauge acc
 Much like at the user research stage, it’s best to conduct usability testing with people representative of your target audience and ask them to attempt to perform tasks based on your product’s defined user goals. While it can be easy to test early designs and prototypes with many users, people with visual impairments, or people who rely on keyboard navigation, may find it difficult to interact with prototypes before they involve production-level code, so you’ll need to factor this into your testing plan.
 
 Try your best not to test with people who are working on the project: they will likely fail to notice the problems that might hold up other users, may not be part of the target audience at all, and are likely to have conflicting goals with other users. How the intended audience really interact with a product is often different from the assumptions of a team who may know the web much better and are much more familiar with the product itself.
-
-<figure><img alt="Figure" src="/images/fig-6.04-Keyboard-settings.png"/><figcaption>Fig 6.4: Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog (<a href="https://a4e.link/06-07/">https://a4e.link/06-07/</a>).</figcaption></figure>
 
 ### Finding participants
 
@@ -194,9 +198,9 @@ Testing doesn’t end on launch day. Ongoing testing keeps accessibility at the 
 
 Consider adding a short form to your site for ongoing testing. A simple, obvious feedback mechanism for site visitors can be a low-cost way of involving real users in testing. When you tell users that their contributions are valued, they are more likely to review and assist you in the accessibility of your product. Keep your accessibility policy in view as you assess feedback, though. All feedback should be read, replied to, and taken on board, but make sure you don’t allow the feedback of a single person to divert you from needs more broadly expressed by your target audience.
 
-Twitter has a simple feedback mechanism in their @TwitterA11y Twitter account for accessibility feedback. The @TwitterA11y account is also used to broadcast new features and potential problems (Fig 6.5).
+Twitter has a simple feedback mechanism in their @TwitterA11y Twitter account for accessibility feedback. The @TwitterA11y account is also used to broadcast new features and potential problems ([Fig 6.5](#fig-6-5)).
 
-<figure><img alt="Figure" src="/images/16.png"/><figcaption>Fig 6.5: Have you enabled image descriptions on your Twitter settings yet? No? Go do it right now, you’ll be learning to write great alt text in no time…</figcaption></figure>
+<figure id="fig-6-5" class="images-pair"><img alt="Figure" src="/images/fig-6-05-a-twittera11yontwitter.png"/><img alt="Figure" src="/images/fig-6-05-b-twittera11yontwitter.png"/><figcaption>Fig 6.5: Have you enabled image descriptions on your Twitter settings yet? No? Go do it right now, you’ll be learning to write great alt text in no time…</figcaption></figure>
 
 Testing is really another kind of research. Testing isn’t what you do at the end of a project to prove that you’re brilliant at your job—it’s the beginning of another iterative cycle in your project’s life. Test early and often, and then test again. Regular testing will reassure you that you’re heading in the right direction, or give you new targets if the accessibility falls short.
 
