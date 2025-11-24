@@ -104,7 +104,7 @@ It’s perfectly acceptable for your code to fail validation, as long as it fail
 
 The most well-known validator is probably W3C’s markup validation tool ([https://a4e.link/06-04/](https://a4e.link/06-04/)), also known as the HTML validator. Among other warnings, it will inform you if you’ve missed a closing tag, quote mark, or required attribute, and if you’ve used an element where it isn’t allowed, or an element or attribute that doesn’t actually exist ([Fig 6.2](#fig-6-2)).
 
-<figure id="fig-6-2"><img alt="Figure" src="/images/fig-6-02-nuhtmlchecker.png"/><figcaption><span class="fig-number">Fig 6.2:</span> Using a <code>meta</code> element with a <code>value</code> isn’t valid HTML, but it is the format Twitter understands for its summary cards.</figcaption></figure>
+<figure id="fig-6-2"><img alt="A validation error for attribute value not allowed on element meta at this point. The line number and column of the relevant code is highlighted." src="/images/fig-6-02-nuhtmlchecker.png"/><figcaption><span class="fig-number">Fig 6.2:</span> Using a <code>meta</code> element with a <code>value</code> isn’t valid HTML, but it is the format Twitter understands for its summary cards.</figcaption></figure>
 
 Sometimes the errors reported by the HTML validator can be difficult to understand—“literal is missing closing delimiter”—but, fortunately, a page on the validation website helps explain the errors in plain English ([https://a4e.link/06-05/](https://a4e.link/06-05/)). (“Literal is missing closing delimiter” usually means you’ve forgotten a closing quotation mark.)
 
@@ -114,7 +114,7 @@ When it comes to specialist accessibility validation tools, nothing beats WebAIM
 
 When you paste your URL into WAVE, it tests your markup against the WCAG guidelines. Much like the W3C HTML validator, WAVE shows you a list of errors. However, it also shows you alerts, accessibility features, structural elements, HTML5 and WAI-ARIA features, and contrast errors on your page ([Fig 6.3](#fig-6-3)). It’s a nice boost to get recognition for the effort you’ve put into the accessibility of your site, even if it’s from a bot!
 
-<figure id="fig-6-3"><img alt="Figure" src="/images/fig-6-03-wavereportofind-ie.png"/><figcaption><span class="fig-number">Fig 6.3:</span> WAVE results for the Ind.ie site showing “2&#160;X&#160;Linked image missing alternative text”. I better go fix that…</figcaption></figure>
+<figure id="fig-6-3"><img alt="The Wave panel overlaid on top of the Ind.ie website. It shows two errors, three alerts, three features, nine structural elements and four HTML5 and ARIA elements." src="/images/fig-6-03-wavereportofind-ie.png"/><figcaption><span class="fig-number">Fig 6.3:</span> WAVE results for the Ind.ie site showing “2 X Linked image missing alternative text”. I better go fix that…</figcaption></figure>
 
 If you want to test a local URL, or a site that’s password-protected, you can use the WAVE toolbar for Firefox or Chrome. WebAIM is currently working on a toolbar for Microsoft Edge, too.
 
@@ -138,7 +138,7 @@ It’s not hard to test how easy your site is to browse using keyboard navigatio
 
 To access all elements on the page, you may have to enable a full-keyboard access setting in your operating system preferences. If you’re using VoiceOver on macOS, you can use the interactive training tour available from the Accessibility panel in System Preferences to familiarize yourself with the common controls ([Fig 6.4](#fig-6-4)).
 
-<figure id="fig-6-4"><img alt="Figure" src="/images/fig-6-04-keyboard-settings.png"/><figcaption><span class="fig-number">Fig 6.4:</span> Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog (<a href="https://a4e.link/06-07/">https://a4e.link/06-07/</a>).</figcaption></figure>
+<figure id="fig-6-4"><img alt="The macOS settings panel for keyboard shortcuts, including a shortcut for Change the way Tab moves focus." src="/images/fig-6-04-keyboard-settings.png"/><figcaption><span class="fig-number">Fig 6.4:</span> Keep in mind that screen readers can change these default keyboard commands. Léonie Watson has written a simple explanation for understanding screen reader interaction modes on her blog (<a href="https://a4e.link/06-07/">https://a4e.link/06-07/</a>).</figcaption></figure>
 
 Remember, we can’t make assumptions that someone using a screen reader is using keyboard navigation. Screen reader output and keyboard input should be tested both together and separately.
 
@@ -200,7 +200,7 @@ Consider adding a short form to your site for ongoing testing. A simple, obvious
 
 Twitter has a simple feedback mechanism in their @TwitterA11y Twitter account for accessibility feedback. The @TwitterA11y account is also used to broadcast new features and potential problems ([Fig 6.5](#fig-6-5)).
 
-<figure id="fig-6-5" class="images-pair"><img alt="Figure" src="/images/fig-6-05-a-twittera11yontwitter.png"/><img alt="Figure" src="/images/fig-6-05-b-twittera11yontwitter.png"/><figcaption>Fig 6.5: Have you enabled image descriptions on your Twitter settings yet? No? Go do it right now, you’ll be learning to write great alt text in no time…</figcaption></figure>
+<figure id="fig-6-5" class="images-pair"><img alt="A tweet from the Twitter A11y account saying We've updated the tweet actions for desktop web; it’s now easier for users of screen readers to navigate timelines using virtual navigation." src="/images/fig-6-05-a-twittera11yontwitter.png"/><img alt="A second tweet from the Twitter A11y account saying We’ve added support for adding alt text to images on twitter.com with an image showing the alt text interface on Twitter." src="/images/fig-6-05-b-twittera11yontwitter.png"/><figcaption>Fig 6.5: Have you enabled image descriptions on your Twitter settings yet? No? Go do it right now, you’ll be learning to write great alt text in no time…</figcaption></figure>
 
 Testing is really another kind of research. Testing isn’t what you do at the end of a project to prove that you’re brilliant at your job—it’s the beginning of another iterative cycle in your project’s life. Test early and often, and then test again. Regular testing will reassure you that you’re heading in the right direction, or give you new targets if the accessibility falls short.
 
