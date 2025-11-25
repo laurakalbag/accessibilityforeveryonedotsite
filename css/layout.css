@@ -6,16 +6,16 @@
 	--colour-foreground-highlight: #000;
 	--colour-background: #f5f3ee;
 	--colour-background-green: #028A37;
-	--colour-background-secondary: #D8D5D0;
+	--colour-background-secondary: #FDFBF7;
 	--colour-link: #016289;
-	--colour-border: #151515;
+	--colour-border: #3B3B3B;
 	--colour-button-background: #151515;
 	--colour-button-text: #f5f3ee;
 	--colour-button-active: #028A37;
 	--colour-title-text: #fff;
-  }
+}
   
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 	:root {
 	  --colour-foreground: #BEBCB2;
 	  --colour-foreground-secondary: #BEBCB2;
@@ -30,7 +30,7 @@
 	  --colour-button-active: #01C543;
 	  --colour-title-text: #fff;
 	}
-  }
+}
 body {
 	background: var(--colour-background);
 }
@@ -113,6 +113,19 @@ body {
 }
 .btn-cta {
   padding: 0.65em 1em 0.5em 1em;
+}
+table {
+  border: 1px solid var(--colour-border);
+}
+table tr {
+  border-bottom: 1px solid var(--colour-border);
+}
+tbody tr:nth-child(odd) {
+  background-color: var(--colour-background-secondary);
+}
+table th, table td {
+  border-right: 1px solid var(--colour-border);
+  padding: 0.25em;
 }
 picture {
   display: block;

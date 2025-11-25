@@ -6,14 +6,14 @@
 	--colour-background-green: #028A37;
 	--colour-background-secondary: #FDFBF7;
 	--colour-link: #016289;
-	--colour-border: #151515;
+	--colour-border: #3B3B3B;
 	--colour-button-background: #151515;
 	--colour-button-text: #f5f3ee;
 	--colour-button-active: #028A37;
 	--colour-title-text: #fff;
-  }
+}
   
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 	:root {
 	  --colour-foreground: #BEBCB2;
 	  --colour-foreground-secondary: #BEBCB2;
@@ -28,7 +28,7 @@
 	  --colour-button-active: #01C543;
 	  --colour-title-text: #fff;
 	}
-  }
+}
 
 @font-face {
   font-family: "Sofia Sans Extra Condensed";
@@ -135,6 +135,10 @@
 .book-body {
   font-size: clamp(0.8em, 1.25vw, 1.2em);
 }
+body {
+  font-family: "Lora", Georgia, serif;
+  color: var(--colour-foreground);
+}
 h1,
 h2 {
 color: var(--colour-foreground-highlight);
@@ -226,6 +230,13 @@ pre code {
 }
 pre code.hljs {
   background-color: transparent;
+}
+table {
+  font-family: "Mulish", sans-serif;
+  border-collapse: collapse;
+}
+table th {
+  text-align: left;
 }
 figcaption {
   font-size: 0.925em;
