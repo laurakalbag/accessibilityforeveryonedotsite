@@ -1,4 +1,4 @@
-/* A minor reset */
+/* Useful defaults */
 
 body {
   margin: 0;
@@ -30,41 +30,47 @@ img {
   height: auto;
 }
 
-/* Colours */
-
-:root {
-	--colour-foreground: #151515;
-	--colour-foreground-secondary: #3B3B3B;
-	--colour-foreground-highlight: #000;
-	--colour-background: #f5f3ee;
-	--colour-background-green: #028A37;
-	--colour-background-secondary: #FDFBF7;
-	--colour-link: #016289;
-	--colour-border: #3B3B3B;
-	--colour-button-background: #151515;
-	--colour-button-text: #f5f3ee;
-	--colour-button-active: #028A37;
-	--colour-title-text: #fff;
-}
-  
-@media (prefers-color-scheme: dark) {
-	:root {
-	  --colour-foreground: #BEBCB2;
-	  --colour-foreground-secondary: #BEBCB2;
-	  --colour-foreground-highlight: #deddd8;
-	  --colour-background: #151515;
-	  --colour-background-green: #015B24;
-	  --colour-background-secondary: #0b0b0b;
-	  --colour-link: #50C3F2;
-	  --colour-border: #BEBCB2;
-	  --colour-button-background: #BEBCB2;
-	  --colour-button-text: #151515;
-	  --colour-button-active: #01C543;
-	  --colour-title-text: #fff;
-	}
-}
-
 /* Fonts */
+
+@font-face {
+  font-family: "Sofia Sans Extra Condensed";
+  src: url("/fonts/SofiaSansExtraCondensed-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sofia Sans Extra Condensed";
+  src: url("/fonts/SofiaSansExtraCondensed-VariableFont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-VariableFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-VariableFont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "Mulish";
@@ -119,10 +125,42 @@ img {
   font-display: swap;
 }
 
+/* Colours */
+
 :root {
+	--colour-foreground: #151515;
+	--colour-foreground-secondary: #3B3B3B;
+	--colour-foreground-highlight: #000;
+	--colour-background: #f5f3ee;
+	--colour-background-green: #028A37;
+	--colour-background-secondary: #FDFBF7;
+	--colour-link: #016289;
+	--colour-border: #3B3B3B;
+	--colour-button-background: #151515;
+	--colour-button-text: #f5f3ee;
+	--colour-button-active: #028A37;
+	--colour-title-text: #fff;
+
   --font-serif: "Lora", Georgia, serif;
   --font-sans: "Mulish", sans-serif;
   --font-titles: "Sofia Sans Extra Condensed", sans-serif;
+}
+  
+@media (prefers-color-scheme: dark) {
+	:root {
+	  --colour-foreground: #BEBCB2;
+	  --colour-foreground-secondary: #BEBCB2;
+	  --colour-foreground-highlight: #deddd8;
+	  --colour-background: #151515;
+	  --colour-background-green: #015B24;
+	  --colour-background-secondary: #0b0b0b;
+	  --colour-link: #50C3F2;
+	  --colour-border: #BEBCB2;
+	  --colour-button-background: #BEBCB2;
+	  --colour-button-text: #151515;
+	  --colour-button-active: #01C543;
+	  --colour-title-text: #fff;
+	}
 }
 
 body {
@@ -353,6 +391,9 @@ a[href*="#fig-"] {
   font-size: 1em;
   white-space: nowrap;
 }
+
+/* Cover */
+
 .cover {
   background: var(--colour-background-green);
   padding-top: clamp(4.5em, 10vw, 9em);
@@ -398,6 +439,29 @@ a[href*="#fig-"] {
 .btn-cta:hover {
   background: var(--colour-button-active);
   color: var(--colour-button-text);
+}
+
+.note {
+  background: var(--colour-background-secondary);
+  padding: 2em;
+  position: relative;
+}
+
+.note h2 {
+  margin-top: 0;
+}
+
+.note p {
+  color: var(--colour-foreground-secondary);
+  font-family: var(--font-sans);
+}
+
+.note p:last-of-type {
+  margin-bottom: 0;
+}
+
+#start {
+  padding-top: 4em;
 }
 
 .images-pair {

@@ -2,9 +2,13 @@
 title: Considering Accessibility
 layout: ./Chapter.layout.js
 index: 2
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
-The BBC homepage is a brilliant example of accessible web practices in the wild ([Fig 1.1](#fig-1-1)). The layout clearly distinguishes the different areas of content. The simple interactive elements are easy to use. The copy is understandable—helped along by readable typography and a high contrast between the text and background colors. And the page is straightforward to navigate for people using a screen reader and keyboard navigation.
+<${ChapterUpdate}/>
+
+<div id="start"><p>The BBC homepage is a brilliant example of accessible web practices in the wild (<a href="#fig-1-1">Fig 1.1</a>). The layout clearly distinguishes the different areas of content. The simple interactive elements are easy to use. The copy is understandable—helped along by readable typography and a high contrast between the text and background colors. And the page is straightforward to navigate for people using a screen reader and keyboard navigation.</p></div>
 
 <figure id="fig-1-1"><img alt="The BBC homepage features the date, weather, and top new stories." src="/images/fig-1-01-bbc-home.png"/><figcaption><span class="fig-number">Fig 1.1:</span> The BBC homepage requires a very flexible design as the news content is updated so regularly and can be customized by users. The background can even be themed to fit news events.</figcaption></figure>
 

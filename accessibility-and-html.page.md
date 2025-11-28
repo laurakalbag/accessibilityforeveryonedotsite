@@ -2,8 +2,13 @@
 title: Accessibility and HTML
 index: 6
 layout: ./Chapter.layout.js
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
-The primary role of the browser in web accessibility is to connect HTML to the accessibility layer of the operating system. To achieve that, browser makers follow the Accessibility API Mapping standards so that their browsers correctly interpret our markup, and we follow web standards so that our markup is correctly interpreted by browsers.
+
+<${ChapterUpdate}/>
+
+<div id="start"><p>The primary role of the browser in web accessibility is to connect HTML to the accessibility layer of the operating system. To achieve that, browser makers follow the Accessibility API Mapping standards so that their browsers correctly interpret our markup, and we follow web standards so that our markup is correctly interpreted by browsers.</p></div>
 
 This means that when we write well-structured HTML, without altering the default behaviors, it is innately accessible. It’s that easy—job done. You can go home now.
 

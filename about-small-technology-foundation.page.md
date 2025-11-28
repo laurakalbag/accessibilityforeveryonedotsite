@@ -3,7 +3,7 @@ title: About Small technology foundation
 index: 12
 layout: ./Chapter.layout.js
 ---
-## About Small technology foundation
+## About Small Technology Foundation
 
 Small Technology Foundation is a tiny not-for-profit based in Ireland building the Small Web. The Small Web is a peer-to-peer web designed to protect human rights and democracy in the digital network age.
 

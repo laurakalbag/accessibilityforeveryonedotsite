@@ -2,11 +2,13 @@
 title: Disabilities and Impairments
 layout: ./Chapter.layout.js
 index: 3
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
-> “Without the internet, I’d be stuck. I can’t use books. I’d be sitting in the corner with a dunce’s hat.”
->
-> —Sam
+<${ChapterUpdate}/>
+
+<div id="start"><blockquote><p>“Without the internet, I’d be stuck. I can’t use books. I’d be sitting in the corner with a dunce’s hat.”</p><p>—Sam</p></blockquote></div>
 
 Meet Sam. He’s my brother. In many ways, he’s no different from so many people who happen to build websites: he’s a college graduate in his late twenties; he loves music, sports, reading, video games, and movies; and he spends tons of time online.
 

@@ -2,8 +2,13 @@
 title: Resources
 index: 9
 layout: ./Chapter.layout.js
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
-### Accessibility
+
+<${ChapterUpdate}/>
+
+<div id="start"><h3 id="accessibility">Accessibility</h3></div>
 
 Check these blogs and sites regularly to benefit from the know-how of the accessibility experts.
 

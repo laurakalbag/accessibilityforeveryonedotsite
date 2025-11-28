@@ -2,9 +2,13 @@
 title: Planning for Accessibility
 index: 4
 layout: ./Chapter.layout.js
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
-Incorporating accessibility from the beginning is almost always easier, more effective, and less expensive than making accessibility improvements as a separate project. In fact, building accessibility into your project and processes has a wealth of business benefits. If you’re looking to make the case for accessibility—to yourself, to coworkers, or to bosses and clients—you might start here:
+<${ChapterUpdate}/>
+
+<div id="start"><p>Incorporating accessibility from the beginning is almost always easier, more effective, and less expensive than making accessibility improvements as a separate project. In fact, building accessibility into your project and processes has a wealth of business benefits. If you’re looking to make the case for accessibility—to yourself, to coworkers, or to bosses and clients—you might start here:</p></div>
 
 - **Findability and ease of use:** In the broadest terms, accessibility can make it easier for anyone to find, access, and use a website successfully. By ensuring better usability for all, accessibility boosts a site’s effectiveness and increases its potential audience.
 - **Competitive edge:** The wider your audience, the greater your reach and commercial appeal. When a site is more accessible than other sites in the same market, it can lead to preferential treatment from people who struggled to use competitors’ sites. If a site is translated, or has more simply written content that improves automated translation, increased accessibility can lead to a larger audience by reaching people who speak other languages.

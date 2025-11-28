@@ -2,9 +2,12 @@
 title: Content and Design
 index: 5
 layout: ./Chapter.layout.js
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
+<${ChapterUpdate}/>
 
-Design decisions made in the name of accessibility generally benefit everyone, because *all technology is assistive*. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren ([https://a4e.link/04-01/](https://a4e.link/04-01/)), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”
+<div id="start"><p>Design decisions made in the name of accessibility generally benefit everyone, because <em>all technology is assistive</em>. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren (<a href="https://a4e.link/04-01/">https://a4e.link/04-01/</a>), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”</p></div>
 
 Hendren asks, “What technology are you using that’s *not assistive*?” Our keyboards and mice assist us in communicating with a computer. Our headphones enable us to hear audio in our own spaces without disrupting those around us. Our phones give us the knowledge of the entire web in our pockets. Technology enables us all, and can give us a better experience of the world around us.
 

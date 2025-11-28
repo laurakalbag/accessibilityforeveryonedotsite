@@ -2,8 +2,13 @@
 title: References
 index: 11
 layout: ./Chapter.layout.js
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
-Shortened URLs are numbered sequentially; the related long URLs are listed below for reference.
+
+<${ChapterUpdate}/>
+
+<div id="start"><p>Shortened URLs are numbered sequentially; the related long URLs are listed below for reference.</p></div>
 
 ## Chapter 1
 

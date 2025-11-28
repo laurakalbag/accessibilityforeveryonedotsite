@@ -2,8 +2,12 @@
 title: Laws and Guidelines
 index: 8
 layout: ./Chapter.layout.js
+script: |
+  import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
-Let’s face it, guidelines and standards are often really boring—and it can be hard to see how the principles apply in the context of your own projects. Legalese alone makes for a tough read:
+<${ChapterUpdate}/>
+
+<div id="start"><p>Let’s face it, guidelines and standards are often really boring—and it can be hard to see how the principles apply in the context of your own projects. Legalese alone makes for a tough read:</p></div>
 
 > More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.
 
