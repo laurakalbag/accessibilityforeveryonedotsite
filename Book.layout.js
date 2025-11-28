@@ -31,9 +31,7 @@ export const chapters = [
 export default function ({ SLOT }) {
   return kitten.html`
     <content for='HEAD'>
-      <link rel='stylesheet' href='/css/globals.css'>
-      <link rel='stylesheet' href='/css/layout.css'>
-      <link rel='stylesheet' href='/css/type.css'>
+      <link rel='stylesheet' href='/css/style.css'>
     </content>
 
     <page syntaxHighlighter>
