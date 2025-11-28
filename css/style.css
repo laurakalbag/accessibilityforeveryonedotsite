@@ -525,6 +525,7 @@ a[href*="#fig-"] {
   flex-wrap: no-wrap;
   align-items: flex-end;
   font-size: clamp(0.2em, 2vw, 1em);
+  margin-top: 3em; /* factor in height of page header */
 }
 .chapter-title {
 	color: var(--colour-title-text);
