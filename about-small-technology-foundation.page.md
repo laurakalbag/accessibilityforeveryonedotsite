@@ -1,12 +1,14 @@
 ---
-title: About Small technology foundation
-index: 12
+title: About Small Technology Foundation
+index: 13
 layout: ./Chapter.layout.js
 ---
 ## About Small Technology Foundation
 
-Small Technology Foundation is a tiny not-for-profit based in Ireland building the Small Web. The Small Web is a peer-to-peer web designed to protect human rights and democracy in the digital network age.
+[Small Technology Foundation](https://small-tech.org) is a tiny not-for-profit based in Ireland building the Small Web. The Small Web is a peer-to-peer web designed to protect human rights and democracy in the digital network age.
 
-## Colophon
+## Support us
 
-The text is set in Lora by Cyreal and Mulish by Vernon Adams, Cyreal, Jacques Le Bailly. Headlines and cover are set in Sofia Sans by Lettersoup, Botio Nikoltchev, Ani Petrova.
+We’re a tiny team of two funded by individuals like you. Your patronage helps us continue [our work](https://small-tech.org/about/). 
+
+You can [set up a monthly or one-off donation on our Fund Us page](https://small-tech.org/fund-us/).

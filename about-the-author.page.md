@@ -1,6 +1,6 @@
 ---
 title: About the Author
-index: 13
+index: 14
 layout: ./Chapter.layout.js
 ---
 ![Photo of Laura Kalbag](/images/Laura_Kalbag_bio.png)
