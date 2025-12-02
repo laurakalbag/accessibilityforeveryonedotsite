@@ -24,6 +24,7 @@ export const chapters = [
   new Chapter('Resources'),
   new Chapter('Acknowledgements'),
   new Chapter('References'),
+  new Chapter('About the Book'),
   new Chapter('About Small Technology Foundation'),
   new Chapter('About the Author'),
 ]
