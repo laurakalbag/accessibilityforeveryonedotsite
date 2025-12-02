@@ -33,6 +33,11 @@ export default function ({ SLOT }) {
   return kitten.html`
     <content for='HEAD'>
       <link rel='stylesheet' href='/css/style.css'>
+      <script async src="https://plausible.io/js/pa-GfyTDnsesOiCy0bhCxfDO.js"></script>
+      <script>
+        window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+        plausible.init()
+      </script>
     </content>
 
     <page syntaxHighlighter>
