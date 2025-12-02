@@ -29,6 +29,10 @@ Since 2025, Accessibility for Everyone is published, and shared for free, by [Sm
 
 TODO
 
+The source code for the web site, not including the text of the book, is Copyright Ⓒ 2025-present, Aral Balkan & Laura Kalbag, Small Technology Foundation, and released under [AGPL Version 3](https://www.gnu.org/licenses/agpl-3.0.en.html).
+
 ## Colophon
+
+This book site was set up by [Aral Balkan](https://ar.al) and is written in [Kitten](https://kitten.small-web.org). The book content was converted to Markdown using [Dancing Queen, the ABA Book Parser](https://github.com/eaton/dq) by [Jeff Eaton](https://eaton.fyi/). The core site/book template and styles are from [a-book-departs](https://github.com/Wilto/a-book-departs) by [Mat Marquis](https://hire.wil.to/).
 
 The text is set in Lora by Cyreal and Mulish by Vernon Adams, Cyreal, Jacques Le Bailly. Headlines and cover are set in Sofia Sans by Lettersoup, Botio Nikoltchev, Ani Petrova.
