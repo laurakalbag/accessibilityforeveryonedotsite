@@ -7,7 +7,7 @@ script: |
 ---
 <${ChapterUpdate}/>
 
-<div id="start"><p>Design decisions made in the name of accessibility generally benefit everyone, because <em>all technology is assistive</em>. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren (<a href="https://a4e.link/04-01/">https://a4e.link/04-01/</a>), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”</p></div>
+<div id="start"><p>Design decisions made in the name of accessibility generally benefit everyone, because <em>all technology is assistive</em>. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren (<a href="https://a4e.link/04/01/">https://a4e.link/04/01/</a>), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”</p></div>
 
 Hendren asks, “What technology are you using that’s *not assistive*?” Our keyboards and mice assist us in communicating with a computer. Our headphones enable us to hear audio in our own spaces without disrupting those around us. Our phones give us the knowledge of the entire web in our pockets. Technology enables us all, and can give us a better experience of the world around us.
 
@@ -24,7 +24,7 @@ While these examples illustrate just a few benefits, they show that accessibilit
 
 *Affordances* are how objects suggest the interactions that can be performed with them—ideally in a way that’s recognizable by users. For example, when we turn on a new computer for the first time, we look for a button with the power icon. We expect a button because we’re accustomed to the on-off function of hardware operated by a physical input. We look for the power icon because it’s a conventional symbol used in electronics ([Fig 4.1](#fig-4-1)). Over time, these affordances become conventions we can rely on, both as designers and as users.
 
-<figure id="fig-4-1"><img alt="The power button on a laptop keyboard." src="/images/fig-4-01-power.jpg"/><figcaption><span class="fig-number">Fig 4.1:</span> A button with the power icon is the first thing we look for when we turn on our electronics. Photograph courtesy of Anssi Koskinen (<a href="https://a4e.link/04-02/">https://a4e.link/04-02/</a>).</figcaption></figure>
+<figure id="fig-4-1"><img alt="The power button on a laptop keyboard." src="/images/fig-4-01-power.jpg"/><figcaption><span class="fig-number">Fig 4.1:</span> A button with the power icon is the first thing we look for when we turn on our electronics. Photograph courtesy of Anssi Koskinen (<a href="https://a4e.link/04/02/">https://a4e.link/04/02/</a>).</figcaption></figure>
 
 Usability can be compromised when designers abandon conventions because we've decided to “redefine” how something is usually done. Very occasionally, this can result in a new innovation that genuinely redefines and reshapes behavior, but it usually just makes a really unique mess ([Fig 4.2](#fig-4-2)).
 
@@ -93,7 +93,7 @@ Links are as old as the web, so long-standing conventions and standards have dev
 
 These common styles make links easy to recognize on a page. Over the years, fewer sites have stuck to the blue color standard, but most still use the underline to distinguish a link from non-interactive text. The contrast between link text and regular text is the key consideration. Finding links in a body of text shouldn’t be a cruel game where the reader has to hover over every word to find them.
 
-Two years ago, Google decided to drop the underlined style in their links ([https://a4e.link/04-03/](https://a4e.link/04-03/)). The lack of underlines makes the page layout appear much cleaner and the text slightly easier to read ([Fig 4.13](#fig-4-13)).
+Two years ago, Google decided to drop the underlined style in their links ([https://a4e.link/04/03/](https://a4e.link/04/03/)). The lack of underlines makes the page layout appear much cleaner and the text slightly easier to read ([Fig 4.13](#fig-4-13)).
 
 <figure id="fig-4-13" class="images-pair"><img alt="Google search results with underlined links for the title of each search result." src="/images/fig-4-13-a-vforvendetta-googlesearch.png"/><img alt="Google search results with no underlines on the links." src="/images/fig-4-13-b-vforvendetta-googlesearch2.png"/><figcaption><span class="fig-number">Fig 4.13:</span> Google search results looks more crowded with links underlined (left/top) than when the links are just big and blue (right/bottom).</figcaption></figure>
 
@@ -161,7 +161,7 @@ Once you have a visual hierarchy in place, with headings, paragraphs, lists, and
 * Font weight: Thin type became more popular when high-resolution screens became more prevalent. But thin type can be hard to read as it has a lower contrast against the background than heavier type does. It’s also rendered very differently on standard and high-resolution displays—it loses clarity at standard resolution—so it’s important to take care when using it, particularly at small sizes.
 * Line length: Text crowded on to a short line length can be difficult to read because the text is broken up into such small groups. When a line is longer than about 66 characters (*http://webtypography.net/2.1.2*), you can find yourself having to turn your head from side to side to read the text, or getting sore eyes. Finding a balanced line length will make a big difference to people with difficulty reading.
 
-Jason Santa Maria’s *On Web Typography* ([https://a4e.link/04-04/](https://a4e.link/04-04/)) and Richard Rutter’s recent *Web Typography* ([https://a4e.link/04-05/](https://a4e.link/04-05/)) both contain a wealth of information on choosing fonts and arranging type. As with general usability, thoughtful typography will benefit everyone.
+Jason Santa Maria’s *On Web Typography* ([https://a4e.link/04/04/](https://a4e.link/04/04/)) and Richard Rutter’s recent *Web Typography* ([https://a4e.link/04/05/](https://a4e.link/04/05/)) both contain a wealth of information on choosing fonts and arranging type. As with general usability, thoughtful typography will benefit everyone.
 
 ### Specialist typefaces
 
@@ -175,7 +175,7 @@ Fonts have become widely used for icons too. However, icon fonts can cause probl
 
 <figure id="fig-4-19"><img alt="Left and right arrow buttons alongside the VoiceOver panel showing VoiceOver reading a question mark in a box glyph alongside the word button." src="/images/fig-4-18-unrecognised-icon.png"/><figcaption><span class="fig-number">Fig 4.19:</span> These buttons use an icon font for their arrow icons. VoiceOver doesn’t recognize the arrow right character and ignores it, but has no other content to read for this button.</figcaption></figure>
 
-<figure id="fig-4-20"><img alt="Type the text home into the Symbolset website, and it shows a simplified house icon." src="/images/fig-4-20-symbolset-home.png"/><figcaption><span class="fig-number">Fig 4.20:</span> Typing the word “home” in Symbolset results in a cute house icon (<a href="https://a4e.link/04-06/"><span class="FigureURL">https://a4e.link/04-06/</span></a>).</figcaption></figure>
+<figure id="fig-4-20"><img alt="Type the text home into the Symbolset website, and it shows a simplified house icon." src="/images/fig-4-20-symbolset-home.png"/><figcaption><span class="fig-number">Fig 4.20:</span> Typing the word “home” in Symbolset results in a cute house icon (<a href="https://a4e.link/04/06/"><span class="FigureURL">https://a4e.link/04/06/</span></a>).</figcaption></figure>
 
 However, these icon fonts rely on your using the symbols for the correct words in the font. Deciding to use the star symbol to mean “favorite” when the font uses it to mean “star” could result in screen readers uttering some odd-sounding language: “calendar, star, map” ([Fig 4.21](#fig-4-21)).
 
@@ -325,13 +325,13 @@ Cox emphasizes that accessibility requirements should always trump search engine
 
 Using images to present text was very popular before the days of webfonts, and unfortunately still persists occasionally to this day. However, text in JPGs, GIFs, and PNGs can’t be resized and, if zoomed, becomes pixelated and harder to read. It also can’t be read by screen readers, search engines, or autotranslators, and any revisions to the text become much more labor-intensive. In short, it’s a terrible idea.
 
-It’s only worth putting text in an image if it’s part of a logo. That’s the only realistic use case nowadays. With the wide support of Scalable Vector Graphics (SVG), we can also include scalable and stylable text in SVGs, which is a simple way to make graphics more accessible. See Chris Coyier’s *Practical SVG* on how best to use SVG text ([https://a4e.link/04-07/](https://a4e.link/04-07/)).
+It’s only worth putting text in an image if it’s part of a logo. That’s the only realistic use case nowadays. With the wide support of Scalable Vector Graphics (SVG), we can also include scalable and stylable text in SVGs, which is a simple way to make graphics more accessible. See Chris Coyier’s *Practical SVG* on how best to use SVG text ([https://a4e.link/04/07/](https://a4e.link/04/07/)).
 
 ### Graphs and infographics
 
 Graphs and infographics are a great way to make information easy to digest; they can tell stories and make connections in an engaging way ([Fig 4.36](#fig-4-36)). Providing text alternatives to explain the content is usually the most straightforward method of approaching screen reader accessibility ([Fig 4.37](#fig-4-37)).
 
-<figure id="fig-4-36"><img alt="An infographic which maps time between 1950 and 2050 from left to right. There are red and blue flags indicating key points in time." src="/images/fig-4-36-infographic.png"/><figcaption><span class="fig-number">Fig 4.36:</span> An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, <a href="https://a4e.link/04-08/">https://a4e.link/04-08/</a>.)</figcaption></figure>
+<figure id="fig-4-36"><img alt="An infographic which maps time between 1950 and 2050 from left to right. There are red and blue flags indicating key points in time." src="/images/fig-4-36-infographic.png"/><figcaption><span class="fig-number">Fig 4.36:</span> An infographic showing how public awareness of social cooling has increased since the Snowden leaks in 2013. (Infographic reproduced courtesy of Tijmen Schep, <a href="https://a4e.link/04/08/">https://a4e.link/04/08/</a>.)</figcaption></figure>
 
 <figure id="fig-4-37"><img alt="The same infographic as above with text titled Data and Social Cooling, and a list describing the data displayed for each key point in time." src="/images/fig-4-37-infographicwithdescription.png"/><figcaption><span class="fig-number">Fig 4.37:</span> The same infographic with the contents simply described alongside, making it more accessible for everyone.</figcaption></figure>
 
@@ -347,7 +347,7 @@ Links to PDFs have inconsistent behaviors. Some web browsers will display the PD
 
 And PDFs themselves aren’t accessible. As they’re a proprietary format created by Adobe, not everyone can open and read PDFs without downloading additional software. They also take a lot more time and effort to make them readable by search engines and screen readers—at least HTML can be read by default.
 
-Instead of using PDFs to provide content, recreate the content using HTML. It will be easier to find, easier to read, and a lot more accessible. If you need your content to be suitable for printing, consider print stylesheets that instruct the browser how best to style each HTML page when printed. Smashing Magazine ([https://a4e.link/04-09/](https://a4e.link/04-09/)) and CSS-Tricks ([https://a4e.link/04-10/](https://a4e.link/04-09/)) both have good articles on creating print stylesheets.
+Instead of using PDFs to provide content, recreate the content using HTML. It will be easier to find, easier to read, and a lot more accessible. If you need your content to be suitable for printing, consider print stylesheets that instruct the browser how best to style each HTML page when printed. Smashing Magazine ([https://a4e.link/04/09/](https://a4e.link/04/09/)) and CSS-Tricks ([https://a4e.link/04/10/](https://a4e.link/04/09/)) both have good articles on creating print stylesheets.
 
 Tools that produce HTML from PDFs are also an option if your organization has loads of PDFs that need to be put online in a more accessible format. A quick web search will reveal plenty of PDF-to-HTML conversion tools. You don’t need a tool that perfectly reproduces the PDF, as long as the conversion outputs usable HTML that can be slotted into your existing page templates.
 
@@ -406,7 +406,7 @@ As with transcripts, there are professional services that will create closed cap
 
 Producing your own closed captions will be the least expensive option and will enable you to write the most accurate text. Writing good closed captions is an art. You don’t want to show too much text on the screen at any one time, as it makes it harder to read alongside the main picture ([Fig 4.39](#fig-4-39)).
 
-<figure id="fig-4-39"><img alt="A video player showing an animation with an xray of a head on a desktop computer with the captions that’s the insight that it sells to its customers." src="/images/fig-4-39-closed-captions.png"/><figcaption><span class="fig-number">Fig 4.39:</span> For Ind.ie’s Spyware 2.0 video, I tried to make the captions short to make them easy to read on a small screen, but not so short that they flashed up too quickly (<a href="https://a4e.link/04-11/">https://a4e.link/04-11</a>).</figcaption></figure>
+<figure id="fig-4-39"><img alt="A video player showing an animation with an xray of a head on a desktop computer with the captions that’s the insight that it sells to its customers." src="/images/fig-4-39-closed-captions.png"/><figcaption><span class="fig-number">Fig 4.39:</span> For Ind.ie’s Spyware 2.0 video, I tried to make the captions short to make them easy to read on a small screen, but not so short that they flashed up too quickly (<a href="https://a4e.link/04/11/">https://a4e.link/04-11</a>).</figcaption></figure>
 
 Closed captions are most comfortably read in short bursts, since they are shown at exactly the same time as the speech and sound on screen. If there are pauses or silence in the speech, the captions can be shown for longer, giving readers more time to absorb the text. Full sentences are far too long, and the text shouldn’t carry over into two lines unless your screen size is very small. If you watch closed captions on TV, or in a movie theater, you’ll get an idea of the right line length and where it’s comfortable to put a break in a phrase.
 

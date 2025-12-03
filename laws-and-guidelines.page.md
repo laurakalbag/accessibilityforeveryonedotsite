@@ -15,7 +15,7 @@ script: |
 
 If you go over this passage carefully, you’ll understand that you’re being advised to give people multiple ways to reach a web page. But the text sounds fusty and formal.
 
-There’s a valid reason for that formality: these guidelines are often used as criteria for a project in the specification, or to support government-dictated standards. When any company agreement or legal requirement relies upon a text, it needs to be clear and specific. The formality of the language can make it harder to understand what you need to do to satisfy the guidelines, but W3C’s Web Accessibility Initiative has plenty of additional explainers, such as the “How to Meet WCAG 2.0” quick reference ([https://a4e.link/07-01/](https://a4e.link/07-01/)).
+There’s a valid reason for that formality: these guidelines are often used as criteria for a project in the specification, or to support government-dictated standards. When any company agreement or legal requirement relies upon a text, it needs to be clear and specific. The formality of the language can make it harder to understand what you need to do to satisfy the guidelines, but W3C’s Web Accessibility Initiative has plenty of additional explainers, such as the “How to Meet WCAG 2.0” quick reference ([https://a4e.link/07/01/](https://a4e.link/07/01/)).
 
 ## The Legal Landscape
 
@@ -55,7 +55,7 @@ Many countries have their own standards and laws covering the web and accessibil
 
 Section 508 is an amendment made in 1998 to the US Rehabilitation Act of 1973. It’s a regulation that requires that all US federal employees with disabilities have the same access to information as employees without disabilities. It also requires that electronic and information technology from US federal agencies is accessible to people with disabilities. Section 508 doesn’t require compliance from non-government sites unless they receive federal funds or are under contract with a federal agency.
 
-Section 508’s “refresh” was published in the Federal Register in January 2017 after a long period of consultation and changes going back to 2008. Matt Feldman has covered the update in detail on the Paciello Group website ([https://a4e.link/07-02/](https://a4e.link/07-02/))
+Section 508’s “refresh” was published in the Federal Register in January 2017 after a long period of consultation and changes going back to 2008. Matt Feldman has covered the update in detail on the Paciello Group website ([https://a4e.link/07/02/](https://a4e.link/07/02/))
 
 The refreshed standards give instructions for specific types and uses of technology, including the notable recommendation that sites should adhere to Level A and Level AA of the WCAG 2.0 guidelines—exactly what Dale Cruse, senior digital accessibility specialist at JPMorgan Chase, suggests doing:
 
@@ -65,7 +65,7 @@ We’ll have a look at the WCAG later in this chapter.
 
 ### The European Accessibility Act
 
-The European Union has a similar draft regulation to Section 508 in its European Accessibility Act ([https://a4e.link/07-03/](https://a4e.link/07-03/)). It’s a directive designed to create a legislative framework for accessibility in line with Article 9 of the United Nation’s Convention on the Rights of Persons with Disabilities (CRPD). The Convention has two underlying principles that particularly apply to web accessibility: recognizing the importance of full and effective participation and inclusion in society, and the accessibility of information and communication technology. The European Accessibility Act doesn’t just cover websites and computers, but also the digital aspects of other public systems, such as ATMs and ticketing machines.
+The European Union has a similar draft regulation to Section 508 in its European Accessibility Act ([https://a4e.link/07/03/](https://a4e.link/07/03/)). It’s a directive designed to create a legislative framework for accessibility in line with Article 9 of the United Nation’s Convention on the Rights of Persons with Disabilities (CRPD). The Convention has two underlying principles that particularly apply to web accessibility: recognizing the importance of full and effective participation and inclusion in society, and the accessibility of information and communication technology. The European Accessibility Act doesn’t just cover websites and computers, but also the digital aspects of other public systems, such as ATMs and ticketing machines.
 
 ## Guidelines
 
@@ -98,7 +98,7 @@ It’s not going too far to say that I love the WCAG 2.0 principles. They’re n
 
 #### Levels
 
-WCAG has multiple levels of conformance. Each success criteria in the WCAG 2.0 guideline is designed to be testable. To conform to WCAG 2.0, you need to meet these criteria. ([https://a4e.link/07-01/](https://a4e.link/07-04/)) Each criteria has a level:
+WCAG has multiple levels of conformance. Each success criteria in the WCAG 2.0 guideline is designed to be testable. To conform to WCAG 2.0, you need to meet these criteria. ([https://a4e.link/07/01/](https://a4e.link/07/04/)) Each criteria has a level:
 
 * Level A: the lowest (minimum) level of conformance
 * Level AA: the middle level of conformance, satisfying both Level A and Level AA criteria

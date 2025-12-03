@@ -76,7 +76,7 @@ Ultimately, the cost of accessibility depends on the size of the project, team, 
 
 ## Research
 
-Research can help us gain a better understanding of the people who will be using the site. It gives us a much stronger foundation on which to make informed decisions—about accessibility, but also about every other aspect of a site’s design. As Erika Hall explains in _Just Enough Research_ ([https://a4e.link/03-01/](https://a4e.link/03-01/)):
+Research can help us gain a better understanding of the people who will be using the site. It gives us a much stronger foundation on which to make informed decisions—about accessibility, but also about every other aspect of a site’s design. As Erika Hall explains in _Just Enough Research_ ([https://a4e.link/03/01/](https://a4e.link/03/01/)):
 
 > Discovering how and why people behave as they do and what opportunities that presents for your business or organization will open the way to more innovative and appropriate design solutions than asking how they feel or merely tweaking your current design based on analytics.
 
@@ -104,7 +104,7 @@ To make it simple: when you’re researching your target audience, always includ
 
 It can be difficult to research a broad enough group of people, and you won’t be able to learn about every impairment or combinations of impairments. Some impairments may not affect how someone uses your site. However, you can only understand how to make your site accessible to your target audience if you record the requirements of people with specialist needs.
 
-In _Just Ask: Integrating Accessibility Throughout Design_, Shawn Henry reminds us to look at people with disabilities as individuals, rather than grouping them together ([https://a4e.link/03-02/](https://a4e.link/03-02/)):
+In _Just Ask: Integrating Accessibility Throughout Design_, Shawn Henry reminds us to look at people with disabilities as individuals, rather than grouping them together ([https://a4e.link/03/02/](https://a4e.link/03/02/)):
 
 > Be careful not to assume that feedback from one person with a disability applies to all people with disabilities. A person with a disability doesn’t necessarily know how other people with the same disability interact with products, nor know enough about other disabilities to provide valid guidance on other accessibility issues. Just as you would not make design decisions based on feedback from just one user, don’t make accessibility decisions based only on the recommendations of one person with a disability. What works for one person might not work for everyone with that disability or for people with other disabilities.
 
@@ -168,7 +168,7 @@ Guidelines in your accessibility policy should be:
 
 The testable criteria in your accessibility policy could be based on the Web Content Accessibility Guidelines (WCAG) 2.0 criteria, or criteria from the standards local to your country.
 
-You can see a great example of an accessibility policy on the UK’s Post Office website ([https://a4e.link/03-03/](https://a4e.link/03-03/)). The Post Office’s accessibility policy moves from general to more specific aims ([Fig 3.1](#fig-3-1)), covering:
+You can see a great example of an accessibility policy on the UK’s Post Office website ([https://a4e.link/03/03/](https://a4e.link/03/03/)). The Post Office’s accessibility policy moves from general to more specific aims ([Fig 3.1](#fig-3-1)), covering:
 
 - goals for the website experience,
 - goals for site’s accessibility,
