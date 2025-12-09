@@ -273,6 +273,8 @@ table {
   font-family: var(--font-sans);
   border-collapse: collapse;
   border: 1px solid var(--colour-border);
+  display: block;
+  overflow-x: scroll;
 }
 table tr {
   border-bottom: 1px solid var(--colour-border);
