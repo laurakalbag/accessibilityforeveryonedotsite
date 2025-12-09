@@ -138,6 +138,7 @@ img {
 	--colour-border: #c6c5c1;
 	--colour-button-background: #151515;
 	--colour-button-text: #f5f3ee;
+  --colour-button-icon: #f5f3ee;
 	--colour-button-active: #028A37;
 	--colour-title-text: #fff;
 
@@ -158,6 +159,7 @@ img {
 	  --colour-border: #3c3b39;
 	  --colour-button-background: #BEBCB2;
 	  --colour-button-text: #151515;
+    --colour-button-icon: #f5f3ee;
 	  --colour-button-active: #01C543;
 	  --colour-title-text: #fff;
 	}
@@ -659,14 +661,14 @@ a[href*="#fig-"] {
 }
 .btn-close:after {
   content: "×";
-  color: var(--colour-button-text);
+  color: var(--colour-button-icon);
   line-height: 0.45;
   height: 100%;
   font-size: 5em;
   transition: color 0.15s linear;
 }
 .btn-close:hover:after {
-  color: var(--colour-button-text);
+  color: var(--colour-button-icon);
 }
 .meta-hed {
   color: var(--colour-foreground-secondary);
