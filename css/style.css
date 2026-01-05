@@ -186,7 +186,11 @@ a {
 }
 .book-body {
   font-size: clamp(0.8em, 1.25vw, 1.2em);
-  padding-top: 5em;
+}
+@media (min-width: 30em) {
+  .book-body {
+    padding-top: 5em;
+  }
 }
 .book-body h1,
 .book-body h2,
@@ -329,12 +333,16 @@ a[href*="#fig-"] {
 .masthead {
   border-bottom: 1px solid var(--colour-background-secondary);
   width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 2;
   padding-bottom: 0.425em;
   background: var(--colour-background);
-  position: fixed;
+}
+@media (min-width: 30em) {
+  .masthead {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    position: fixed;
+  }
 }
 .outer-wrap {
   padding: 0 1em 6.5em 1em;
@@ -353,6 +361,14 @@ a[href*="#fig-"] {
   gap: 5%;
   align-items: center;
 }
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  column-gap: 1em;
+  row-gap: 0.5em;
+}
 .logo {
   font-size: clamp(1.5em, 3vw, 2em);
   margin: 0;
@@ -370,6 +386,7 @@ a[href*="#fig-"] {
   color: var(--colour-button-text);
   border-radius: 0.5em;
   display: block;
+  font-family: var(--font-sans);
   line-height: 1;
   padding: 0.5em 0.75em;
 }
@@ -539,7 +556,11 @@ a[href*="#fig-"] {
   flex-wrap: no-wrap;
   align-items: flex-end;
   font-size: clamp(0.2em, 2vw, 1em);
-  margin-top: 3em; /* factor in height of page header */
+}
+@media (min-width: 30em) {
+  .chapter-header {
+    margin-top: 3em; /* factor in height of page header */
+  }
 }
 .chapter-title {
 	color: var(--colour-title-text);
