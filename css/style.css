@@ -654,9 +654,6 @@ a[href*="#fig-"] {
   .toc-btn svg {
     margin-right: 0;
   }
-  .toc-btn span {
-    display: none;
-  }
 }
 .btn-close {
   background: none;
