@@ -365,6 +365,14 @@ a[href*="#fig-"] {
   text-decoration: none;
   color: var(--colour-foreground);
 }
+.support-link {
+  background: var(--colour-background-green);
+  color: var(--colour-button-text);
+  border-radius: 0.5em;
+  display: block;
+  line-height: 1;
+  padding: 0.5em 0.75em;
+}
 .mininav {
   display: flex;
   flex-direction: row;
