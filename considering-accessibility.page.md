@@ -52,7 +52,7 @@ Product designers and architects often pay great attention to the accessibility 
 
 The distinction between universal and accessible design is subtle but important. *Accessible design* considers the needs of people with disabilities. So, for example, accessible design might result in a building having a wheelchair ramp attached to its far side, as an afterthought. It might not be convenient for people using wheelchairs, and it’s unlikely to be used by people who find it faster to use the stairs, but at least there’s some form of access ([Fig 1.3](#fig-1-3)).
 
-<figure id="fig-1-3"><img alt="A house with a ramp zigzagging more than seven times up its yard to the front door." src="/images/fig-1.03.png"/><figcaption><span class="fig-number">Fig 1.3:</span> This zigzagging wheelchair ramp installed over a steep garden is an extreme example of bolt-on ugliness and poor design.</figcaption></figure>
+<figure id="fig-1-3"><img alt="A house with a ramp zigzagging more than seven times up its yard to the front door." src="/images/fig-1-03.jpg"/><figcaption><span class="fig-number">Fig 1.3:</span> This zigzagging wheelchair ramp installed over a steep garden is an extreme example of bolt-on ugliness and poor design.</figcaption></figure>
 
 On the other hand, universal design considers the needs of a diverse human population. Universal design might result in a building with a combined ramp and stairs, opening access to all and forcing no one to go out of their way to choose one option or the other ([Fig 1.4](#fig-1-4)).
 
