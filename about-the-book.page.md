@@ -11,7 +11,7 @@ layout: ./Chapter.layout.js
     <meta property='og:url' content='https://accessibilityforeveryone.site/'>
     <meta property='og:title' content='About the book - Accessibility For Everyone by Laura Kalbag'>
     <meta property='og:description' content='Read and listen to the book online for free.'>
-    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/about.png'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/about.webp'>
 </content>
 
 Accessibility For Everyone was first published in 2017 by A Book Apart.
