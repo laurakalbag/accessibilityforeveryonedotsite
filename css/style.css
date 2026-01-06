@@ -125,28 +125,29 @@ img {
   font-display: swap;
 }
 
-/* Colours */
+/* Colours and other variables */
 
 :root {
-	--colour-foreground: #151515;
-	--colour-foreground-secondary: #3B3B3B;
-	--colour-foreground-highlight: #000;
-	--colour-background: #f5f3ee;
-	--colour-background-green: #028A37;
-	--colour-background-secondary: #FDFBF7;
-	--colour-link: #016289;
-	--colour-border: #c6c5c1;
-	--colour-button-background: #151515;
-	--colour-button-text: #f5f3ee;
+  /* Default to light */
+  --colour-foreground: #151515;
+  --colour-foreground-secondary: #3B3B3B;
+  --colour-foreground-highlight: #000;
+  --colour-background: #f5f3ee;
+  --colour-background-green: #028A37;
+  --colour-background-secondary: #FDFBF7;
+  --colour-link: #016289;
+  --colour-border: #c6c5c1;
+  --colour-button-background: #151515;
+  --colour-button-text: #f5f3ee;
   --colour-button-icon: #f5f3ee;
-	--colour-button-active: #028A37;
-	--colour-title-text: #fff;
+  --colour-button-active: #028A37;
+  --colour-title-text: #fff;
 
   --font-serif: "Lora", Georgia, serif;
   --font-sans: "Mulish", sans-serif;
   --font-titles: "Sofia Sans Extra Condensed", sans-serif;
 }
-  
+
 @media (prefers-color-scheme: dark) {
 	:root {
 	  --colour-foreground: #BEBCB2;
