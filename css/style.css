@@ -142,6 +142,9 @@ img {
   --colour-button-icon: #f5f3ee;
   --colour-button-active: #028A37;
   --colour-title-text: #fff;
+  --colour-button-link-background: #028A37;
+  --colour-button-link-text: #f5f3ee;
+  --colour-button-link-background-active: #000;
 
   --font-serif: "Lora", Georgia, serif;
   --font-sans: "Mulish", sans-serif;
@@ -163,6 +166,9 @@ img {
     --colour-button-icon: #f5f3ee;
 	  --colour-button-active: #01C543;
 	  --colour-title-text: #fff;
+    --colour-button-link-background: #015B24;
+    --colour-button-link-text: #f5f3ee;
+    --colour-button-link-background-active: #00752E;
 	}
 }
 
@@ -383,13 +389,16 @@ a[href*="#fig-"] {
   color: var(--colour-foreground);
 }
 .support-link {
-  background: var(--colour-background-green);
-  color: var(--colour-button-text);
+  background: var(--colour-button-link-background);
+  color: var(--colour-button-link-text);
   border-radius: 0.5em;
   display: block;
   font-family: var(--font-sans);
   line-height: 1;
   padding: 0.5em 0.75em;
+}
+.support-link:focus, .support-link:hover, .support-link:active {
+  background: var(--colour-button-link-background-active);
 }
 .mininav {
   display: flex;
