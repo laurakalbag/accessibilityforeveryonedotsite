@@ -12,7 +12,7 @@ layout: ./Chapter.layout.js
     <meta property='og:url' content='https://accessibilityforeveryone.site/'>
     <meta property='og:title' content='About the author - Accessibility For Everyone by Laura Kalbag'>
     <meta property='og:description' content='Read and listen to the book online for free.'>
-    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/about-author.webp'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/about-author.png'>
 </content>
 
 ![Photo of Laura Kalbag](/images/Laura_Kalbag_bio.webp)
