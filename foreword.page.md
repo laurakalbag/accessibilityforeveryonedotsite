@@ -3,6 +3,18 @@ title: Foreword
 index: 1
 layout: ./Chapter.layout.js
 ---
+
+<content for='HEAD'>
+    <title>Foreword by Heydon Pickering - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Foreword by Heydon Pickering - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Foreword by Heydon Pickering - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/foreword.png'>
+</content>
+
 First, I’d like to applaud you for buying, or borrowing, a book on web accessibility—not because learning about accessibility is something you *should* do, but because you’re stepping out of your comfort zone. Learning a new tool or framework is one thing, but rethinking who you are creating things *for* is quite another. It means accepting that you might have failed people in the past, and that’s equally challenging.
 
 I’m also glad you chose this particular book. In less capable hands, writing about accessibility paints it as complex, tedious, and scary. While there are many technical challenges to face—which Laura deftly addresses here—the most important lesson is that *everyone* uses the web quite differently. And that’s whether or not they have what you may consider disabilities.

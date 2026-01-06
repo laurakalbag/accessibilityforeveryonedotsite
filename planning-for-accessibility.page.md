@@ -6,6 +6,17 @@ script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
+<content for='HEAD'>
+    <title>Chapter 3: Planning for Accessibility - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Chapter 3: Planning for Accessibility - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Chapter 3: Planning for Accessibility - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/chapter-3.png'>
+</content>
+
 <${ChapterUpdate}/>
 
 <div id="start"><p>Incorporating accessibility from the beginning is almost always easier, more effective, and less expensive than making accessibility improvements as a separate project. In fact, building accessibility into your project and processes has a wealth of business benefits. If you’re looking to make the case for accessibility—to yourself, to coworkers, or to bosses and clients—you might start here:</p></div>

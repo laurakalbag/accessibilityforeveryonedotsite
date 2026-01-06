@@ -6,6 +6,17 @@ script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
+<content for='HEAD'>
+    <title>Resources - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Resources - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Resources - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/resources.png'>
+</content>
+
 <${ChapterUpdate}/>
 
 <div id="start"><h3 id="accessibility">Accessibility</h3></div>

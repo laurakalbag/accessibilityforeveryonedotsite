@@ -6,6 +6,18 @@ script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
+<content for='HEAD'>
+    <title>Chapter 1: Considering accessibility - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Chapter 1: Considering accessibility - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Chapter 1: Considering accessibility - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/chapter-1.png'>
+</content>
+
+
 <${ChapterUpdate}/>
 
 <div id="start"><p>The BBC homepage is a brilliant example of accessible web practices in the wild (<a href="#fig-1-1">Fig 1.1</a>). The layout clearly distinguishes the different areas of content. The simple interactive elements are easy to use. The copy is understandable—helped along by readable typography and a high contrast between the text and background colors. And the page is straightforward to navigate for people using a screen reader and keyboard navigation.</p></div>

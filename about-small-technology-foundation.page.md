@@ -3,7 +3,17 @@ title: About Small Technology Foundation
 index: 13
 layout: ./Chapter.layout.js
 ---
-## About Small Technology Foundation
+
+<content for='HEAD'>
+    <title>About Small Technology Foundation - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='About Small Technology Foundation - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='About Small Technology Foundation - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/small-tech.png'>
+</content>
 
 [Small Technology Foundation](https://small-tech.org) is a tiny not-for-profit based in Ireland building the Small Web. The Small Web is a peer-to-peer web designed to protect human rights and democracy in the digital network age.
 

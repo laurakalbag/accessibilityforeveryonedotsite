@@ -3,6 +3,18 @@ title: Acknowledgements
 index: 10
 layout: ./Chapter.layout.js
 ---
+
+<content for='HEAD'>
+    <title>Acknowledgements - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Acknowledgements - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Acknowledgements - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/acknowledgements.png'>
+</content>
+
 I wrote a book! And this book certainly wouldn’t have happened without the effort of a huge number of people. To start, I’m endlessly grateful to Katel LeDû, Jason Santa Maria, and Jeffrey Zeldman. I wouldn’t have been able to write a book if they hadn’t put their confidence in me in the first place. Across an ocean and a continent, Katel has kept this project on course, stuck with me, and been there for all my daft questions. I am indebted to her and the amazing team she assembled to make this book happen. A Book Apart is really something special.
 
 Many thanks to the incredible editors—Erin Kissane, Caren Litherland, and Lisa Maria Martin—without whom my text on accessibility would not have been an accessible read. They taught me about writing, gave my words shape, turned the book upside down, shook the rough bits out, and put it all back together again—all while being both inspiring and generous.

@@ -6,6 +6,18 @@ script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
+<content for='HEAD'>
+    <title>Chapter 6: Evaluating and Testing - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Chapter 6: Evaluating and Testing - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Chapter 6: Evaluating and Testing - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/chapter-6.png'>
+</content>
+
+
 <${ChapterUpdate}/>
 
 <div id="start"><p>If you don’t test whether your accessibility efforts work, there’s not much point in making the effort in the first place. Without testing, we can’t tell how our site will hold up when used by real people. The success of a product will depend on whether the target audience is able to achieve their goals via their chosen technologies. These goals can therefore be used as success criteria against which the product can be tested.</p></div>

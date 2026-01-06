@@ -6,6 +6,17 @@ script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
 
+<content for='HEAD'>
+    <title>Chapter 5: Accessibility and HTML - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Chapter 5: Accessibility and HTML - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Chapter 5: Accessibility and HTML - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/chapter-5.png'>
+</content>
+
 <${ChapterUpdate}/>
 
 <div id="start"><p>The primary role of the browser in web accessibility is to connect HTML to the accessibility layer of the operating system. To achieve that, browser makers follow the Accessibility API Mapping standards so that their browsers correctly interpret our markup, and we follow web standards so that our markup is correctly interpreted by browsers.</p></div>

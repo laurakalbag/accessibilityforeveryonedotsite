@@ -5,6 +5,18 @@ layout: ./Chapter.layout.js
 script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
 ---
+
+<content for='HEAD'>
+    <title>Chapter 4: Content and Design - Accessibility For Everyone by Laura Kalbag</title>
+    <meta name='title' content='Chapter 4: Content and Design - Accessibility For Everyone by Laura Kalbag'>
+    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://accessibilityforeveryone.site/'>
+    <meta property='og:title' content='Chapter 4: Content and Design - Accessibility For Everyone by Laura Kalbag'>
+    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/chapter-4.png'>
+</content>
+
 <${ChapterUpdate}/>
 
 <div id="start"><p>Design decisions made in the name of accessibility generally benefit everyone, because <em>all technology is assistive</em>. This is in fact the title of a wonderful essay by artist and design researcher Sara Hendren (<a href="https://a4e.link/04/01/">https://a4e.link/04/01/</a>), who reminds us that “all people, over the course of their lives, traffic between times of relative independence and dependence.”</p></div>
