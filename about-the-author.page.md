@@ -15,8 +15,10 @@ layout: ./Chapter.layout.js
     <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/about-author.png'>
 </content>
 
-![Photo of Laura Kalbag](/images/Laura_Kalbag_bio.webp)
+![Photo of Laura Kalbag.](/images/Laura_Kalbag_bio.webp)
 
-__Laura Kalbag__ is a British designer living in Ireland. She’s co-founder of Small Technology Foundation, a tiny two-person-and-one-husky not-for-profit organisation advocating for and building small technology designed to increase human welfare, not corporate profits.
+__Laura Kalbag__ is a British designer living in Ireland who has worked in tech for more than 15 years as a designer-developer specialising in the web. Through her technical writing and speaking, she has presented at over 150 events and organizations worldwide.
 
-On an average day, Laura does everything from design and development, learning how to run a sustainable not-for-profit, and trying to make privacy, and rights-respecting technology, accessible to a wide audience. You can find her making design decisions, writing code, nudging icon pixels, or interpreting a privacy policy into something humans can understand. Sometimes she speaks at conferences and writes articles too.
+She is a co-founder of Small Technology Foundation, a tiny not-for-profit organization that advocates for and builds small technology for social justice in the digital age. She also works with Penpot, an open source design platform, on educational materials for designers and developers.
+
+Seeing how tech has become vital infrastructure for so much of the world's day-to-day lives has led her to her core principles of inclusion, affordability, and preventing harm. These principles guide her focus on open source, privacy, and accessibility in all things.
