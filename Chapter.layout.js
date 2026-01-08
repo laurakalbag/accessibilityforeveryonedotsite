@@ -19,7 +19,7 @@ export default function Chapter ({ SLOT, index }) {
   const chapterNumber = i - 1
 
   return kitten.html`
-    <${Book}>
+    <${Book} chapterTitle='${chapter.title}'>
       <div class='outer-wrap chapter-opener'>
         <div class='inner-wrap chapter-header'>
           <if ${isNumberedChapter(i)}>

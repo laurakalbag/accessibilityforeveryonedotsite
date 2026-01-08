@@ -29,7 +29,7 @@ export const chapters = [
   new Chapter('About the Author'),
 ]
 
-export default function ({ SLOT }) {
+export default function ({ SLOT, chapterTitle }) {
   return kitten.html`
     <content for='HEAD'>
       <link rel='stylesheet' href='/css/style.css'>
@@ -70,7 +70,7 @@ export default function ({ SLOT }) {
       <nav aria-label='Table of Contents'>
         <ol>
           ${chapters.map((chapter, index) => kitten.html`
-            <li><a href='${chapter.link}'>${index >= 2 && index <= 8 ? `${index-1}. ` : ''}${chapter.title}</a></li>
+            <li ${chapter.title === chapterTitle ? 'aria-current=true' : ''}><a href='${chapter.title === chapterTitle ? '#main' : chapter.link}'>${index >= 2 && index <= 8 ? `${index-1}. ` : ''}${chapter.title}</a></li>
           `)}
         </ol>
       </nav>
