@@ -330,10 +330,6 @@ figcaption {
   margin-top: 0.5em;
 }
 
-figure:has(img[src="/images/Laura_Kalbag_bio.webp"]) {
-
-}
-
 @media (min-width: 52em) {
   figure:has(img[src="/images/Laura_Kalbag_bio.webp"]) {
     border: none;
