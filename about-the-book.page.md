@@ -30,18 +30,20 @@ These are the people who made the original book possible:
 
 ## The Authors Collective
 
-Since 2025, Accessibility for Everyone is published, and shared for free, by [Small Technology Foundation](/about-small-technology-foundation/). This was made possible by the Authors Collective who helped us authors retain our rights after A Book Apart closed. You should totally read the other authors’ books:
-
-- TODO
+Since 2025, Accessibility for Everyone is published, and shared for free, by [Small Technology Foundation](/about-small-technology-foundation/). This was made possible by the Authors Collective who helped us authors retain our rights after A Book Apart closed.
 
 ## License
 
-TODO
+The text and audio for this book is under a [CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license](https://creativecommons.org/licenses/by-nc-nd/4.0/). This means you can copy and distribute the content in any medium or format, but only for noncommercial purposes. You must also give credit to the creator, Laura Kalbag.
 
-The source code for the web site, not including the text of the book, is Copyright Ⓒ 2025-present, Aral Balkan & Laura Kalbag, Small Technology Foundation, and released under [AGPL Version 3](https://www.gnu.org/licenses/agpl-3.0.en.html).
+The source code for the web site, not including the book content and fonts, is Copyright Ⓒ 2025-present, Aral Balkan & Laura Kalbag, Small Technology Foundation, and released under [AGPL Version 3](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 ## Colophon
 
 This book site was set up by [Aral Balkan](https://ar.al) and is written in [Kitten](https://kitten.small-web.org). The book content was converted to Markdown using [Dancing Queen, the ABA Book Parser](https://github.com/eaton/dq) by [Jeff Eaton](https://eaton.fyi/). The core site/book template and styles are from [a-book-departs](https://github.com/Wilto/a-book-departs) by [Mat Marquis](https://hire.wil.to/).
 
 The text is set in Lora by Cyreal and Mulish by Vernon Adams, Cyreal, Jacques Le Bailly. Headlines and cover are set in Sofia Sans by Lettersoup, Botio Nikoltchev, Ani Petrova.
+
+## I don’t track you
+
+I’m using Plausible analytics to track page views and errors on the site. It does not collect any personal data, and all stats are in aggregate only.

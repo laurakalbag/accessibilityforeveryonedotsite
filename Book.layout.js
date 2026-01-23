@@ -34,6 +34,12 @@ export default function ({ SLOT, chapterTitle }) {
     <content for='HEAD'>
       <link rel='stylesheet' href='/css/style.css'>
       <link rel='icon' href='data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;📗&lt;/text&gt;&lt;/svg&gt;'>
+      <!-- Privacy-friendly analytics -->
+      <script async src="https://plausible.io/js/pa-GfyTDnsesOiCy0bhCxfDO.js"></script>
+      <script>
+        window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+        plausible.init()
+      </script>
     </content>
 
     <page syntaxHighlighter>
@@ -104,7 +110,7 @@ export default function ({ SLOT, chapterTitle }) {
           <p>Leverage tools and techniques like clear copywriting, well-structured IA (Information Architecture), meaningful HTML, and thoughtful design, to create a solid set of best practices. Whether you’re new to the field or a seasoned pro, get sure footing on the path to designing with accessibility.</p>
           </div>
           <p class='copyright'><small>
-            Copyright © 2017-present <a href='https://laurakalbag.com'>Laura Kalbag</a>, <a href='https://small-tech.org'>Small Technology Foundation</a>
+            Copyright © 2017-present <a href='https://laurakalbag.com'>Laura Kalbag</a>, <a href='https://small-tech.org'>Small Technology Foundation</a>. <a href='/about-the-book/#license'>Content + code licenses</a>. <a href='/about-the-book/#i-dont-track-you'>I don’t track you</a>.
           </small></p>
         </div>
       </div>
