@@ -9,11 +9,11 @@ script: |
 <content for='HEAD'>
     <title>References - Accessibility For Everyone by Laura Kalbag</title>
     <meta name='title' content='References - Accessibility For Everyone by Laura Kalbag'>
-    <meta name='description' content='Read and listen to the book online for free.'>
+    <meta name='description' content='Read the book online for free.'>
     <meta property='og:type' content='website'>
     <meta property='og:url' content='https://accessibilityforeveryone.site/'>
     <meta property='og:title' content='References - Accessibility For Everyone by Laura Kalbag'>
-    <meta property='og:description' content='Read and listen to the book online for free.'>
+    <meta property='og:description' content='Read the book online for free.'>
     <meta property='og:image' content='https://accessibilityforeveryone.site/images/meta/references.png'>
 </content>
 
