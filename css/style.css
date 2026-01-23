@@ -507,7 +507,6 @@ a[href*="#fig-"] {
 .note p {
   color: var(--colour-foreground-secondary);
   font-family: var(--font-sans);
-  font-size: 1em;
   line-height: 1.45;
 }
 
