@@ -27,7 +27,9 @@ return kitten.html`
       </div>
     </div>
     <div class='inner-wrap book-body'>
-      <${UpdateText}/>
+      <div class='home-body'>
+        <${UpdateText}/>
+      </div>
     </div>
   </>
 `

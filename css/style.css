@@ -368,6 +368,9 @@ a[href*="#fig-"] {
 .outer-wrap {
   padding: 0 1em 6.5em 1em;
 }
+.home-body {
+  padding: 0 1em 0 1em;
+}
 .inner-wrap {
   margin: auto;
   max-width: 100%;
