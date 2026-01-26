@@ -82,25 +82,6 @@ export default function ({ SLOT, chapterTitle }) {
       </nav>
     </dialog>
 
-    <script>
-      (function() {
-        let control = document.querySelector( '[data-controls]' ),
-        dialog  = document.querySelector( control.dataset.controls );
-        closer  = dialog.querySelector( '.btn-close' );
-
-        control.addEventListener( 'click', function( e ) {
-        dialog.setAttribute( 'aria-hidden', false );
-        dialog.showModal();
-        });
-
-        closer.addEventListener( 'click', function( e ) {
-        dialog.setAttribute( 'aria-hidden', true );
-        dialog.close();
-        e.preventDefault();
-        });
-      }());
-    </script>
-
     <footer class='footer'>
       <div class='outer-wrap'>
         <div class='inner-wrap'>
@@ -115,5 +96,31 @@ export default function ({ SLOT, chapterTitle }) {
         </div>
       </div>
     </footer>
+
+    <script>
+      (function() {
+        let control = document.querySelector( '[data-controls]' ),
+        dialog  = document.querySelector( control.dataset.controls );
+        closer  = dialog.querySelector( '.btn-close' );
+        notDialog = document.querySelectorAll( '#main, .masthead, .footer, .skiplink' );
+
+        control.addEventListener( 'click', function( e ) {
+        dialog.setAttribute( 'aria-hidden', false );
+        dialog.showModal();
+        notDialog.forEach((element) => {
+          element.setAttribute( 'inert', '');
+        });
+        });
+
+        closer.addEventListener( 'click', function( e ) {
+        dialog.setAttribute( 'aria-hidden', true );
+        dialog.close();
+        notDialog.forEach((element) => {
+          element.removeAttribute('inert');
+        });
+        e.preventDefault();
+        });
+      }());
+    </script>
   `
 }
