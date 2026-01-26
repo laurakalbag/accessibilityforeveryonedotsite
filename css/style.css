@@ -365,6 +365,11 @@ a[href*="#fig-"] {
     position: fixed;
   }
 }
+@media (min-width: 30em) {
+  main {
+    margin-top: 3em; /* factor in height of page header */
+  }
+}
 .outer-wrap {
   padding: 0 1em 6.5em 1em;
 }
@@ -583,11 +588,7 @@ a[href*="#fig-"] {
   align-items: flex-end;
   font-size: clamp(0.2em, 2vw, 1em);
 }
-@media (min-width: 30em) {
-  .chapter-header {
-    margin-top: 3em; /* factor in height of page header */
-  }
-}
+
 .chapter-title {
 	color: var(--colour-title-text);
   font-family: var(--font-titles);
