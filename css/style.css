@@ -637,6 +637,8 @@ footer .outer-wrap {
 }
 .modal[open] {
   display: flex;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 .modal::backdrop {
   padding: 0;
@@ -651,11 +653,8 @@ footer .outer-wrap {
   padding: 0;
   list-style: none;
 }
-.modal nav {
-  margin: auto;
-  max-width: 30em;
-}
 .modal[open] nav {
+  margin: 0 auto;
   animation: nav-in 0.125s normal forwards ease-in-out;
 }
 .modal li {
@@ -676,6 +675,10 @@ footer .outer-wrap {
 }
 .modal a:hover {
   color: var(--colour-title-text);
+}
+body:has([inert]) {
+  /* stop double scrollbars appearing under modal */
+  overflow: hidden;
 }
 .author {
   font-size: clamp(1.15em, 3vw, 2.4em);
@@ -716,7 +719,7 @@ footer .outer-wrap {
   height: 3.25em;
   display: flex;
   position: absolute;
-  top: 0;
+  top: 1em;
   right: 1em;
   cursor: pointer;
   z-index: 2;
