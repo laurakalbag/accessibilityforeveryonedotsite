@@ -194,11 +194,10 @@ a {
 .book-body {
   font-size: clamp(0.8em, 1.25vw, 1.2em);
 }
-@media (min-width: 30em) {
-  .book-body {
-    padding-top: 5em;
-  }
+.book-body {
+  padding-top: 3em;
 }
+
 .book-body h1,
 .book-body h2,
 .book-body h3,
