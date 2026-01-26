@@ -232,7 +232,7 @@ a {
   margin: 0.625em 0;
 }
 .book-body li {
-  font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+  font-size: 1em;
   line-height: 1.4;
   margin: 0.25em 0;
 }
