@@ -192,7 +192,7 @@ a {
 	text-underline-offset: 0.1rem;
 }
 .book-body {
-  font-size: clamp(0.8em, 1.25vw, 1.2em);
+  font-size: clamp(1em, 1.25vw, 1.2em);
 }
 .book-body {
   padding-top: 3em;
@@ -517,6 +517,7 @@ footer .outer-wrap {
 .note p {
   color: var(--colour-foreground-secondary);
   font-family: var(--font-sans);
+  font-size: 1em;
   line-height: 1.45;
 }
 
