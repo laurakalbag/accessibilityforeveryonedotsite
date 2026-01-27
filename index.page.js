@@ -1,6 +1,7 @@
 import kitten from '@small-web/kitten'
 import Cover from './Cover.layout.js'
 import UpdateText from './UpdateText.fragment.js'
+import otherBooks from './otherBooks.fragment.js'
 
 export default function () {
 return kitten.html`
@@ -29,6 +30,7 @@ return kitten.html`
     <div class='inner-wrap book-body'>
       <div class='home-body'>
         <${UpdateText}/>
+        <${otherBooks}/>
       </div>
     </div>
   </>

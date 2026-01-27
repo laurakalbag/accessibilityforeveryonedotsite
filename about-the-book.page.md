@@ -2,6 +2,8 @@
 title: About the Book
 index: 12
 layout: ./Chapter.layout.js
+script: |
+  import otherBooks from './otherBooks.fragment.js'
 ---
 <content for='HEAD'>
     <title>About the book - Accessibility For Everyone by Laura Kalbag</title>
@@ -28,9 +30,11 @@ These are the people who made the original book possible:
 - Proofreader: Katel LeDû
 - Book Producer: Ron Bilodeau
 
-## The Authors Collective
+## Publisher
 
-Since 2025, Accessibility for Everyone is published, and shared for free, by [Small Technology Foundation](/about-small-technology-foundation/). This was made possible by the Authors Collective who helped us authors retain our rights after A Book Apart closed.
+Since 2025, Accessibility for Everyone is published, and shared for free, by [Small Technology Foundation](/about-small-technology-foundation/). This was made possible by the Author Collective who helped us authors retain our rights after A Book Apart closed.
+
+<${otherBooks}/>
 
 ## License
 

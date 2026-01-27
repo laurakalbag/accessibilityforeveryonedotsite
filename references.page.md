@@ -4,6 +4,7 @@ index: 11
 layout: ./Chapter.layout.js
 script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
+  import otherBooks from './otherBooks.fragment.js'
 ---
 
 <content for='HEAD'>
@@ -246,3 +247,5 @@ script: |
 08-57 [http://juicystudio.com/services/readability.php](http://juicystudio.com/services/readability.php)
 
 08-58 [http://www.hemingwayapp.com](http://www.hemingwayapp.com)
+
+<${otherBooks}/>

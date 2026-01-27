@@ -4,6 +4,7 @@ index: 9
 layout: ./Chapter.layout.js
 script: |
   import ChapterUpdate from './ChapterUpdate.fragment.js'
+  import otherBooks from './otherBooks.fragment.js'
 ---
 
 <content for='HEAD'>
@@ -153,3 +154,5 @@ Check these blogs and sites regularly to benefit from the know-how of the access
 * “Writing for GOV.UK: How to write well for your audience, including specialists.” The UK’s Government Digital Service’s guide has a lot of advice on how to write for an audience as broad as an entire country, as well as specialists ([https://a4e.link/08/56/](https://a4e.link/08/56/)).
 * Juicy Studio Readability Test. Gez Lemon has created a very useful readability test that examines web pages for their readability according to the Gunning Fog Index, Flesch Reading Ease, and Flesch-Kincaid grade-level algorithms ([https://a4e.link/08/57/](https://a4e.link/08/57/)).
 * Hemingway App. A writing tool that helps you evaluate your copy for readability using scores for US school grades 0–18 ([https://a4e.link/08/58/](https://a4e.link/08/58/)).
+
+<${otherBooks}/>
