@@ -98,29 +98,38 @@ export default function ({ SLOT, chapterTitle }) {
     </footer>
 
     <script>
-      (function() {
-        let control = document.querySelector( '[data-controls]' ),
-        dialog  = document.querySelector( control.dataset.controls );
-        closer  = dialog.querySelector( '.btn-close' );
-        notDialog = document.querySelectorAll( '#main, .masthead, .footer, .skiplink' );
+    (function() {
+        let control = document.querySelector('[data-controls]'),
+            dialog = document.querySelector(control.dataset.controls),
+            closer = dialog.querySelector('.btn-close'),
+            notDialog = document.querySelectorAll('#main, .masthead, .footer, .skiplink');
 
-        control.addEventListener( 'click', function( e ) {
-        dialog.setAttribute( 'aria-hidden', false );
-        dialog.showModal();
-        notDialog.forEach((element) => {
-          element.setAttribute( 'inert', '');
-        });
+        function cleanupDialog() {
+            dialog.setAttribute('aria-hidden', true);
+            notDialog.forEach((element) => {
+                element.removeAttribute('inert');
+            });
+        }
+
+        control.addEventListener('click', function(e) {
+            dialog.setAttribute('aria-hidden', false);
+            dialog.showModal();
+            notDialog.forEach((element) => {
+                element.setAttribute('inert', '');
+            });
         });
 
-        closer.addEventListener( 'click', function( e ) {
-        dialog.setAttribute( 'aria-hidden', true );
-        dialog.close();
-        notDialog.forEach((element) => {
-          element.removeAttribute('inert');
+        closer.addEventListener('click', function(e) {
+            cleanupDialog();
+            dialog.close();
+            e.preventDefault();
         });
-        e.preventDefault();
+
+        dialog.addEventListener('cancel', function(e) {
+            cleanupDialog();
         });
-      }());
+    }());
+
     </script>
   `
 }
